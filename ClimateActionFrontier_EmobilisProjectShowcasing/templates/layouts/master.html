@@ -1,0 +1,62 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+{#{% static 'app/ '%}#}
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <!-- Link of CSS files -->
+    <link rel="stylesheet" href="{% static 'app/assets/css/bootstrap.min.css' %}"/>
+    <link rel="stylesheet" href="{% static 'app/assets/css/flaticon.css ' %}"/>
+    <link rel="stylesheet" href="{% static 'app/assets/css/remixicon.css ' %}"/>
+    <link rel="stylesheet" href="{% static 'app/assets/css/owl.carousel.min.css ' %}"/>
+    <link rel="stylesheet" href="{% static 'app/assets/css/owl-theme-default-min.css ' %}"/>
+    <link rel="stylesheet" href="{% static 'app/assets/css/odometer.min.css ' %}"/>
+    <link rel="stylesheet" href="{% static 'app/assets/css/fancybox.css ' %}"/>
+    <link rel="stylesheet" href="{% static 'app/assets/css/aos.css ' %}"/>
+    <link rel="stylesheet" href="{% static 'app/assets/css/style.css ' %}"/>
+    <link rel="stylesheet" href="{% static 'app/assets/css/responsive.css ' %}"/>
+    <link rel="stylesheet" href="{% static 'app/assets/css/dark-theme.css ' %}"/>
+    <title>{% block title %}{% endblock %}</title>
+    <link rel="icon" type="image/png" href="{% static 'app/assets/img/favicon.png ' %}"/>
+</head>
+
+<body>
+{% include 'partials/header.html' %}
+
+{% block content %}
+
+{% endblock %}
+
+{% include 'partials/footer.html' %}
+
+
+<!-- Back-to-top button Start -->
+<a href="javascript:void(0)" class="back-to-top bounce"
+><i class="ri-arrow-up-s-line"></i
+></a>
+<!-- Back-to-top button End -->
+
+<!-- Link of JS files -->
+<script
+        data-cfasync="false"
+        src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
+></script>
+<script src="{% static 'app/assets/js/jquery.min.js ' %}"></script>
+<script src="{% static 'app/assets/js/bootstrap.bundle.min.js' %}"></script>
+<script src="{% static 'app/assets/js/form-validator.min.js ' %}"></script>
+<script src="{% static 'app/assets/js/contact-form-script.js ' %}"></script>
+<script src="{% static 'app/assets/js/aos.js ' %}"></script>
+<script src="{% static 'app/assets/js/owl.carousel.min.js ' %}"></script>
+<script src="{% static 'app/assets/js/owl-thumb.min.js ' %}"></script>
+<script src="{% static 'app/assets/js/odometer.js ' %}"></script>
+<script src="{% static 'app/assets/js/circle-progressbar.min.js ' %}"></script>
+<script src="{% static 'app/assets/js/fancybox.js' %}"></script>
+<script src="{% static 'app/assets/js/jquery.appear.js ' %}"></script>
+<script src="{% static 'app/assets/js/tweenmax.min.js ' %}a"></script>
+<script src="{% static 'app/assets/js/main.js ' %}"></script>
+</body>
+</html>

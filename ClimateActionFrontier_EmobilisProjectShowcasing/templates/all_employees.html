@@ -1,0 +1,85 @@
+{% extends 'layouts/master.html' %}
+{% include "base_template.html" %}
+{% load crispy_forms_filters %}
+{% load humanize %}
+{% block title %}
+   Member
+{% endblock %}
+
+{% block content  %}
+    <div class="content-wrapper">
+     {% include "navbar.html" %}
+    <div class="breadcrumb-wrap bg-f br-1">
+                    <div class="container">
+                        <div class="breadcrumb-title">
+                            <h2>Make Donation</h2>
+                            <ul class="breadcrumb-menu list-style">
+                                <li><a href="home.html">Home </a></li>
+                                <li>Members</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- Breadcrumb End -->
+	<div class="container justify-content-center align-content-center">
+    <div class="row justify-content-center align-content-center ">
+        <div class="col-sm-7">
+            <table class="table">
+                <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Date Of Birth</th>
+                    <th>Donation</th>
+                </tr>
+                </thead>
+                <tbody>
+
+                {% for employee in employees %}
+                    <tr>
+                        <td>
+                            <a href="/employees/{{ employee.id }}">{{ employee.name | title }}</a>
+                            {#                            <a href=""/members/{{ employee.id }}">{{ employee.name }}</a>#}
+                        </td>
+                        <td>{{ employee.email }}</td>
+                        <td>{{ employee.dob | date:"d-m-Y" }}</td>
+                        <td>{{ employee.salary | intcomma }}</td>
+                    </tr>
+
+                {% endfor %}
+
+                </tbody>
+            </table>
+
+        <nav aria-label="Page navigation example">
+                    <ul class="pagination justify-content-center">
+                        {% if employees.has_previous %}
+                            <li class="page-item">
+                                <a class="page-link" href='?page={{ employees.previous_page_number }}'>Previous</a>
+                            </li>
+                        {% else %}
+                            <li class="page-item disabled">
+                                <a class="page-link" href='' tabindex="-1" aria-disabled="True">Previous</a>
+                            </li>
+                        {% endif %}
+
+                        {% if employees.has_next %}
+                            <li class="page-item">
+                                <a class="page-link" href='?page={{ employees.next_page_number }}'>Next</a>
+                            </li>
+                        {% else %}
+                            <li class="page-item disabled">
+                                <a class="page-link" href='' tabindex="-1" aria-disabled="True">Next</a>
+                            </li>
+                        {% endif %}
+                    </ul>
+</nav>
+
+
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+
+

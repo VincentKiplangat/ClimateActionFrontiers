@@ -1,0 +1,134 @@
+{% extends 'layouts/master.html' %}
+{% load static %}
+
+
+{% block title %}
+	project
+{% endblock %}
+
+
+
+{% block content %}
+   <!-- Content Wrapper Start -->
+           <!-- Content Wrapper Start -->
+            <div class="content-wrapper">
+
+                <!-- Breadcrumb Start -->
+                <div class="breadcrumb-wrap bg-f br-1">
+                    <div class="container">
+                        <div class="breadcrumb-title">
+                            <h2>Project</h2>
+                            <ul class="breadcrumb-menu list-style">
+                                <li><a href="{% url 'home' %} ">Home </a></li>
+                                <li>Project</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- Breadcrumb End -->
+
+                <!-- Project Section Start -->
+                <section class="project-details-wrap ptb-100">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-xl-4 col-lg-6 col-md-6">
+                                <div class="project-card style1">
+                                    <div class="project-img">
+                                        <img src="{% static 'app/assets/img/project/project-1.jpg' %}" alt="Image">
+                                    </div>
+                                    <div class="project-info">
+                                        <img src="{% static 'app/assets/img/shape-1.png' %}" alt="Image" class="project-shape">
+                                        <h3><a href="{% url 'project-details' %}">Stop Cutting Down Trees</a></h3>
+                                        <p> Deforestation is the removal of trees and other vegetation from forested areas for human purposes such as agriculture, mining, and urbanization. This practice is a major contributor to climate change,
+                                            which is the most urgent issue requiring global climate action</p>
+                                        <a href="{% url 'project-details' %}" class="link style1">Read More <i class="flaticon-right-arrow"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-lg-6 col-md-6">
+                                <div class="project-card style1">
+                                    <div class="project-img">
+                                        <img src="{% static 'app/assets/img/project/project-2.jpg' %}" alt="Image">
+                                    </div>
+                                    <div class="project-info">
+                                        <img src="{% static 'app/assets/img/shape-1.png' %}" alt="Image" class="project-shape">
+                                        <h3><a href="{% url 'project-details' %}">Recycling Daily Waste</a></h3>
+                                        <p> Recycling helps reduce greenhouse gas emissions by reducing energy consumption. Using recycled materials to make new products reduces the need for virgin materials.
+                                            This avoids greenhouse gas emissions that would result from extracting or mining virgin materials.</p>
+                                        <a href="{% url 'project-details' %}" class="link style1">Read More <i class="flaticon-right-arrow"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-lg-6 col-md-6">
+                                <div class="project-card style1">
+                                    <div class="project-img">
+                                        <img src="{% static 'app/assets/img/project/project-3.jpg' %}" alt="Image">
+                                    </div>
+                                    <div class="project-info">
+                                        <img src="{% static 'app/assets/img/shape-1.png' %}" alt="Image" class="project-shape">
+                                        <h3><a href="{% url 'project-details' %}">Reduce Greenhouse Gas</a></h3>
+                                        <p>Most greenhouse gases come from human activities, like burning fossil fuels for transportation or energy.
+                                            You can help reduce the risks we face from climate change
+                                            by taking steps to reduce the greenhouse gases coming from your home, vehicle, and activities. </p>
+                                        <a href="{% url 'project-details' %}" class="link style1">Read More <i class="flaticon-right-arrow"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-lg-6 col-md-6">
+                                <div class="project-card style1">
+                                    <div class="project-img">
+                                        <img src="{% static 'app/assets/img/project/project-4.jpg' %}" alt="Image">
+                                    </div>
+                                    <div class="project-info">
+                                        <img src="{% static 'app/assets/img/shape-1.png' %}" alt="Image" class="project-shape">
+                                        <h3><a href="{% url 'project-details' %}">Stop Using Plastic</a></h3>
+                                        <p>When non-biodegradable waste decomposes anaerobically in landfills, it produces methane gas—an incredibly potent greenhouse gas. Methane has a significantly higher global warming potential than carbon dioxide, thus exacerbating climate change and its associated consequences.</p>
+                                        <a href="{% url 'project-details' %}" class="link style1">Read More <i class="flaticon-right-arrow"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-lg-6 col-md-6">
+                                <div class="project-card style1">
+                                    <div class="project-img">
+                                        <img src="{% static 'app/assets/img/project/project-6.jpg' %}" alt="Image">
+                                    </div>
+                                    <div class="project-info">
+                                        <img src="{% static 'app/assets/img/shape-1.png' %}" alt="Image" class="project-shape">
+                                        <h3><a href="{% url 'project-details' %}">Save The Wildlife</a></h3>
+                                        <p>Forests are home to more than 80% of the world's terrestrial biodiversity,
+                                            including a vast array of plant and animal species.
+                                            Deforestation destroys these habitats, leaving many species without food,
+                                             shelter, and breeding grounds.</p>
+                                        <a href="{% url 'project-details' %}" class="link style1">Read More <i class="flaticon-right-arrow"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-lg-6 col-md-6">
+                                <div class="project-card style1">
+                                    <div class="project-img">
+                                        <img src="{% static 'app/assets/img/project/project-5.jpg' %}" alt="Image">
+                                    </div>
+                                    <div class="project-info">
+                                        <img src="{% static 'app/assets/img/shape-1.png' %}" alt="Image" class="project-shape">
+                                        <h3><a href="{% url 'project-details' %}">Reduce Air Pollution</a></h3>
+                                        <p>Emissions of pollutants into the air can result in changes to the climate. These pollutants, including greenhouse gases, are often referred to as climate forcers. Ozone in the atmosphere warms the climate, while different components of PM can have either warming or cooling effects on the climate.</p>
+                                        <a href="{% url 'project-details' %}" class="link style1">Read More <i class="flaticon-right-arrow"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <ul class="page-nav list-style">
+                            <li><a href="{% url 'project-two' %}"><i class="flaticon-left-arrow"></i></a></li>
+                            <li><a class="active" href="{% url 'project-two' %}">1</a></li>
+                            <li><a href="{% url 'project-two' %}">2</a></li>
+                            <li><a href="{% url 'project-two' %}">3</a></li>
+                            <li><a href="{% url 'project-two' %}"><i class="flaticon-right-arrow"></i></a></li>
+                        </ul>
+                    </div>
+                </section>
+                <!-- Project Details Section End -->
+
+            </div>
+            <!-- Content wrapper end -->
+
+{% endblock %}

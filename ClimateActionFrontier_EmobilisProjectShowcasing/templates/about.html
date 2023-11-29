@@ -1,0 +1,369 @@
+{% extends 'layouts/master.html' %}
+{% load static %}
+{% block title %}
+	about
+{% endblock %}
+
+  {% block class %}
+	active
+{% endblock %}
+{% block content %}
+<div class="page-wrapper">
+  <!-- Content Wrapper Start -->
+            <div class="content-wrapper">
+
+                <!-- Breadcrumb Start -->
+                <div class="breadcrumb-wrap bg-f br-1">
+                    <div class="container">
+                        <div class="breadcrumb-title">
+                            <h2>About Us</h2>
+                            <ul class="breadcrumb-menu list-style">
+                                <li><a href="{% url 'home' %}">Home </a></li>
+                                <li>About Us</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- Breadcrumb End -->
+
+                <!-- About Section Start -->
+                <section class="about-wrap style1 ptb-100">
+                    <img src="{% static 'app/assets/img/about/about-shape-2.png' %}" alt="Image" class="about-shape-one">
+                    <img src="{% static 'app/assets/img/shape-2.png' %}" alt="Image" class="about-shape-two flyUp">
+                    <img src="{% static 'app/assets/img/about/deer.png' %}" alt="Image" class="about-shape-three moveHorizontal">
+                    <div class="container">
+                        <div class="row align-items-center gx-5">
+                            <div class="col-lg-6">
+                                <div class="about-img-wrap bg-f">
+                                    <div class="about-quote">
+                                        <i class="flaticon-right-quote"></i>
+                                        <p>Climate change is happening, humans are causing it, and I think this is perhaps the most serious environmental issue facing us. ...</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="about-content">
+                                    <div class="content-title style1">
+                                        <span>A Little Introduction<img src="{% static 'app/assets/img/section-shape.png' %}" alt="Image"></span>
+                                        <h2>Protect Our Earth Against Climate Change</h2>
+                                        <p>How can we protect our planet from extreme climate change?
+                                            Over the past 50 years, everyone has heard of climate change,
+                                             but in the most recent years, it has gained even more attention as a global concern.
+                                             Climate change has been warned about by scientists,
+                                              and it's challenging to dispute that this has become a very real phenomenon at this point.
+                                               Moreover, there's a possibility that humans are accelerating it.
+                                                <br> Our campaign focus on making our world <b>Green</b> and<b>Clean</b>  :</p>
+                                    </div>
+                                    <ul class="content-feature-list list-style mb-0">
+                                        <li><i class="ri-checkbox-circle-line"></i> Plant trees
+                                        </li>
+                                        <li><i class="ri-checkbox-circle-line"></i>Switch to renewable energy sources
+                                        </li>
+                                        <li><i class="ri-checkbox-circle-line"></i>Adopt sustainable living practices
+                                        </li>
+                                        <li><i class="ri-checkbox-circle-line"></i>Reduce your carbon footprint </li>
+                                        <li><i class="ri-checkbox-circle-line"></i> Demand climate action, <b>Donate</b> and <b>volunteer</b>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- About Section End -->
+
+                <!-- Team Section Start -->
+                <section class="team-wrap ptb-100 bg-sand">
+                    <div class="container">
+                        <div class="section-title style1 text-center mb-40">
+                            <span>Our Volunteer <img src="{% static 'app/assets/img/section-shape.png' %}" alt="Image"></span>
+                            <h2>Our Experts Volunteer</h2>
+                        </div>
+                        <div class="team-slider-one owl-carousel">
+                            <div class="team-card style1">
+                                <img src="{% static 'app/assets/img/team/team-1.jpg' %}" alt="Image">
+                                <div class="team-info">
+                                    <img src="{% static 'app/assets/img/team/team-shape-2.png' %}" alt="IMage" class="team-shape">
+                                    <h3><a href="{% url 'team-details' %}">Kevin Thompson</a></h3>
+                                    <span>Founder &amp; CEO</span>
+                                    <ul class="social-profile style1 list-style">
+                                        <li>
+                                            <a href="https://facebook.com" target="_blank">
+                                                <i class="ri-facebook-fill"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://twitter.com" target="_blank">
+                                                <i class="ri-twitter-fill"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://instagram.com" target="_blank">
+                                                <i class="ri-instagram-line"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://linkedin.com" target="_blank">
+                                                <i class="ri-linkedin-fill"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="team-card style1">
+                                <img src="{% static 'app/assets/img/team/team-2.jpg' %}" alt="Image">
+                                <div class="team-info">
+                                    <img src="{% static 'app/assets/img/team/team-shape-2.png' %}" alt="IMage" class="team-shape">
+                                    <h3><a href="{% url 'team-details' %}">Isabella Woods</a></h3>
+                                    <span>Cheif Marketing Officer</span>
+                                    <ul class="social-profile style1 list-style">
+                                        <li>
+                                            <a href="https://facebook.com" target="_blank">
+                                                <i class="ri-facebook-fill"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                           <a href="https://twitter.com" target="_blank">
+                                                <i class="ri-twitter-fill"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://instagram.com" target="_blank">
+                                                <i class="ri-instagram-line"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                           <a href="https://linkedin.com" target="_blank">
+                                                <i class="ri-linkedin-fill"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="team-card style1">
+                                <img src="{% static 'app/assets/img/team/team-3.jpg' %}" alt="Image">
+                                <div class="team-info">
+                                    <img src="{% static 'app/assets/img/team/team-shape-2.png' %}" alt="IMage" class="team-shape">
+                                    <h3><a href="{% url 'team-details' %}">Liam Stokes</a></h3>
+                                    <span>Senior Executive</span>
+                                    <ul class="social-profile style1 list-style">
+                                        <li>
+                                            <a href="https://facebook.com" target="_blank">
+                                                <i class="ri-facebook-fill"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                           <a href="https://twitter.com" target="_blank">
+                                                <i class="ri-twitter-fill"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://instagram.com" target="_blank">
+                                                <i class="ri-instagram-line"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                           <a href="https://linkedin.com" target="_blank">
+                                                <i class="ri-linkedin-fill"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="team-card style1">
+                                <img src="{% static 'app/assets/img/team/team-4.jpg' %}" alt="Image">
+                                <div class="team-info">
+                                    <img src="{% static 'app/assets/img/team/team-shape-2.png' %}" alt="IMage" class="team-shape">
+                                    <h3><a href="{% url 'team-details' %}">Lucy Floyd</a></h3>
+                                    <span>Accounts Manager</span>
+                                    <ul class="social-profile style1 list-style">
+                                        <li>
+                                            <a href="https://facebook.com" target="_blank">
+                                                <i class="ri-facebook-fill"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                           <a href="https://twitter.com" target="_blank">
+                                                <i class="ri-twitter-fill"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://instagram.com" target="_blank">
+                                                <i class="ri-instagram-line"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                           <a href="https://linkedin.com" target="_blank">
+                                                <i class="ri-linkedin-fill"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="team-card style1">
+                                <img src="{% static 'app/assets/img/team/team-5.jpg' %}" alt="Image">
+                                <div class="team-info">
+                                    <img src="{% static 'app/assets/img/team/team-shape-2.png' %}" alt="IMage" class="team-shape">
+                                    <h3><a href="{% url 'team-details' %}">Hannah Adison</a></h3>
+                                    <span>Marketing Manager</span>
+                                    <ul class="social-profile style1 list-style">
+                                        <li>
+                                            <a href="https://facebook.com" target="_blank">
+                                                <i class="ri-facebook-fill"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                           <a href="https://twitter.com" target="_blank">
+                                                <i class="ri-twitter-fill"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://instagram.com" target="_blank">
+                                                <i class="ri-instagram-line"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                           <a href="https://linkedin.com" target="_blank">
+                                                <i class="ri-linkedin-fill"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="team-card style1">
+                                <img src="{% static 'app/assets/img/team/team-6.jpg' %}" alt="Image">
+                                <div class="team-info">
+                                    <img src="{% static 'app/assets/img/team/team-shape-2.png' %}" alt="IMage" class="team-shape">
+                                    <h3><a href="{% url 'team-details' %}">Jaylen Mills </a></h3>
+                                    <span>Senior Executive</span>
+                                    <ul class="social-profile style1 list-style">
+                                        <li>
+                                            <a href="https://facebook.com" target="_blank">
+                                                <i class="ri-facebook-fill"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                           <a href="https://twitter.com" target="_blank">
+                                                <i class="ri-twitter-fill"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://instagram.com" target="_blank">
+                                                <i class="ri-instagram-line"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                           <a href="https://linkedin.com" target="_blank">
+                                                <i class="ri-linkedin-fill"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- Team Section End -->
+
+                <div class="container mt-100">
+                    <div class="donate-box ptb-100">
+                        <img src="{% static 'app/assets/img/shape-6.png' %}" alt="Image" class="donate-shape-one">
+                        <div class="content-title style2 text-center mb-40">
+                            <span>You Can Donate<img src="{% static 'app/assets/img/section-shape.png' %}" alt="Image"></span>
+                            <h2>Your Donation Matters</h2>
+                        </div>
+                        <ul class="donate-amt list-style">
+                            <li><button type="button">$20</button></li>
+                            <li><button type="button">$50</button></li>
+                            <li><button type="button">$100</button></li>
+                            <li><button type="button">$500</button></li>
+                            <li><button type="button">$1000</button></li>
+                            <li><button type="button">Other</button></li>
+                        </ul>
+                        <a href="{% url 'donation' %}"><button type="submit" class="btn style2">Donate</button></a>
+
+                    </div>
+                </div>
+
+                <!-- Counter Section Start -->
+                <div class="counter-wrap style1">
+                    <img src="{% static 'app/assets/img/shape-13.png' %}" alt="Image" class="counter-shape-one">
+                    <img src="{% static 'app/assets/img/about/skull.png' %}" alt="Image" class="counter-shape-two moveHorizontal">
+                    <img src="{% static 'app/assets/img/about/leaves.png' %}" alt="Image" class="counter-shape-three waving_left">
+                    <div class="container-fluid ">
+                        <div class="row gx-5">
+                            <div class="col-xl-7 col-lg-6">
+                                <div class="promo-video style1 bg-f">
+                                    <a class="play-now" data-fancybox="" href="https://www.youtube.com/watch?v=UNSSuTSQI9I">
+                                        <i class="ri-play-fill"></i>
+                                        <span class="ripple"></span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-xl-5 col-lg-6">
+                                <div class="counter-card-wrap style1">
+                                    <div class="counter-card style1">
+                                        <div class="counter-text">
+                                            <h2 class="counter-num">
+                                                <span class="odometer" data-count="8705"></span>
+                                            </h2>
+                                            <p>Donations</p>
+                                        </div>
+                                    </div>
+                                    <div class="counter-card style2">
+                                        <div class="counter-text">
+                                            <h2 class="counter-num">
+                                                <span class="odometer" data-count="380"></span>
+                                            </h2>
+                                            <p>Campaigns</p>
+                                        </div>
+                                    </div>
+                                    <div class="counter-card style3">
+                                        <div class="counter-text">
+                                            <h2 class="counter-num">
+                                                <span class="odometer" data-count="9450"></span>
+                                            </h2>
+                                            <p>Fun Raised</p>
+                                        </div>
+                                    </div>
+                                    <div class="counter-card style4">
+                                        <div class="counter-text">
+                                            <h2 class="counter-num">
+                                                <span class="odometer" data-count="707"></span>
+                                            </h2>
+                                            <p>Volunteers</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Counter Section End -->
+
+                <!-- CTA Section Start -->
+                <section class="cta-wrap style1 bg-f ptb-100">
+                    <img src="{% static 'app/assets/img/bg-shape-5.png' %}" alt="Image" class="cta-shape-two">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xl-8 offset-xl-2 col-lg-8 offset-lg-2">
+                                <div class="content-title style1 text-center mb-40">
+                                    <span>Crowd-Funding <img src="{% static 'app/assets/img/section-shape.png' %}" alt="Image"></span>
+                                    <h2>Best Way To Make A Difference In The Lives Of Others
+                                    </h2>
+                                </div>
+                                <div class="cta-btn">
+                                    <a href="{% url 'login' %}" class="btn style1">Get Started now</a>
+                                    <a href="{% url 'member' %}" class="btn style2">Join Our Community</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- CTA Section End -->
+
+            </div>
+
+            </div>
+
+{% endblock %}

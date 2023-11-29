@@ -1,0 +1,403 @@
+/*-------------------------------
+    Dark Theme  CSS
+-------------------------------*/
+.switch-theme-mode {
+  position: fixed;
+  top: 200px;
+  right: 15px;
+  z-index: 99;
+}
+
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+}
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: 0.4s;
+}
+.slider.round {
+  border-radius: 50%;
+}
+.slider.round:before {
+  border-radius: 50%;
+}
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 35px;
+  width: 35px;
+  left: 0px;
+  bottom: 4px;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+  transition: 0.4s;
+  box-shadow: 0 0px 15px rgba(32, 32, 32, 0.2392156863);
+  background: white url("../img/night.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #091315;
+  background-size: 17px;
+}
+
+input:checked + .slider {
+  background-color: transparent;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px transparent;
+}
+
+input:checked + .slider:before {
+  transform: translateX(0);
+  background: white url("../img/sunny.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 18px;
+}
+
+/*---------------------------------
+    Color CSS For Elements 
+-----------------------------------*/
+.theme-light .navbar-brand .logo-dark {
+  display: none !important;
+}
+.theme-light .navbar-brand .logo-light {
+  display: block !important;
+}
+
+.theme-dark .dpt-100 {
+  padding-top: 100px;
+}
+.theme-dark .navbar-brand .logo-light {
+  display: none !important;
+}
+.theme-dark .navbar-brand .logo-dark {
+  display: block !important;
+}
+.theme-dark .td-cod,
+.theme-dark .footer-wrap,
+.theme-dark .btn.style3,
+.theme-dark .blog-card.style1,
+.theme-dark .blog-card.style2,
+.theme-dark .blog-card.style3,
+.theme-dark .newsletter-form.style1,
+.theme-dark .promo-wrap.style2,
+.theme-dark .project-card.style3,
+.theme-dark .project-card.style4,
+.theme-dark .event-card.style2,
+.theme-dark .event-card.style5,
+.theme-dark .team-card.style2 .team-info-wrap,
+.theme-dark .event-card.style3,
+.theme-dark .counter-card-wrap.style1 .counter-card,
+.theme-dark .team-card .team-info,
+.theme-dark .bg-albastor {
+  background-color: #191919 !important;
+}
+.theme-dark body,
+.theme-dark .bg-white,
+.theme-dark .search-area {
+  background-color: #000 !important;
+}
+.theme-dark .td-aztech,
+.theme-dark .bg-athens,
+.theme-dark .bg-sand,
+.theme-dark .hero-wrap.style1,
+.theme-dark .counter-wrap.style1,
+.theme-dark .hero-wrap.style3,
+.theme-dark .about-wrap.style3 .about-img-wrap::after,
+.theme-dark .project-card.style1 .project-info,
+.theme-dark .wp-block-quote {
+  background-color: #091315 !important;
+}
+.theme-dark .breadcrumb-wrap::after {
+  background-color: rgba(9, 19, 21, 0.75) !important;
+}
+.theme-dark h1,
+.theme-dark h2,
+.theme-dark h3,
+.theme-dark h4,
+.theme-dark h5,
+.theme-dark h6,
+.theme-dark h3 a,
+.theme-dark a,
+.theme-dark .event-search-form .form-group label,
+.theme-dark .select-lang .navbar-language .dropdown-toggle::before,
+.theme-dark .btn:hover {
+  color: #fff !important;
+}
+.theme-dark p, .theme-dark span,
+.theme-dark .checkbox label,
+.theme-dark .content-feature-list li,
+.theme-dark .login-form .login-body .form-group label,
+.theme-dark .blog-card .blog-info .blog-metainfo li,
+.theme-dark article ol li,
+.theme-dark .terms-wrap ol li,
+.theme-dark article p strong,
+.theme-dark .terms-wrap p strong,
+.theme-dark .content-feature-list li,
+.theme-dark article ol li,
+.theme-dark .project-desc ol li,
+.theme-dark .event-desc ol li,
+.theme-dark .team-desc ol li,
+.theme-dark .terms-wrap ol li,
+.theme-dark .project-card.style3 .project-info .fund-collection .fund-raised,
+.theme-dark .project-card.style3 .project-info .fund-collection .fund-goal,
+.theme-dark .project-card.style4 .project-info .fund-collection .fund-raised,
+.theme-dark .project-card.style4 .project-info .fund-collection .fund-goal,
+.theme-dark article ol li, .theme-dark .service-desc ol li, .theme-dark .terms-wrap ol li,
+.theme-dark .post-metainfo li {
+  color: rgba(255, 255, 255, 0.85) !important;
+}
+.theme-dark h3:hover a,
+.theme-dark a:hover,
+.theme-dark .counter-card-wrap.style1 .counter-card.style2 .counter-text h2,
+.theme-dark .counter-card-wrap.style1 .counter-card.style2 .counter-text h2 span,
+.theme-dark .counter-card-wrap.style1 .counter-card.style3 .counter-text h2,
+.theme-dark .counter-card-wrap.style1 .counter-card.style3 .counter-text h2 span,
+.theme-dark .copyright-text a {
+  color: #338F7A !important;
+}
+.theme-dark .counter-card-wrap.style1 .counter-card.style1 .counter-text h2,
+.theme-dark .counter-card-wrap.style1 .counter-card.style1 .counter-text h2 span,
+.theme-dark .counter-card-wrap.style1 .counter-card.style4 .counter-text h2 span,
+.theme-dark .counter-card-wrap.style1 .counter-card.style4 .counter-text h2 {
+  color: #F59946 !important;
+}
+.theme-dark .team-wrap .team-shape-one,
+.theme-dark .blog-wrap .container .blog-section-shape,
+.theme-dark .promo-wrap.style2 .promo-shape-two,
+.theme-dark .event-wrap .event-sape-three,
+.theme-dark .promo-wrap.style2 .promo-shape-one {
+  opacity: 0.09;
+}
+.theme-dark .hero-wrap.style3 .hero-shape-three,
+.theme-dark .hero-wrap.style3 .hero-shape-four,
+.theme-dark .about-wrap.style1 .about-shape-one,
+.theme-dark .team-card.style1 .team-info .team-shape {
+  opacity: 0.17;
+}
+.theme-dark .hero-wrap.style3 .hero-shape-two {
+  filter: brightness(0) invert(1);
+  opacity: 0.3;
+}
+.theme-dark .cta-wrap.style1::after, .theme-dark .cta-wrap.style2::after {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.95) 45%, rgba(0, 0, 0, 0.3) 94%);
+}
+.theme-dark article,
+.theme-dark .owl-carousel .owl-nav button.owl-prev,
+.theme-dark .owl-carousel .owl-nav button.owl-next {
+  border-color: rgba(255, 255, 255, 0.35);
+}
+.theme-dark .owl-carousel .owl-dots button.owl-dot span {
+  background: rgba(255, 255, 255, 0.3);
+}
+.theme-dark .owl-carousel .owl-dots button.owl-dot.active span {
+  background-color: #338F7A;
+}
+.theme-dark .tag-list li a {
+  background: transparent;
+  border-color: rgba(255, 255, 255, 0.2);
+  color: #fff !important;
+}
+.theme-dark .tag-list li a:hover {
+  background: #338F7A !important;
+  color: #fff;
+  border-color: transparent;
+}
+.theme-dark .event-search-form {
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+}
+.theme-dark .header-wrap .header-top {
+  background-color: #000;
+}
+.theme-dark .header-wrap .header-top .header-top-right .social-profile li a {
+  background-color: rgba(255, 255, 255, 0.15);
+}
+.theme-dark .header-wrap .header-top .header-top-right .social-profile li a:hover {
+  background-color: #338F7A;
+}
+.theme-dark .header-wrap .header-bottom {
+  background-color: #191919;
+}
+.theme-dark .header-wrap .header-bottom .searchbox input {
+  color: #fff;
+}
+.theme-dark .header-wrap .header-bottom .searchbox button i {
+  color: rgba(255, 255, 255, 0.8);
+}
+.theme-dark .header-wrap .header-bottom .searchbtn i {
+  color: #fff;
+}
+.theme-dark .breadcrumb-wrap:after {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+.theme-dark .header-wrap .navbar .other-options::before {
+  background-color: rgba(255, 255, 255, 0.18);
+}
+.theme-dark .accordion-item {
+  background: transparent;
+}
+.theme-dark .accordion-item .accordion-header .accordion-button {
+  background-color: #191919;
+  color: #fff;
+}
+.theme-dark .accordion-item .accordion-body {
+  border-color: rgba(255, 255, 255, 0.18);
+}
+.theme-dark .search-area button i {
+  color: #fff;
+}
+.theme-dark .sidebar-widget {
+  background-color: transparent;
+  box-shadow: none;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+.theme-dark .sidebar-widget.style2 {
+  border: none;
+}
+.theme-dark .header-wrap .navbar .navbar-nav .nav-item a:hover,
+.theme-dark .header-wrap .navbar .navbar-nav .nav-item a:focus,
+.theme-dark .header-wrap .navbar .navbar-nav .nav-item a.active {
+  color: #338F7A !important;
+}
+.theme-dark .event-card,
+.theme-dark .blog-card .blog-info,
+.theme-dark .promo-wrap.style2 .promo-card,
+.theme-dark .event-info-item-wrap .event-info-item,
+.theme-dark .comment-item {
+  border-color: rgba(255, 255, 255, 0.2);
+}
+.theme-dark .post-author,
+.theme-dark .contact-item-wrap,
+.theme-dark .contact-form {
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+.theme-dark .social-profile.style3 a {
+  background-color: rgba(255, 255, 255, 0.15);
+}
+.theme-dark .social-profile.style3 a i {
+  color: #fff;
+}
+.theme-dark .social-profile.style3 a:hover {
+  background-color: #338F7A;
+}
+.theme-dark select {
+  background-image: url(../img/down-arrow-white.png);
+}
+.theme-dark .donation-form {
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+.theme-dark input, .theme-dark textarea,
+.theme-dark .event-search-form .form-group select,
+.theme-dark .event-search-form .form-group input,
+.theme-dark #cmt-form .comment-form .form-group input,
+.theme-dark #cmt-form .comment-form .form-group textarea,
+.theme-dark #contactForm .form-group input,
+.theme-dark #contactForm .form-group textarea,
+.theme-dark .donation-form .form-group input,
+.theme-dark .donation-form .form-group textarea,
+.theme-dark .donation-form .form-group select,
+.theme-dark .register-widget .form-group input,
+.theme-dark .register-widget .form-group select,
+.theme-dark .register-widget .form-group textarea,
+.theme-dark .project-search-form .form-group select,
+.theme-dark .project-search-form .form-group input,
+.theme-dark .login-form-wrap .login-body .form-group input,
+.theme-dark .newsletter-form .form-group input {
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+.theme-dark .team-card.style3 {
+  background-color: transparent;
+}
+.theme-dark .team-slider-one .owl-stage-outer .owl-stage .owl-item:nth-child(2n) .team-card.style3:hover,
+.theme-dark .team-slider-one .owl-stage-outer .owl-stage .owl-item:nth-child(2n+1) .team-card.style3:hover {
+  background-color: #191919;
+}
+.theme-dark .page-nav li a {
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  background-color: transparent;
+}
+.theme-dark .page-nav li a:hover {
+  background-color: #338F7A;
+  color: #fff !important;
+}
+.theme-dark .login-form-wrap .login-form .form-group input,
+.theme-dark .contact-widget .form-group input,
+.theme-dark .contact-widget .form-group textarea,
+.theme-dark .search-box .form-group input {
+  background-color: #000;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+.theme-dark .login-form-wrap .login-form .form-group input::-moz-placeholder, .theme-dark .contact-widget .form-group input::-moz-placeholder, .theme-dark .contact-widget .form-group textarea::-moz-placeholder, .theme-dark .search-box .form-group input::-moz-placeholder {
+  color: #fff;
+}
+.theme-dark .login-form-wrap .login-form .form-group input::placeholder,
+.theme-dark .contact-widget .form-group input::placeholder,
+.theme-dark .contact-widget .form-group textarea::placeholder,
+.theme-dark .search-box .form-group input::placeholder {
+  color: #fff;
+}
+.theme-dark .login-form-wrap {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background-color: transparent;
+}
+
+@media only screen and (max-width: 991px) {
+  .theme-dark .main-menu-wrap,
+  .theme-dark .header-wrap .navbar .navbar-nav .nav-item .dropdown-menu {
+    background-color: #091315;
+  }
+  .theme-dark .menu-close i,
+  .theme-dark .header-wrap .navbar .navbar-nav .nav-item .menu-expand i {
+    color: #fff !important;
+  }
+  .theme-dark .header-wrap .navbar .navbar-nav .nav-item a.active,
+  .theme-dark .main-menu li a.active {
+    color: #338F7A !important;
+  }
+  .theme-dark .main-menu li a.active,
+  .theme-dark .main-menu li a {
+    border-color: rgba(255, 255, 255, 0.2);
+  }
+  .theme-dark .header-wrap .navbar .navbar-nav .nav-item .dropdown-menu li,
+  .theme-dark .header-wrap .navbar .navbar-nav .nav-item a {
+    border-color: rgba(255, 255, 255, 0.2);
+  }
+}
+@media only screen and (min-width: 992px) {
+  .theme-dark .header-wrap .navbar .navbar-nav .nav-item .dropdown-menu,
+  .theme-dark .main-menu-wrap #menu ul li.has-children .sub-menu {
+    background-color: #091315;
+  }
+  .theme-dark .header-wrap .navbar .navbar-nav .nav-item a:hover,
+  .theme-dark .header-wrap .navbar .navbar-nav .nav-item a:focus,
+  .theme-dark .header-wrap .navbar .navbar-nav .nav-item a.active {
+    color: #338F7A !important;
+  }
+  .theme-dark .header-wrap.style2 .navbar .navbar-nav .nav-item .dropdown-menu li {
+    border-color: rgba(255, 255, 255, 0.15);
+  }
+}/*# sourceMappingURL=dark-theme.css.map */

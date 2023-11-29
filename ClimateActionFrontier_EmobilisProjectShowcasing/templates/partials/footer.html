@@ -1,0 +1,150 @@
+{% load static %}
+
+<!-- Footer Section Start -->
+<footer class="footer-wrap">
+    <div class="footer-top">
+        <img
+                src="{% static 'app/assets/img/footer-shape-1.png ' %}"
+                alt="Image"
+                class="footer-shape-one moveHorizontal"
+        />
+        <img
+                src="{% static 'app/assets/img/sun-2.png ' %}"
+                alt="Image"
+                class="footer-shape-two rotate"
+        />
+        <img
+                src="{% static 'app/assets/img/bird.png ' %}"
+                alt="hellooo"
+                class="footer-shape-three flyLeft"
+        />
+        <div class="container">
+            <div class="row pt-100 pb-75">
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 pe-xl-5">
+                    <div class="footer-widget">
+                        <a href="{% url 'member' %}" class="footer-logo">
+                            <img src="{% static 'app/assets/img/logo.png ' %}" alt="Image"/>
+                        </a>
+                        <p class="comp-desc">
+                            Climate action frontiers play a pivotal role in addressing environmental challenges.
+                            Championing sustainable initiatives and advocating for eco-friendly practices contributing
+                            to the global effort to combat climate change.
+                        </p>
+                        <form action="{% url 'home' %}">
+                            <div class="newsletter-form">
+                                <input name="email" type="email" placeholder="Email Address"/>
+                                <button type="button">Subscribe Now</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div
+                        class="col-xl-3 col-lg-3 col-md-6 col-sm-6 ps-xl-5 ps-lg-4 ps-md-5"
+                >
+                    <div class="footer-widget">
+                        <h3 class="footer-widget-title">Explore</h3>
+                        <ul class="footer-menu list-style">
+                            <li>
+                                <a href="{% url 'event-details' %}"> Fundraise For Seedling </a>
+                            </li>
+                            <li>
+                                <a href="{% url 'event-details' %}"> Volunteer in tree planting </a>
+                            </li>
+                            <li>
+                                <a href="{% url 'event-details' %}"> Donate for recycle bins </a>
+                            </li>
+                            <li>
+                                <a href="{% url 'event-details' %}"> Cleaning city rivers </a>
+                            </li>
+                            <li>
+                                <a href="{% url 'event-details' %}"> Clean Water Project </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-6 col-sm-6">
+                    <div class="footer-widget">
+                        <h3 class="footer-widget-title">Other Pages</h3>
+                        <ul class="footer-menu list-style">
+                            <li>
+                                <a href="{% url 'about' %}"> About us </a>
+                            </li>
+                            <li>
+                                <a href="{% url 'team' %}"> Our Team </a>
+                            </li>
+                            <li>
+                                <a href="{% url 'event' %}"> Recent Events </a>
+                            </li>
+                            <li>
+                                <a href="{% url 'donation' %}"> Make Donation </a>
+                            </li>
+                            <li>
+                                <a href="{% url 'contact' %}"> Get In Touch </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 ps-md-5">
+                    <div class="footer-widget">
+                        <h3 class="footer-widget-title">Official Info</h3>
+                        <ul class="contact-info list-style">
+                            <li>
+                                <i class="flaticon-pin"></i>
+                                <h6>Location</h6>
+                                <p>939-00606, Kipro-center, Nairobi,Kenya</p>
+                            </li>
+                            <li>
+                                <i class="flaticon-email-2"></i>
+                                <a href="mailto:vincentcodes@gmail.com">
+                                    <span>VincentCodes@gmail.com</span>
+                                </a>
+                            </li>
+                            <li>
+                                <i class="flaticon-phone-call"></i>
+                                <h6>Phone</h6>
+                                <a href="tel:254728552650">+254 728 552650</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-8 col-md-6 col-sm-7">
+                    <p class="copyright-text">
+                        <i class="ri-copyright-line"></i> Climate action pioneers
+                        <a href="{% url 'register' %}">community</a>
+                    </p>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-5">
+                    <ul class="social-profile style1 list-style">
+                        <li>
+                            <a href="https://facebook.com">
+                                <i class="ri-facebook-fill"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com">
+                                <i class="ri-twitter-fill"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://instagram.com">
+                                <i class="ri-instagram-line"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://linkedin.com">
+                                <i class="ri-linkedin-fill"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- Footer Section End -->

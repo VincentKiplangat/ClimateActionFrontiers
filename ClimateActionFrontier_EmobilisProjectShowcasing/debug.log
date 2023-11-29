@@ -1,0 +1,2049 @@
+INFO 2023-11-28 21:15:07,936  18176  Watching for file changes with StatReloader
+INFO 2023-11-28 21:15:48,516  23608  Watching for file changes with StatReloader
+INFO 2023-11-28 21:16:14,141  16292  Watching for file changes with StatReloader
+WARNING 2023-11-28 21:16:16,980  16292  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-28 21:16:25,943  16292  Not Found: /INITAITE
+INFO 2023-11-28 21:16:39,876  16292  +254728552650 582255
+DEBUG 2023-11-28 21:16:39,878  16292  Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2023-11-28 21:16:41,224  16292  https://sandbox.safaricom.co.ke:443 "GET /oauth/v1/generate?grant_type=client_credentials HTTP/1.1" 200 None
+DEBUG 2023-11-28 21:16:41,245  16292  Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2023-11-28 21:16:42,471  16292  https://sandbox.safaricom.co.ke:443 "POST /mpesa/stkpush/v1/processrequest HTTP/1.1" 400 None
+DEBUG 2023-11-28 21:16:42,487  16292  {'requestId': '7194-27853274-1', 'errorCode': '400.002.02', 'errorMessage': 'Bad Request - Invalid PhoneNumber'}
+ERROR 2023-11-28 21:16:42,570  16292  Internal Server Error: /initiate
+Traceback (most recent call last):
+  File "C:\Users\vkori\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Emobilis\ClimateActionFrontier_EmobilisProjectShowcasing\mainapp\views.py", line 397, in initiate_payment
+    code = json_resp['ResponseCode']
+           ~~~~~~~~~^^^^^^^^^^^^^^^^
+KeyError: 'ResponseCode'
+INFO 2023-11-28 21:45:12,313  15032  Watching for file changes with StatReloader
+WARNING 2023-11-28 21:45:14,646  16292  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+INFO 2023-11-28 21:45:24,628  16292  +254728552650 582255
+DEBUG 2023-11-28 21:45:24,630  16292  Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2023-11-28 21:45:26,266  16292  https://sandbox.safaricom.co.ke:443 "GET /oauth/v1/generate?grant_type=client_credentials HTTP/1.1" 200 None
+DEBUG 2023-11-28 21:45:26,268  16292  Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2023-11-28 21:45:27,867  16292  https://sandbox.safaricom.co.ke:443 "POST /mpesa/stkpush/v1/processrequest HTTP/1.1" 400 None
+DEBUG 2023-11-28 21:45:27,867  16292  {'requestId': '40265-15797463-1', 'errorCode': '400.002.02', 'errorMessage': 'Bad Request - Invalid PhoneNumber'}
+ERROR 2023-11-28 21:45:27,899  16292  Internal Server Error: /initiate
+Traceback (most recent call last):
+  File "C:\Users\vkori\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Emobilis\ClimateActionFrontier_EmobilisProjectShowcasing\mainapp\views.py", line 397, in initiate_payment
+    code = json_resp['ResponseCode']
+           ~~~~~~~~~^^^^^^^^^^^^^^^^
+KeyError: 'ResponseCode'
+INFO 2023-11-28 21:55:36,520  15032  D:\Emobilis\ClimateActionFrontier_EmobilisProjectShowcasing\ClimateActionFrontier_EmobilisProjectShowcasing\settings.py changed, reloading.
+INFO 2023-11-28 21:55:37,337  20584  Watching for file changes with StatReloader
+INFO 2023-11-28 21:55:37,402  17176  Watching for file changes with StatReloader
+WARNING 2023-11-28 21:55:39,049  20584  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-28 21:55:39,083  20584  Not Found: /static/app/assets/js/tweenmax.min.js a
+WARNING 2023-11-28 21:55:39,127  20584  Not Found: /static/app/ assets/img/team/team-shape-2.png
+WARNING 2023-11-28 21:55:39,502  20584  Not Found: /static/app/ assets/img/team/team-shape-2.png
+INFO 2023-11-28 21:56:00,731  20584  +254728552650 582255
+DEBUG 2023-11-28 21:56:00,734  20584  Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2023-11-28 21:56:03,191  20584  https://sandbox.safaricom.co.ke:443 "GET /oauth/v1/generate?grant_type=client_credentials HTTP/1.1" 200 None
+DEBUG 2023-11-28 21:56:03,210  20584  Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2023-11-28 21:56:05,398  20584  https://sandbox.safaricom.co.ke:443 "POST /mpesa/stkpush/v1/processrequest HTTP/1.1" 400 None
+DEBUG 2023-11-28 21:56:05,400  20584  {'requestId': '42458-79973104-2', 'errorCode': '400.002.02', 'errorMessage': 'Bad Request - Invalid PhoneNumber'}
+ERROR 2023-11-28 21:56:05,402  20584  Internal Server Error: /initiate
+Traceback (most recent call last):
+  File "C:\Users\vkori\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Emobilis\ClimateActionFrontier_EmobilisProjectShowcasing\mainapp\views.py", line 397, in initiate_payment
+    code = json_resp['ResponseCode']
+           ~~~~~~~~~^^^^^^^^^^^^^^^^
+KeyError: 'ResponseCode'
+INFO 2023-11-28 21:57:04,251  17176  D:\Emobilis\ClimateActionFrontier_EmobilisProjectShowcasing\ClimateActionFrontier_EmobilisProjectShowcasing\settings.py changed, reloading.
+INFO 2023-11-28 21:57:04,667  20584  D:\Emobilis\ClimateActionFrontier_EmobilisProjectShowcasing\ClimateActionFrontier_EmobilisProjectShowcasing\settings.py changed, reloading.
+INFO 2023-11-28 21:57:05,082  17236  Watching for file changes with StatReloader
+INFO 2023-11-28 21:57:05,454  12004  Watching for file changes with StatReloader
+WARNING 2023-11-28 21:59:56,040  17236  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-28 21:59:56,068  17236  Not Found: /static/app/assets/js/tweenmax.min.js a
+WARNING 2023-11-28 21:59:56,107  17236  Not Found: /static/app/ assets/img/team/team-shape-2.png
+WARNING 2023-11-28 21:59:56,380  17236  Not Found: /static/app/ assets/img/team/team-shape-2.png
+INFO 2023-11-28 22:00:19,026  17236  254728552650 5
+DEBUG 2023-11-28 22:00:19,027  17236  Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2023-11-28 22:00:20,770  17236  https://sandbox.safaricom.co.ke:443 "GET /oauth/v1/generate?grant_type=client_credentials HTTP/1.1" 200 None
+DEBUG 2023-11-28 22:00:20,777  17236  Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2023-11-28 22:00:22,352  17236  https://sandbox.safaricom.co.ke:443 "POST /mpesa/stkpush/v1/processrequest HTTP/1.1" 400 None
+DEBUG 2023-11-28 22:00:22,354  17236  {'requestId': '40269-15861480-1', 'errorCode': '400.002.02', 'errorMessage': 'Bad Request - Invalid CallBackURL'}
+ERROR 2023-11-28 22:00:22,355  17236  Internal Server Error: /initiate
+Traceback (most recent call last):
+  File "C:\Users\vkori\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Emobilis\ClimateActionFrontier_EmobilisProjectShowcasing\mainapp\views.py", line 397, in initiate_payment
+    code = json_resp['ResponseCode']
+           ~~~~~~~~~^^^^^^^^^^^^^^^^
+KeyError: 'ResponseCode'
+INFO 2023-11-28 22:02:46,817  12004  D:\Emobilis\ClimateActionFrontier_EmobilisProjectShowcasing\ClimateActionFrontier_EmobilisProjectShowcasing\settings.py changed, reloading.
+INFO 2023-11-28 22:02:47,668  21672  Watching for file changes with StatReloader
+INFO 2023-11-28 22:02:48,200  23076  Watching for file changes with StatReloader
+INFO 2023-11-28 22:02:52,830  21672  254728552650 5
+DEBUG 2023-11-28 22:02:52,831  21672  Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2023-11-28 22:02:54,367  21672  https://sandbox.safaricom.co.ke:443 "GET /oauth/v1/generate?grant_type=client_credentials HTTP/1.1" 200 None
+DEBUG 2023-11-28 22:02:54,374  21672  Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2023-11-28 22:02:56,737  21672  https://sandbox.safaricom.co.ke:443 "POST /mpesa/stkpush/v1/processrequest HTTP/1.1" 200 None
+DEBUG 2023-11-28 22:02:56,739  21672  {'MerchantRequestID': '84121-74062507-2', 'CheckoutRequestID': 'ws_CO_28112023220453553728552650', 'ResponseCode': '0', 'ResponseDescription': 'Success. Request accepted for processing', 'CustomerMessage': 'Success. Request accepted for processing'}
+INFO 2023-11-28 22:05:00,753  21672  D:\Emobilis\ClimateActionFrontier_EmobilisProjectShowcasing\ClimateActionFrontier_EmobilisProjectShowcasing\urls.py changed, reloading.
+INFO 2023-11-28 22:05:01,606  15888  Watching for file changes with StatReloader
+INFO 2023-11-28 22:05:02,164  17092  Watching for file changes with StatReloader
+WARNING 2023-11-28 22:05:04,163  15888  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-28 22:05:04,200  15888  Not Found: /static/app/assets/js/tweenmax.min.js a
+WARNING 2023-11-28 22:05:04,238  15888  Not Found: /static/app/ assets/img/team/team-shape-2.png
+WARNING 2023-11-28 22:05:04,622  15888  Not Found: /static/app/ assets/img/team/team-shape-2.png
+INFO 2023-11-28 22:05:12,704  15888  254728552650 5
+DEBUG 2023-11-28 22:05:12,705  15888  Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2023-11-28 22:05:13,979  15888  https://sandbox.safaricom.co.ke:443 "GET /oauth/v1/generate?grant_type=client_credentials HTTP/1.1" 200 None
+DEBUG 2023-11-28 22:05:13,984  15888  Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2023-11-28 22:05:16,568  15888  https://sandbox.safaricom.co.ke:443 "POST /mpesa/stkpush/v1/processrequest HTTP/1.1" 200 None
+DEBUG 2023-11-28 22:05:16,570  15888  {'MerchantRequestID': '9039-44743642-1', 'CheckoutRequestID': 'ws_CO_28112023220713367728552650', 'ResponseCode': '0', 'ResponseDescription': 'Success. Request accepted for processing', 'CustomerMessage': 'Success. Request accepted for processing'}
+INFO 2023-11-28 22:07:48,729  15888  D:\Emobilis\ClimateActionFrontier_EmobilisProjectShowcasing\mainapp\views.py changed, reloading.
+INFO 2023-11-28 22:07:49,493  2292  Watching for file changes with StatReloader
+INFO 2023-11-28 22:07:49,585  17308  Watching for file changes with StatReloader
+WARNING 2023-11-28 22:07:51,279  2292  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-28 22:07:51,324  2292  Not Found: /static/app/assets/js/tweenmax.min.js a
+WARNING 2023-11-28 22:07:51,369  2292  Not Found: /static/app/ assets/img/team/team-shape-2.png
+WARNING 2023-11-28 22:07:51,879  2292  Not Found: /static/app/ assets/img/team/team-shape-2.png
+WARNING 2023-11-28 22:07:53,668  2292  Not Found: /assets/img/project/single-donation-1.jpg
+WARNING 2023-11-28 22:07:53,671  2292  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-28 22:07:53,700  2292  Not Found: /static/app/assets/js/tweenmax.min.js a
+WARNING 2023-11-28 22:08:41,848  2292  Not Found: /assets/img/project/single-donation-1.jpg
+WARNING 2023-11-28 22:08:41,848  2292  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-28 22:08:41,907  2292  Not Found: /static/app/assets/js/tweenmax.min.js a
+WARNING 2023-11-28 22:08:59,985  2292  Not Found: /assets/img/project/single-donation-1.jpg
+WARNING 2023-11-28 22:08:59,989  2292  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-28 22:09:00,007  2292  Not Found: /static/app/assets/js/tweenmax.min.js a
+INFO 2023-11-28 22:09:17,622  2292  254728552650 5
+DEBUG 2023-11-28 22:09:17,625  2292  Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2023-11-28 22:09:19,114  2292  https://sandbox.safaricom.co.ke:443 "GET /oauth/v1/generate?grant_type=client_credentials HTTP/1.1" 200 None
+DEBUG 2023-11-28 22:09:19,114  2292  Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2023-11-28 22:09:21,491  2292  https://sandbox.safaricom.co.ke:443 "POST /mpesa/stkpush/v1/processrequest HTTP/1.1" 200 None
+DEBUG 2023-11-28 22:09:21,491  2292  {'MerchantRequestID': '84111-74088775-1', 'CheckoutRequestID': 'ws_CO_28112023221118680728552650', 'ResponseCode': '0', 'ResponseDescription': 'Success. Request accepted for processing', 'CustomerMessage': 'Success. Request accepted for processing'}
+WARNING 2023-11-28 22:09:21,619  2292  Not Found: /assets/img/project/single-donation-1.jpg
+WARNING 2023-11-28 22:09:21,630  2292  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-28 22:09:21,637  2292  Not Found: /static/app/assets/js/tweenmax.min.js a
+INFO 2023-11-28 22:10:09,530  2292  254728552650 5
+DEBUG 2023-11-28 22:10:09,531  2292  Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2023-11-28 22:10:11,659  2292  https://sandbox.safaricom.co.ke:443 "GET /oauth/v1/generate?grant_type=client_credentials HTTP/1.1" 200 None
+DEBUG 2023-11-28 22:10:11,671  2292  Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2023-11-28 22:10:15,055  2292  https://sandbox.safaricom.co.ke:443 "POST /mpesa/stkpush/v1/processrequest HTTP/1.1" 200 None
+DEBUG 2023-11-28 22:10:15,069  2292  {'MerchantRequestID': '9456-73020313-1', 'CheckoutRequestID': 'ws_CO_28112023221320850728552650', 'ResponseCode': '0', 'ResponseDescription': 'Success. Request accepted for processing', 'CustomerMessage': 'Success. Request accepted for processing'}
+WARNING 2023-11-28 22:10:15,177  2292  Not Found: /assets/img/project/single-donation-1.jpg
+WARNING 2023-11-28 22:10:15,180  2292  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-28 22:10:15,240  2292  Not Found: /static/app/assets/js/tweenmax.min.js a
+INFO 2023-11-28 22:10:37,222  2292  254728552650 50
+DEBUG 2023-11-28 22:10:37,224  2292  Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2023-11-28 22:10:38,515  2292  https://sandbox.safaricom.co.ke:443 "GET /oauth/v1/generate?grant_type=client_credentials HTTP/1.1" 200 None
+DEBUG 2023-11-28 22:10:38,515  2292  Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2023-11-28 22:10:40,466  2292  https://sandbox.safaricom.co.ke:443 "POST /mpesa/stkpush/v1/processrequest HTTP/1.1" 200 None
+DEBUG 2023-11-28 22:10:40,466  2292  {'MerchantRequestID': '9456-73020313-2', 'CheckoutRequestID': 'ws_CO_28112023221237755728552650', 'ResponseCode': '0', 'ResponseDescription': 'Success. Request accepted for processing', 'CustomerMessage': 'Success. Request accepted for processing'}
+WARNING 2023-11-28 22:10:40,581  2292  Not Found: /assets/img/project/single-donation-1.jpg
+WARNING 2023-11-28 22:10:40,586  2292  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-28 22:10:40,648  2292  Not Found: /static/app/assets/js/tweenmax.min.js a
+INFO 2023-11-28 22:12:50,088  23372  Watching for file changes with StatReloader
+WARNING 2023-11-28 22:12:53,028  2292  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-28 22:12:53,040  2292  Not Found: /static/app/assets/js/tweenmax.min.js a
+WARNING 2023-11-28 22:12:53,076  2292  Not Found: /static/app/ assets/img/team/team-shape-2.png
+WARNING 2023-11-28 22:12:53,395  2292  Not Found: /static/app/ assets/img/team/team-shape-2.png
+WARNING 2023-11-28 22:12:54,777  2292  Not Found: /assets/img/project/single-donation-1.jpg
+WARNING 2023-11-28 22:12:54,780  2292  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-28 22:12:54,805  2292  Not Found: /static/app/assets/js/tweenmax.min.js a
+WARNING 2023-11-28 22:13:07,928  2292  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-28 22:13:07,933  2292  Not Found: /static/app/assets/js/tweenmax.min.js a
+INFO 2023-11-28 22:15:14,002  21328  Watching for file changes with StatReloader
+INFO 2023-11-28 22:15:16,194  5712  Watching for file changes with StatReloader
+INFO 2023-11-28 22:15:19,845  15104  Watching for file changes with StatReloader
+WARNING 2023-11-28 22:15:22,029  2292  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-28 22:15:22,045  2292  Not Found: /static/app/assets/js/tweenmax.min.js a
+WARNING 2023-11-28 22:15:22,075  2292  Not Found: /static/app/ assets/img/team/team-shape-2.png
+WARNING 2023-11-28 22:15:22,400  2292  Not Found: /static/app/ assets/img/team/team-shape-2.png
+WARNING 2023-11-28 22:15:23,799  2292  Not Found: /assets/img/project/single-donation-1.jpg
+WARNING 2023-11-28 22:15:23,802  2292  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-28 22:15:23,823  2292  Not Found: /static/app/assets/js/tweenmax.min.js a
+INFO 2023-11-28 22:17:40,449  23276  Watching for file changes with StatReloader
+WARNING 2023-11-28 22:17:42,194  2292  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-28 22:17:42,228  2292  Not Found: /static/app/assets/js/tweenmax.min.js a
+WARNING 2023-11-28 22:17:42,266  2292  Not Found: /static/app/ assets/img/team/team-shape-2.png
+WARNING 2023-11-28 22:17:42,635  2292  Not Found: /static/app/ assets/img/team/team-shape-2.png
+WARNING 2023-11-28 22:17:45,401  2292  Not Found: /assets/img/project/single-donation-1.jpg
+WARNING 2023-11-28 22:17:45,406  2292  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-28 22:17:45,429  2292  Not Found: /static/app/assets/js/tweenmax.min.js a
+WARNING 2023-11-28 22:17:52,518  2292  Not Found: /assets/img/project/single-donation-1.jpg
+WARNING 2023-11-28 22:17:52,522  2292  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-28 22:17:52,546  2292  Not Found: /static/app/assets/js/tweenmax.min.js a
+WARNING 2023-11-28 22:17:58,451  2292  Not Found: /assets/img/project/single-donation-1.jpg
+WARNING 2023-11-28 22:17:58,454  2292  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-28 22:17:58,478  2292  Not Found: /static/app/assets/js/tweenmax.min.js a
+WARNING 2023-11-28 22:19:08,634  2292  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-28 22:19:08,648  2292  Not Found: /static/app/assets/js/tweenmax.min.js a
+WARNING 2023-11-28 22:19:08,677  2292  Not Found: /static/app/ assets/img/team/team-shape-2.png
+WARNING 2023-11-28 22:19:08,983  2292  Not Found: /static/app/ assets/img/team/team-shape-2.png
+WARNING 2023-11-28 22:19:10,650  2292  Not Found: /assets/img/project/single-donation-1.jpg
+WARNING 2023-11-28 22:19:10,654  2292  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-28 22:19:10,678  2292  Not Found: /static/app/assets/js/tweenmax.min.js a
+WARNING 2023-11-28 22:19:18,114  2292  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-28 22:19:18,116  2292  Not Found: /assets/img/project/single-donation-1.jpg
+WARNING 2023-11-28 22:19:18,137  2292  Not Found: /static/app/assets/js/tweenmax.min.js a
+WARNING 2023-11-28 22:19:27,764  2292  Not Found: /donation/n
+WARNING 2023-11-28 22:19:27,837  2292  Not Found: /static/app/assets/img/404.png 
+WARNING 2023-11-28 22:19:27,841  2292  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-28 22:19:27,863  2292  Not Found: /static/app/assets/js/tweenmax.min.js a
+WARNING 2023-11-28 22:19:33,252  2292  Not Found: /donation/k
+WARNING 2023-11-28 22:19:33,308  2292  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-28 22:19:33,308  2292  Not Found: /static/app/assets/img/404.png 
+WARNING 2023-11-28 22:19:33,363  2292  Not Found: /static/app/assets/js/tweenmax.min.js a
+WARNING 2023-11-28 22:19:36,240  2292  Not Found: /assets/img/project/single-donation-1.jpg
+WARNING 2023-11-28 22:19:36,244  2292  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-28 22:19:36,283  2292  Not Found: /static/app/assets/js/tweenmax.min.js a
+WARNING 2023-11-28 22:20:43,152  2292  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-28 22:20:43,156  2292  Not Found: /static/app/assets/js/tweenmax.min.js a
+WARNING 2023-11-28 22:20:43,192  2292  Not Found: /static/app/ assets/img/team/team-shape-2.png
+WARNING 2023-11-28 22:20:43,585  2292  Not Found: /static/app/ assets/img/team/team-shape-2.png
+WARNING 2023-11-28 22:20:44,723  2292  Not Found: /assets/img/project/single-donation-1.jpg
+WARNING 2023-11-28 22:20:44,728  2292  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-28 22:20:44,753  2292  Not Found: /static/app/assets/js/tweenmax.min.js a
+WARNING 2023-11-28 22:21:07,346  2292  Not Found: /assets/img/project/single-donation-1.jpg
+WARNING 2023-11-28 22:21:07,351  2292  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-28 22:21:07,407  2292  Not Found: /static/app/assets/js/tweenmax.min.js a
+WARNING 2023-11-28 22:21:38,424  2292  Not Found: /assets/img/project/single-donation-1.jpg
+WARNING 2023-11-28 22:21:38,427  2292  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-28 22:21:38,460  2292  Not Found: /static/app/assets/js/tweenmax.min.js a
+WARNING 2023-11-28 22:21:43,432  2292  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-28 22:21:43,432  2292  Not Found: /assets/img/project/single-donation-1.jpg
+WARNING 2023-11-28 22:21:43,466  2292  Not Found: /static/app/assets/js/tweenmax.min.js a
+INFO 2023-11-28 22:22:22,434  2292  D:\Emobilis\ClimateActionFrontier_EmobilisProjectShowcasing\mainapp\views.py changed, reloading.
+INFO 2023-11-28 22:22:23,360  12780  Watching for file changes with StatReloader
+INFO 2023-11-28 22:22:23,445  12772  Watching for file changes with StatReloader
+WARNING 2023-11-28 22:22:25,126  12780  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-28 22:22:25,158  12780  Not Found: /static/app/assets/js/tweenmax.min.js a
+WARNING 2023-11-28 22:22:25,193  12780  Not Found: /static/app/ assets/img/team/team-shape-2.png
+WARNING 2023-11-28 22:22:25,560  12780  Not Found: /static/app/ assets/img/team/team-shape-2.png
+WARNING 2023-11-28 22:22:27,948  12780  Not Found: /assets/img/project/single-donation-1.jpg
+WARNING 2023-11-28 22:22:27,951  12780  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-28 22:22:27,977  12780  Not Found: /static/app/assets/js/tweenmax.min.js a
+INFO 2023-11-28 22:22:50,643  12780  254728552650 500
+DEBUG 2023-11-28 22:22:50,644  12780  Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2023-11-28 22:22:51,813  12780  https://sandbox.safaricom.co.ke:443 "GET /oauth/v1/generate?grant_type=client_credentials HTTP/1.1" 200 None
+DEBUG 2023-11-28 22:22:51,834  12780  Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2023-11-28 22:22:54,062  12780  https://sandbox.safaricom.co.ke:443 "POST /mpesa/stkpush/v1/processrequest HTTP/1.1" 200 None
+DEBUG 2023-11-28 22:22:54,062  12780  {'MerchantRequestID': '42464-80082629-1', 'CheckoutRequestID': 'ws_CO_28112023222451396728552650', 'ResponseCode': '0', 'ResponseDescription': 'Success. Request accepted for processing', 'CustomerMessage': 'Success. Request accepted for processing'}
+INFO 2023-11-28 22:23:12,723  12780  254728552650 609
+DEBUG 2023-11-28 22:23:12,725  12780  Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2023-11-28 22:23:13,901  12780  https://sandbox.safaricom.co.ke:443 "GET /oauth/v1/generate?grant_type=client_credentials HTTP/1.1" 200 None
+DEBUG 2023-11-28 22:23:13,901  12780  Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2023-11-28 22:23:15,981  12780  https://sandbox.safaricom.co.ke:443 "POST /mpesa/stkpush/v1/processrequest HTTP/1.1" 200 None
+DEBUG 2023-11-28 22:23:15,981  12780  {'MerchantRequestID': '9029-44816012-1', 'CheckoutRequestID': 'ws_CO_28112023222621930728552650', 'ResponseCode': '0', 'ResponseDescription': 'Success. Request accepted for processing', 'CustomerMessage': 'Success. Request accepted for processing'}
+INFO 2023-11-28 22:23:51,774  12780  D:\Emobilis\ClimateActionFrontier_EmobilisProjectShowcasing\mainapp\views.py changed, reloading.
+INFO 2023-11-28 22:23:52,416  20668  Watching for file changes with StatReloader
+INFO 2023-11-28 22:23:52,618  24876  Watching for file changes with StatReloader
+WARNING 2023-11-28 22:23:53,930  20668  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-28 22:23:53,942  20668  Not Found: /static/app/assets/js/tweenmax.min.js a
+WARNING 2023-11-28 22:23:53,978  20668  Not Found: /static/app/ assets/img/team/team-shape-2.png
+WARNING 2023-11-28 22:23:54,284  20668  Not Found: /static/app/ assets/img/team/team-shape-2.png
+WARNING 2023-11-28 22:23:55,474  20668  Not Found: /assets/img/project/single-donation-1.jpg
+WARNING 2023-11-28 22:23:55,477  20668  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-28 22:23:55,504  20668  Not Found: /static/app/assets/js/tweenmax.min.js a
+WARNING 2023-11-28 22:24:04,563  20668  Not Found: /assets/img/project/single-donation-1.jpg
+WARNING 2023-11-28 22:24:04,565  20668  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-28 22:24:04,588  20668  Not Found: /static/app/assets/js/tweenmax.min.js a
+WARNING 2023-11-28 22:24:13,979  20668  Not Found: /donation/n
+WARNING 2023-11-28 22:24:14,054  20668  Not Found: /static/app/assets/img/404.png 
+WARNING 2023-11-28 22:24:14,067  20668  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-28 22:24:14,078  20668  Not Found: /static/app/assets/js/tweenmax.min.js a
+WARNING 2023-11-28 22:24:26,211  20668  Not Found: /assets/img/project/single-donation-1.jpg
+WARNING 2023-11-28 22:24:26,211  20668  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-28 22:24:26,240  20668  Not Found: /static/app/assets/js/tweenmax.min.js a
+WARNING 2023-11-28 22:24:30,199  20668  Not Found: /assets/img/project/single-donation-1.jpg
+WARNING 2023-11-28 22:24:30,199  20668  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-28 22:24:30,247  20668  Not Found: /static/app/assets/js/tweenmax.min.js a
+WARNING 2023-11-28 22:24:54,640  20668  Not Found: /assets/img/project/single-donation-1.jpg
+WARNING 2023-11-28 22:24:54,644  20668  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-28 22:24:54,678  20668  Not Found: /static/app/assets/js/tweenmax.min.js a
+INFO 2023-11-28 22:25:04,218  20668  0728552650 50
+DEBUG 2023-11-28 22:25:04,221  20668  Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2023-11-28 22:25:05,325  20668  https://sandbox.safaricom.co.ke:443 "GET /oauth/v1/generate?grant_type=client_credentials HTTP/1.1" 200 None
+DEBUG 2023-11-28 22:25:05,341  20668  Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2023-11-28 22:25:06,617  20668  https://sandbox.safaricom.co.ke:443 "POST /mpesa/stkpush/v1/processrequest HTTP/1.1" 400 None
+DEBUG 2023-11-28 22:25:06,620  20668  {'requestId': '8662-43411530-1', 'errorCode': '400.002.02', 'errorMessage': 'Bad Request - Invalid PhoneNumber'}
+ERROR 2023-11-28 22:25:06,621  20668  Internal Server Error: /n
+Traceback (most recent call last):
+  File "C:\Users\vkori\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Emobilis\ClimateActionFrontier_EmobilisProjectShowcasing\mainapp\views.py", line 397, in initiate_payment
+    code = json_resp['ResponseCode']
+           ~~~~~~~~~^^^^^^^^^^^^^^^^
+KeyError: 'ResponseCode'
+INFO 2023-11-28 22:25:11,364  20668  0728552650 50
+DEBUG 2023-11-28 22:25:11,365  20668  Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2023-11-28 22:25:12,478  20668  https://sandbox.safaricom.co.ke:443 "GET /oauth/v1/generate?grant_type=client_credentials HTTP/1.1" 200 None
+DEBUG 2023-11-28 22:25:12,478  20668  Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2023-11-28 22:25:13,625  20668  https://sandbox.safaricom.co.ke:443 "POST /mpesa/stkpush/v1/processrequest HTTP/1.1" 400 None
+DEBUG 2023-11-28 22:25:13,625  20668  {'requestId': '18141-144833128-1', 'errorCode': '400.002.02', 'errorMessage': 'Bad Request - Invalid PhoneNumber'}
+ERROR 2023-11-28 22:25:13,625  20668  Internal Server Error: /n
+Traceback (most recent call last):
+  File "C:\Users\vkori\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Emobilis\ClimateActionFrontier_EmobilisProjectShowcasing\mainapp\views.py", line 397, in initiate_payment
+    code = json_resp['ResponseCode']
+           ~~~~~~~~~^^^^^^^^^^^^^^^^
+KeyError: 'ResponseCode'
+INFO 2023-11-28 22:25:21,209  20668  254728552650 50
+DEBUG 2023-11-28 22:25:21,210  20668  Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2023-11-28 22:25:22,423  20668  https://sandbox.safaricom.co.ke:443 "GET /oauth/v1/generate?grant_type=client_credentials HTTP/1.1" 200 None
+DEBUG 2023-11-28 22:25:22,423  20668  Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2023-11-28 22:25:24,333  20668  https://sandbox.safaricom.co.ke:443 "POST /mpesa/stkpush/v1/processrequest HTTP/1.1" 200 None
+DEBUG 2023-11-28 22:25:24,333  20668  {'MerchantRequestID': '8659-43412649-1', 'CheckoutRequestID': 'ws_CO_28112023222830395728552650', 'ResponseCode': '0', 'ResponseDescription': 'Success. Request accepted for processing', 'CustomerMessage': 'Success. Request accepted for processing'}
+WARNING 2023-11-28 22:25:24,407  20668  Not Found: /assets/img/project/single-donation-1.jpg
+WARNING 2023-11-28 22:25:24,411  20668  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-28 22:25:24,450  20668  Not Found: /static/app/assets/js/tweenmax.min.js a
+INFO 2023-11-28 22:26:15,400  25040  Watching for file changes with StatReloader
+WARNING 2023-11-28 22:26:17,505  24876  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-28 22:26:17,533  24876  Not Found: /static/app/assets/js/tweenmax.min.js a
+WARNING 2023-11-28 22:26:17,559  24876  Not Found: /static/app/ assets/img/team/team-shape-2.png
+WARNING 2023-11-28 22:26:17,845  24876  Not Found: /static/app/ assets/img/team/team-shape-2.png
+WARNING 2023-11-28 22:26:19,448  24876  Not Found: /assets/img/project/single-donation-1.jpg
+WARNING 2023-11-28 22:26:19,452  24876  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-28 22:26:19,475  24876  Not Found: /static/app/assets/js/tweenmax.min.js a
+WARNING 2023-11-28 22:26:25,143  24876  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-28 22:26:25,143  24876  Not Found: /assets/img/project/single-donation-1.jpg
+WARNING 2023-11-28 22:26:25,160  24876  Not Found: /static/app/assets/js/tweenmax.min.js a
+WARNING 2023-11-28 22:26:35,253  24876  Not Found: /assets/img/project/single-donation-1.jpg
+WARNING 2023-11-28 22:26:35,259  24876  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-28 22:26:35,277  24876  Not Found: /static/app/assets/js/tweenmax.min.js a
+WARNING 2023-11-28 22:26:44,662  24876  Not Found: /assets/img/project/single-donation-1.jpg
+WARNING 2023-11-28 22:26:44,667  24876  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-28 22:26:44,693  24876  Not Found: /static/app/assets/js/tweenmax.min.js a
+WARNING 2023-11-28 22:26:51,366  24876  Not Found: /assets/img/project/single-donation-1.jpg
+WARNING 2023-11-28 22:26:51,372  24876  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-28 22:26:51,393  24876  Not Found: /static/app/assets/js/tweenmax.min.js a
+WARNING 2023-11-28 22:26:59,714  24876  Not Found: /assets/img/project/single-donation-1.jpg
+WARNING 2023-11-28 22:26:59,719  24876  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-28 22:26:59,745  24876  Not Found: /static/app/assets/js/tweenmax.min.js a
+INFO 2023-11-28 22:27:12,744  24876  254728552650 545
+DEBUG 2023-11-28 22:27:12,744  24876  Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2023-11-28 22:27:14,017  24876  https://sandbox.safaricom.co.ke:443 "GET /oauth/v1/generate?grant_type=client_credentials HTTP/1.1" 200 None
+DEBUG 2023-11-28 22:27:14,018  24876  Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2023-11-28 22:27:15,967  24876  https://sandbox.safaricom.co.ke:443 "POST /mpesa/stkpush/v1/processrequest HTTP/1.1" 200 None
+DEBUG 2023-11-28 22:27:15,967  24876  {'MerchantRequestID': '85294-146087602-1', 'CheckoutRequestID': 'ws_CO_28112023222913407728552650', 'ResponseCode': '0', 'ResponseDescription': 'Success. Request accepted for processing', 'CustomerMessage': 'Success. Request accepted for processing'}
+WARNING 2023-11-28 22:27:16,057  24876  Not Found: /assets/img/project/single-donation-1.jpg
+WARNING 2023-11-28 22:27:16,060  24876  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-28 22:27:16,090  24876  Not Found: /static/app/assets/js/tweenmax.min.js a
+INFO 2023-11-28 22:29:46,338  24876  D:\Emobilis\ClimateActionFrontier_EmobilisProjectShowcasing\ClimateActionFrontier_EmobilisProjectShowcasing\urls.py changed, reloading.
+INFO 2023-11-28 22:29:46,812  16924  Watching for file changes with StatReloader
+INFO 2023-11-28 22:29:47,078  17260  Watching for file changes with StatReloader
+ERROR 2023-11-28 22:29:48,662  16924  Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\vkori\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Emobilis\ClimateActionFrontier_EmobilisProjectShowcasing\mainapp\views.py", line 23, in home
+    return render(request, "home.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\loader_tags.py", line 208, in render
+    return template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\base.py", line 177, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'donation' not found. 'donation' is not a valid view function or pattern name.
+INFO 2023-11-28 22:30:18,775  17260  D:\Emobilis\ClimateActionFrontier_EmobilisProjectShowcasing\ClimateActionFrontier_EmobilisProjectShowcasing\settings.py changed, reloading.
+INFO 2023-11-28 22:30:19,614  17928  Watching for file changes with StatReloader
+INFO 2023-11-28 22:30:19,673  27588  Watching for file changes with StatReloader
+ERROR 2023-11-28 22:30:21,742  17928  Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\vkori\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Emobilis\ClimateActionFrontier_EmobilisProjectShowcasing\mainapp\views.py", line 23, in home
+    return render(request, "home.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\loader_tags.py", line 208, in render
+    return template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\base.py", line 177, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'donation' not found. 'donation' is not a valid view function or pattern name.
+INFO 2023-11-28 22:31:02,349  17928  D:\Emobilis\ClimateActionFrontier_EmobilisProjectShowcasing\ClimateActionFrontier_EmobilisProjectShowcasing\urls.py changed, reloading.
+INFO 2023-11-28 22:31:03,066  3584  Watching for file changes with StatReloader
+INFO 2023-11-28 22:31:03,081  20924  Watching for file changes with StatReloader
+WARNING 2023-11-28 22:31:05,773  3584  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-28 22:31:07,241  3584  Not Found: /assets/img/project/single-donation-1.jpg
+WARNING 2023-11-28 22:31:07,245  3584  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+INFO 2023-11-28 22:31:17,174  3584  254728552650 4
+DEBUG 2023-11-28 22:31:17,175  3584  Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2023-11-28 22:31:18,319  3584  https://sandbox.safaricom.co.ke:443 "GET /oauth/v1/generate?grant_type=client_credentials HTTP/1.1" 200 None
+DEBUG 2023-11-28 22:31:18,319  3584  Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2023-11-28 22:31:20,485  3584  https://sandbox.safaricom.co.ke:443 "POST /mpesa/stkpush/v1/processrequest HTTP/1.1" 200 None
+DEBUG 2023-11-28 22:31:20,485  3584  {'MerchantRequestID': '42439-80115312-1', 'CheckoutRequestID': 'ws_CO_28112023223317831728552650', 'ResponseCode': '0', 'ResponseDescription': 'Success. Request accepted for processing', 'CustomerMessage': 'Success. Request accepted for processing'}
+WARNING 2023-11-28 22:31:20,575  3584  Not Found: /assets/img/project/single-donation-1.jpg
+WARNING 2023-11-28 22:31:20,586  3584  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+INFO 2023-11-28 22:33:44,553  3584  254728552650 4
+DEBUG 2023-11-28 22:33:44,554  3584  Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2023-11-28 22:33:45,570  3584  https://sandbox.safaricom.co.ke:443 "GET /oauth/v1/generate?grant_type=client_credentials HTTP/1.1" 200 None
+DEBUG 2023-11-28 22:33:45,574  3584  Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2023-11-28 22:33:47,493  3584  https://sandbox.safaricom.co.ke:443 "POST /mpesa/stkpush/v1/processrequest HTTP/1.1" 200 None
+DEBUG 2023-11-28 22:33:47,493  3584  {'MerchantRequestID': '18137-144865635-1', 'CheckoutRequestID': 'ws_CO_28112023223544752728552650', 'ResponseCode': '0', 'ResponseDescription': 'Success. Request accepted for processing', 'CustomerMessage': 'Success. Request accepted for processing'}
+WARNING 2023-11-28 22:33:47,889  3584  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-28 22:33:47,904  3584  Not Found: /assets/img/project/single-donation-1.jpg
+INFO 2023-11-28 22:33:51,978  24596  Watching for file changes with StatReloader
+WARNING 2023-11-28 22:33:53,766  3584  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-28 22:33:55,860  3584  Not Found: /assets/img/project/single-donation-1.jpg
+WARNING 2023-11-28 22:33:55,865  3584  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+INFO 2023-11-28 22:34:05,153  3584  254728552650 50
+DEBUG 2023-11-28 22:34:05,155  3584  Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2023-11-28 22:34:06,331  3584  https://sandbox.safaricom.co.ke:443 "GET /oauth/v1/generate?grant_type=client_credentials HTTP/1.1" 200 None
+DEBUG 2023-11-28 22:34:06,331  3584  Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2023-11-28 22:34:07,432  3584  https://sandbox.safaricom.co.ke:443 "POST /mpesa/stkpush/v1/processrequest HTTP/1.1" 500 None
+DEBUG 2023-11-28 22:34:07,448  3584  {'requestId': '31755-49512387-2', 'errorCode': '500.001.1001', 'errorMessage': 'Unable to lock subscriber, a transaction is already in process for the current subscriber'}
+ERROR 2023-11-28 22:34:07,500  3584  Internal Server Error: /donation
+Traceback (most recent call last):
+  File "C:\Users\vkori\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Emobilis\ClimateActionFrontier_EmobilisProjectShowcasing\mainapp\views.py", line 397, in initiate_payment
+    code = json_resp['ResponseCode']
+           ~~~~~~~~~^^^^^^^^^^^^^^^^
+KeyError: 'ResponseCode'
+INFO 2023-11-28 22:35:29,013  25180  Watching for file changes with StatReloader
+WARNING 2023-11-28 22:35:30,525  3584  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-28 22:35:32,553  3584  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-28 22:35:32,557  3584  Not Found: /assets/img/project/single-donation-1.jpg
+INFO 2023-11-28 22:35:49,340  3584  254728552650 50
+DEBUG 2023-11-28 22:35:49,342  3584  Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2023-11-28 22:35:50,679  3584  https://sandbox.safaricom.co.ke:443 "GET /oauth/v1/generate?grant_type=client_credentials HTTP/1.1" 200 None
+DEBUG 2023-11-28 22:35:50,694  3584  Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2023-11-28 22:35:52,858  3584  https://sandbox.safaricom.co.ke:443 "POST /mpesa/stkpush/v1/processrequest HTTP/1.1" 200 None
+DEBUG 2023-11-28 22:35:52,858  3584  {'MerchantRequestID': '18137-144873421-1', 'CheckoutRequestID': 'ws_CO_28112023223750172728552650', 'ResponseCode': '0', 'ResponseDescription': 'Success. Request accepted for processing', 'CustomerMessage': 'Success. Request accepted for processing'}
+WARNING 2023-11-28 22:35:52,956  3584  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-28 22:35:52,957  3584  Not Found: /assets/img/project/single-donation-1.jpg
+WARNING 2023-11-28 22:36:54,734  3584  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-28 22:36:56,929  3584  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-28 22:36:56,932  3584  Not Found: /assets/img/project/single-donation-1.jpg
+INFO 2023-11-28 22:37:14,539  13144  Watching for file changes with StatReloader
+WARNING 2023-11-28 22:37:16,271  3584  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-28 22:37:17,776  3584  Not Found: /assets/img/project/single-donation-1.jpg
+WARNING 2023-11-28 22:37:17,781  3584  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+INFO 2023-11-28 22:38:43,331  1772  Watching for file changes with StatReloader
+WARNING 2023-11-28 22:38:45,283  3584  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-28 22:38:52,072  3584  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-28 22:38:52,081  3584  Not Found: /assets/img/project/single-donation-1.jpg
+INFO 2023-11-28 22:39:55,940  22448  Watching for file changes with StatReloader
+WARNING 2023-11-28 22:39:59,463  3584  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-28 22:40:01,489  3584  Not Found: /assets/img/project/single-donation-1.jpg
+WARNING 2023-11-28 22:40:01,496  3584  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+INFO 2023-11-28 22:40:18,483  14712  Watching for file changes with StatReloader
+WARNING 2023-11-28 22:40:21,514  3584  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-28 22:40:23,046  3584  Not Found: /assets/img/project/single-donation-1.jpg
+WARNING 2023-11-28 22:40:23,051  3584  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+INFO 2023-11-28 22:40:42,701  9732  Watching for file changes with StatReloader
+WARNING 2023-11-28 22:40:45,054  3584  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-28 22:40:46,837  3584  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-28 22:40:46,841  3584  Not Found: /assets/img/project/single-donation-1.jpg
+INFO 2023-11-28 22:40:56,809  3584  254728552650 609
+DEBUG 2023-11-28 22:40:56,810  3584  Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2023-11-28 22:40:58,087  3584  https://sandbox.safaricom.co.ke:443 "GET /oauth/v1/generate?grant_type=client_credentials HTTP/1.1" 200 None
+DEBUG 2023-11-28 22:40:58,087  3584  Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2023-11-28 22:41:00,020  3584  https://sandbox.safaricom.co.ke:443 "POST /mpesa/stkpush/v1/processrequest HTTP/1.1" 200 None
+DEBUG 2023-11-28 22:41:00,020  3584  {'MerchantRequestID': '42446-80151576-1', 'CheckoutRequestID': 'ws_CO_28112023224406122728552650', 'ResponseCode': '0', 'ResponseDescription': 'Success. Request accepted for processing', 'CustomerMessage': 'Success. Request accepted for processing'}
+WARNING 2023-11-28 22:41:00,106  3584  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-28 22:41:00,108  3584  Not Found: /assets/img/project/single-donation-1.jpg
+INFO 2023-11-28 22:41:34,476  20964  Watching for file changes with StatReloader
+WARNING 2023-11-28 22:41:36,023  3584  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-28 22:41:48,915  3584  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-28 22:41:48,918  3584  Not Found: /assets/img/project/single-donation-1.jpg
+WARNING 2023-11-28 22:42:28,408  3584  Not Found: /assets/img/about/about-shape-2.png
+WARNING 2023-11-28 22:42:28,413  3584  Not Found: /assets/img/shape-2.png
+WARNING 2023-11-28 22:42:28,416  3584  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-28 22:42:28,484  3584  Not Found: /assets/img/about/deer.png
+WARNING 2023-11-28 22:42:28,492  3584  Not Found: /assets/img/section-shape.png
+WARNING 2023-11-28 22:42:28,492  3584  Not Found: /assets/img/team/team-shape-2.png
+WARNING 2023-11-28 22:42:28,502  3584  Not Found: /assets/img/team/team-1.jpg
+WARNING 2023-11-28 22:42:28,513  3584  Not Found: /assets/img/team/team-2.jpg
+WARNING 2023-11-28 22:42:28,542  3584  Not Found: /assets/img/team/team-3.jpg
+WARNING 2023-11-28 22:42:28,542  3584  Not Found: /assets/img/team/team-4.jpg
+WARNING 2023-11-28 22:42:28,554  3584  Not Found: /assets/img/team/team-5.jpg
+WARNING 2023-11-28 22:42:28,559  3584  Not Found: /assets/img/team/team-6.jpg
+WARNING 2023-11-28 22:42:28,570  3584  Not Found: /assets/img/shape-6.png
+WARNING 2023-11-28 22:42:28,575  3584  Not Found: /assets/img/shape-13.png
+WARNING 2023-11-28 22:42:28,587  3584  Not Found: /assets/img/about/skull.png
+WARNING 2023-11-28 22:42:28,587  3584  Not Found: /assets/img/about/leaves.png
+WARNING 2023-11-28 22:42:28,601  3584  Not Found: /assets/img/bg-shape-5.png
+WARNING 2023-11-28 22:42:32,573  3584  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-28 22:42:40,835  3584  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-28 22:42:44,774  3584  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-28 22:42:44,778  3584  Not Found: /assets/img/project/project-1.jpg
+WARNING 2023-11-28 22:42:44,784  3584  Not Found: /assets/img/shape-1.png
+WARNING 2023-11-28 22:42:44,842  3584  Not Found: /assets/img/project/project-2.jpg
+WARNING 2023-11-28 22:42:44,849  3584  Not Found: /assets/img/project/project-3.jpg
+WARNING 2023-11-28 22:42:44,853  3584  Not Found: /assets/img/project/project-4.jpg
+WARNING 2023-11-28 22:42:44,859  3584  Not Found: /assets/img/project/project-6.jpg
+WARNING 2023-11-28 22:42:44,867  3584  Not Found: /assets/img/project/project-5.jpg
+WARNING 2023-11-28 22:42:44,870  3584  Not Found: /assets/img/shape-1.png
+INFO 2023-11-28 22:55:21,190  2324  Watching for file changes with StatReloader
+WARNING 2023-11-28 22:55:23,593  3584  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-28 22:55:28,095  3584  Not Found: /assets/img/project/single-donation-1.jpg
+WARNING 2023-11-28 22:55:28,102  3584  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+INFO 2023-11-28 23:00:57,379  1248  Watching for file changes with StatReloader
+WARNING 2023-11-28 23:00:58,952  3584  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-28 23:01:00,672  3584  Not Found: /assets/img/project/single-donation-1.jpg
+WARNING 2023-11-28 23:01:00,675  3584  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-28 23:01:28,970  3584  Not Found: /assets/img/project/project-1.jpg
+WARNING 2023-11-28 23:01:28,976  3584  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-28 23:01:29,115  3584  Not Found: /assets/img/shape-1.png
+WARNING 2023-11-28 23:01:29,115  3584  Not Found: /assets/img/project/project-2.jpg
+WARNING 2023-11-28 23:01:29,126  3584  Not Found: /assets/img/project/project-3.jpg
+WARNING 2023-11-28 23:01:29,135  3584  Not Found: /assets/img/project/project-4.jpg
+WARNING 2023-11-28 23:01:29,143  3584  Not Found: /assets/img/project/project-6.jpg
+WARNING 2023-11-28 23:01:29,156  3584  Not Found: /assets/img/project/project-5.jpg
+WARNING 2023-11-28 23:01:42,190  3584  Not Found: /assets/img/project/single-donation-1.jpg
+WARNING 2023-11-28 23:01:42,193  3584  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+INFO 2023-11-28 23:07:27,317  12872  Watching for file changes with StatReloader
+WARNING 2023-11-28 23:07:28,807  3584  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-28 23:07:30,113  3584  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-28 23:07:30,116  3584  Not Found: /assets/img/project/single-donation-1.jpg
+INFO 2023-11-28 23:09:12,664  18348  Watching for file changes with StatReloader
+WARNING 2023-11-28 23:09:14,214  3584  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-28 23:09:15,896  3584  Not Found: /assets/img/project/single-donation-1.jpg
+WARNING 2023-11-28 23:09:15,901  3584  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+INFO 2023-11-28 23:10:24,566  17444  Watching for file changes with StatReloader
+WARNING 2023-11-28 23:10:26,057  3584  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-28 23:10:27,466  3584  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-28 23:10:27,472  3584  Not Found: /assets/img/project/single-donation-1.jpg
+INFO 2023-11-28 23:11:44,092  14908  Watching for file changes with StatReloader
+WARNING 2023-11-28 23:11:45,717  3584  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-28 23:11:47,750  3584  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-28 23:11:47,757  3584  Not Found: /assets/img/project/single-donation-1.jpg
+WARNING 2023-11-28 23:13:18,612  3584  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-28 23:13:50,981  3584  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-28 23:14:51,478  3584  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-28 23:15:05,372  3584  Not Found: /assets/img/project/project-1.jpg
+WARNING 2023-11-28 23:15:05,380  3584  Not Found: /assets/img/shape-1.png
+WARNING 2023-11-28 23:15:05,386  3584  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-28 23:15:05,435  3584  Not Found: /assets/img/project/project-2.jpg
+WARNING 2023-11-28 23:15:05,448  3584  Not Found: /assets/img/project/project-3.jpg
+WARNING 2023-11-28 23:15:05,452  3584  Not Found: /assets/img/project/project-4.jpg
+WARNING 2023-11-28 23:15:05,460  3584  Not Found: /assets/img/project/project-5.jpg
+WARNING 2023-11-28 23:15:05,462  3584  Not Found: /assets/img/project/project-6.jpg
+WARNING 2023-11-28 23:15:05,466  3584  Not Found: /assets/img/shape-1.png
+WARNING 2023-11-28 23:18:16,446  3584  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-28 23:19:09,472  3584  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-28 23:19:13,951  3584  Not Found: /assets/img/project/single-project-1.jpg
+WARNING 2023-11-28 23:19:13,956  3584  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-28 23:19:14,000  3584  Not Found: /assets/img/project/project-2.jpg
+WARNING 2023-11-28 23:19:14,004  3584  Not Found: /assets/img/project/project-1.jpg
+INFO 2023-11-28 23:30:47,732  23608  Watching for file changes with StatReloader
+WARNING 2023-11-28 23:30:49,463  3584  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-28 23:30:51,025  3584  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-28 23:30:51,031  3584  Not Found: /assets/img/project/single-donation-1.jpg
+INFO 2023-11-28 23:32:13,957  4288  Watching for file changes with StatReloader
+WARNING 2023-11-28 23:32:16,511  3584  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-28 23:32:18,153  3584  Not Found: /assets/img/project/single-donation-1.jpg
+WARNING 2023-11-28 23:32:18,156  3584  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+INFO 2023-11-28 23:32:59,798  20392  Watching for file changes with StatReloader
+WARNING 2023-11-28 23:33:04,875  3584  Not Found: /assets/img/project/single-donation-1.jpg
+WARNING 2023-11-28 23:33:04,878  3584  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-28 23:34:47,293  3584  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-28 23:34:48,788  3584  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-28 23:34:48,790  3584  Not Found: /assets/img/project/single-donation-1.jpg
+WARNING 2023-11-28 23:41:38,177  3584  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-28 23:41:40,697  3584  Not Found: /assets/img/project/single-donation-1.jpg
+WARNING 2023-11-28 23:41:40,702  3584  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-28 23:43:27,317  3584  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+INFO 2023-11-29 00:19:25,557  3884  Watching for file changes with StatReloader
+WARNING 2023-11-29 00:19:27,443  3584  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 00:19:30,476  3584  Not Found: /assets/img/project/project-1.jpg
+WARNING 2023-11-29 00:19:30,481  3584  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 00:19:30,542  3584  Not Found: /assets/img/shape-1.png
+WARNING 2023-11-29 00:19:30,550  3584  Not Found: /assets/img/project/project-2.jpg
+WARNING 2023-11-29 00:19:30,556  3584  Not Found: /assets/img/project/project-3.jpg
+WARNING 2023-11-29 00:19:30,560  3584  Not Found: /assets/img/project/project-4.jpg
+WARNING 2023-11-29 00:19:30,567  3584  Not Found: /assets/img/project/project-6.jpg
+WARNING 2023-11-29 00:19:30,573  3584  Not Found: /assets/img/project/project-5.jpg
+WARNING 2023-11-29 00:19:34,414  3584  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 00:19:34,414  3584  Not Found: /assets/img/project/project-1.jpg
+WARNING 2023-11-29 00:19:34,422  3584  Not Found: /assets/img/event/event-2.jpg
+WARNING 2023-11-29 00:19:34,493  3584  Not Found: /assets/img/event/event-5.jpg
+WARNING 2023-11-29 00:19:34,496  3584  Not Found: /assets/img/event/event-3.jpg
+WARNING 2023-11-29 00:19:34,501  3584  Not Found: /assets/img/event/event-6.jpg
+WARNING 2023-11-29 00:19:34,506  3584  Not Found: /assets/img/event/event-4.jpg
+WARNING 2023-11-29 00:19:34,514  3584  Not Found: /assets/img/blog/post-thumb-2.jpg
+WARNING 2023-11-29 00:19:34,524  3584  Not Found: /assets/img/blog/post-thumb-3.jpg
+INFO 2023-11-29 00:33:00,552  3584  D:\Emobilis\ClimateActionFrontier_EmobilisProjectShowcasing\mainapp\views.py changed, reloading.
+INFO 2023-11-29 00:33:01,477  14892  Watching for file changes with StatReloader
+INFO 2023-11-29 00:40:43,923  15472  Watching for file changes with StatReloader
+ERROR 2023-11-29 00:40:45,516  14892  Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\vkori\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Emobilis\ClimateActionFrontier_EmobilisProjectShowcasing\mainapp\views.py", line 23, in home
+    return render(request, "home.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'blog-details-right-sidebar' not found. 'blog-details-right-sidebar' is not a valid view function or pattern name.
+ERROR 2023-11-29 00:42:59,277  14892  Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\vkori\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Emobilis\ClimateActionFrontier_EmobilisProjectShowcasing\mainapp\views.py", line 23, in home
+    return render(request, "home.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'blog-details-right-sidebar' not found. 'blog-details-right-sidebar' is not a valid view function or pattern name.
+WARNING 2023-11-29 00:43:07,186  14892  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 00:43:16,057  14892  Not Found: /assets/img/blog/author-1.jpg
+WARNING 2023-11-29 00:43:16,061  14892  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 00:43:16,104  14892  Not Found: /assets/img/blog/author-7.jpg
+WARNING 2023-11-29 00:43:16,148  14892  Not Found: /assets/img/blog/author-3.jpg
+WARNING 2023-11-29 00:43:16,151  14892  Not Found: /assets/img/blog/author-8.jpg
+WARNING 2023-11-29 00:43:16,153  14892  Not Found: /assets/img/blog/author-4.jpg
+WARNING 2023-11-29 00:43:16,158  14892  Not Found: /assets/img/blog/author-5.jpg
+WARNING 2023-11-29 00:43:16,161  14892  Not Found: /assets/img/blog/author-6.jpg
+WARNING 2023-11-29 00:43:16,166  14892  Not Found: /assets/img/blog/author-2.jpg
+INFO 2023-11-29 00:44:10,619  1008  Watching for file changes with StatReloader
+WARNING 2023-11-29 00:44:12,685  14892  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 00:44:16,171  14892  Not Found: /assets/img/blog/author-1.jpg
+WARNING 2023-11-29 00:44:16,175  14892  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 00:44:16,228  14892  Not Found: /assets/img/blog/author-7.jpg
+WARNING 2023-11-29 00:44:16,230  14892  Not Found: /assets/img/blog/author-4.jpg
+WARNING 2023-11-29 00:44:16,240  14892  Not Found: /assets/img/blog/author-3.jpg
+WARNING 2023-11-29 00:44:16,247  14892  Not Found: /assets/img/blog/author-5.jpg
+WARNING 2023-11-29 00:44:16,249  14892  Not Found: /assets/img/blog/author-6.jpg
+WARNING 2023-11-29 00:44:16,263  14892  Not Found: /assets/img/blog/author-2.jpg
+WARNING 2023-11-29 00:44:16,267  14892  Not Found: /assets/img/blog/author-8.jpg
+WARNING 2023-11-29 00:55:09,808  14892  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 00:56:04,948  14892  Not Found: /assets/img/project/single-project-1.jpg
+WARNING 2023-11-29 00:56:04,950  14892  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 00:56:04,969  14892  Not Found: /assets/img/project/project-1.jpg
+WARNING 2023-11-29 00:56:04,973  14892  Not Found: /assets/img/project/project-2.jpg
+WARNING 2023-11-29 00:56:13,534  14892  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 00:56:19,532  14892  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 00:56:19,541  14892  Not Found: /assets/img/project/single-project-1.jpg
+WARNING 2023-11-29 00:56:19,568  14892  Not Found: /assets/img/project/project-1.jpg
+WARNING 2023-11-29 00:56:19,574  14892  Not Found: /assets/img/project/project-2.jpg
+WARNING 2023-11-29 00:57:32,620  14892  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 00:57:33,750  14892  Not Found: /assets/img/project/project-1.jpg
+WARNING 2023-11-29 00:57:33,754  14892  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 00:57:33,800  14892  Not Found: /assets/img/shape-1.png
+WARNING 2023-11-29 00:57:33,804  14892  Not Found: /assets/img/project/project-2.jpg
+WARNING 2023-11-29 00:57:33,812  14892  Not Found: /assets/img/project/project-3.jpg
+WARNING 2023-11-29 00:57:33,818  14892  Not Found: /assets/img/project/project-4.jpg
+WARNING 2023-11-29 00:57:33,821  14892  Not Found: /assets/img/project/project-6.jpg
+WARNING 2023-11-29 00:57:33,829  14892  Not Found: /assets/img/project/project-5.jpg
+WARNING 2023-11-29 00:57:38,814  14892  Not Found: /project-details.html
+WARNING 2023-11-29 00:57:49,628  14892  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 00:57:53,905  14892  Not Found: /assets/img/project/single-project-1.jpg
+WARNING 2023-11-29 00:57:53,906  14892  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 00:57:53,943  14892  Not Found: /assets/img/project/project-1.jpg
+WARNING 2023-11-29 00:57:53,946  14892  Not Found: /assets/img/project/project-2.jpg
+WARNING 2023-11-29 00:58:08,904  14892  Not Found: /project-one.html
+WARNING 2023-11-29 01:00:09,353  14892  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 01:00:21,683  14892  Not Found: /assets/img/project/single-project-1.jpg
+WARNING 2023-11-29 01:00:21,683  14892  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 01:00:21,777  14892  Not Found: /assets/img/project/project-2.jpg
+WARNING 2023-11-29 01:00:21,785  14892  Not Found: /assets/img/project/project-1.jpg
+WARNING 2023-11-29 01:00:23,629  14892  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 01:00:39,264  14892  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 01:00:46,223  14892  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 01:01:43,551  14892  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 01:01:47,823  14892  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 01:01:50,649  14892  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 01:01:52,024  14892  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 01:01:54,130  14892  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 01:01:59,895  14892  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 01:06:59,379  14892  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 01:07:18,431  14892  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 01:07:20,742  14892  Not Found: /assets/img/project/single-donation-1.jpg
+WARNING 2023-11-29 01:07:20,747  14892  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 01:07:34,485  14892  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 01:07:57,270  14892  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 01:08:06,285  14892  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 01:08:43,528  14892  Not Found: /assets/img/about/about-shape-2.png
+WARNING 2023-11-29 01:08:43,530  14892  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 01:08:43,635  14892  Not Found: /assets/img/about/deer.png
+WARNING 2023-11-29 01:08:43,638  14892  Not Found: /assets/img/shape-2.png
+WARNING 2023-11-29 01:08:43,651  14892  Not Found: /assets/img/section-shape.png
+WARNING 2023-11-29 01:08:43,654  14892  Not Found: /assets/img/team/team-shape-2.png
+WARNING 2023-11-29 01:08:43,661  14892  Not Found: /assets/img/team/team-1.jpg
+WARNING 2023-11-29 01:08:43,699  14892  Not Found: /assets/img/team/team-4.jpg
+WARNING 2023-11-29 01:08:43,703  14892  Not Found: /assets/img/team/team-3.jpg
+WARNING 2023-11-29 01:08:43,707  14892  Not Found: /assets/img/team/team-2.jpg
+WARNING 2023-11-29 01:08:43,717  14892  Not Found: /assets/img/team/team-6.jpg
+WARNING 2023-11-29 01:08:43,725  14892  Not Found: /assets/img/team/team-5.jpg
+WARNING 2023-11-29 01:08:43,729  14892  Not Found: /assets/img/shape-6.png
+WARNING 2023-11-29 01:08:43,746  14892  Not Found: /assets/img/about/skull.png
+WARNING 2023-11-29 01:08:43,752  14892  Not Found: /assets/img/shape-13.png
+WARNING 2023-11-29 01:08:43,762  14892  Not Found: /assets/img/about/leaves.png
+WARNING 2023-11-29 01:08:43,766  14892  Not Found: /assets/img/bg-shape-5.png
+WARNING 2023-11-29 01:08:56,141  14892  Not Found: /assets/img/team/team-1.jpg
+WARNING 2023-11-29 01:08:56,146  14892  Not Found: /assets/img/team/team-5.jpg
+WARNING 2023-11-29 01:08:56,150  14892  Not Found: /assets/img/team/team-3.jpg
+WARNING 2023-11-29 01:08:56,150  14892  Not Found: /assets/img/team/team-shape-2.png
+WARNING 2023-11-29 01:08:56,158  14892  Not Found: /assets/img/team/team-4.jpg
+WARNING 2023-11-29 01:08:56,162  14892  Not Found: /assets/img/team/team-2.jpg
+WARNING 2023-11-29 01:08:56,175  14892  Not Found: /assets/img/team/team-6.jpg
+WARNING 2023-11-29 01:11:03,357  14892  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 01:14:47,197  14892  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 01:14:48,943  14892  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 01:14:50,190  14892  Not Found: /assets/img/about/about-shape-2.png
+WARNING 2023-11-29 01:14:50,197  14892  Not Found: /assets/img/shape-2.png
+WARNING 2023-11-29 01:14:50,202  14892  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 01:14:50,269  14892  Not Found: /assets/img/section-shape.png
+WARNING 2023-11-29 01:14:50,276  14892  Not Found: /assets/img/about/deer.png
+WARNING 2023-11-29 01:14:50,288  14892  Not Found: /assets/img/team/team-2.jpg
+WARNING 2023-11-29 01:14:50,294  14892  Not Found: /assets/img/team/team-1.jpg
+WARNING 2023-11-29 01:14:50,298  14892  Not Found: /assets/img/team/team-shape-2.png
+WARNING 2023-11-29 01:14:50,324  14892  Not Found: /assets/img/team/team-3.jpg
+WARNING 2023-11-29 01:14:50,331  14892  Not Found: /assets/img/team/team-4.jpg
+WARNING 2023-11-29 01:14:50,334  14892  Not Found: /assets/img/team/team-5.jpg
+WARNING 2023-11-29 01:14:50,375  14892  Not Found: /assets/img/shape-6.png
+WARNING 2023-11-29 01:14:50,377  14892  Not Found: /assets/img/team/team-6.jpg
+WARNING 2023-11-29 01:14:50,379  14892  Not Found: /assets/img/shape-13.png
+WARNING 2023-11-29 01:14:50,392  14892  Not Found: /assets/img/bg-shape-5.png
+WARNING 2023-11-29 01:14:50,396  14892  Not Found: /assets/img/about/skull.png
+WARNING 2023-11-29 01:14:50,398  14892  Not Found: /assets/img/about/leaves.png
+WARNING 2023-11-29 01:15:04,003  14892  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 01:15:05,385  14892  Not Found: /assets/img/about/about-shape-2.png
+WARNING 2023-11-29 01:15:05,387  14892  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 01:15:05,469  14892  Not Found: /assets/img/about/deer.png
+WARNING 2023-11-29 01:15:05,474  14892  Not Found: /assets/img/shape-2.png
+WARNING 2023-11-29 01:15:05,482  14892  Not Found: /assets/img/section-shape.png
+WARNING 2023-11-29 01:15:05,491  14892  Not Found: /assets/img/team/team-1.jpg
+WARNING 2023-11-29 01:15:05,496  14892  Not Found: /assets/img/team/team-shape-2.png
+WARNING 2023-11-29 01:15:05,531  14892  Not Found: /assets/img/team/team-4.jpg
+WARNING 2023-11-29 01:15:05,540  14892  Not Found: /assets/img/team/team-2.jpg
+WARNING 2023-11-29 01:15:05,543  14892  Not Found: /assets/img/team/team-3.jpg
+WARNING 2023-11-29 01:15:05,543  14892  Not Found: /assets/img/team/team-5.jpg
+WARNING 2023-11-29 01:15:05,557  14892  Not Found: /assets/img/shape-6.png
+WARNING 2023-11-29 01:15:05,563  14892  Not Found: /assets/img/team/team-6.jpg
+WARNING 2023-11-29 01:15:05,571  14892  Not Found: /assets/img/shape-13.png
+WARNING 2023-11-29 01:15:05,588  14892  Not Found: /assets/img/bg-shape-5.png
+WARNING 2023-11-29 01:15:05,590  14892  Not Found: /assets/img/about/leaves.png
+WARNING 2023-11-29 01:15:05,593  14892  Not Found: /assets/img/about/skull.png
+INFO 2023-11-29 01:15:34,516  5880  Watching for file changes with StatReloader
+WARNING 2023-11-29 01:15:36,274  14892  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 01:15:37,749  14892  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 01:15:37,755  14892  Not Found: /assets/img/about/about-shape-2.png
+WARNING 2023-11-29 01:15:37,833  14892  Not Found: /assets/img/shape-2.png
+WARNING 2023-11-29 01:15:37,837  14892  Not Found: /assets/img/about/deer.png
+WARNING 2023-11-29 01:15:37,855  14892  Not Found: /assets/img/section-shape.png
+WARNING 2023-11-29 01:15:37,862  14892  Not Found: /assets/img/team/team-shape-2.png
+WARNING 2023-11-29 01:15:37,867  14892  Not Found: /assets/img/team/team-1.jpg
+WARNING 2023-11-29 01:15:37,886  14892  Not Found: /assets/img/team/team-3.jpg
+WARNING 2023-11-29 01:15:37,889  14892  Not Found: /assets/img/team/team-2.jpg
+WARNING 2023-11-29 01:15:37,894  14892  Not Found: /assets/img/team/team-4.jpg
+WARNING 2023-11-29 01:15:37,912  14892  Not Found: /assets/img/team/team-5.jpg
+WARNING 2023-11-29 01:15:37,925  14892  Not Found: /assets/img/shape-6.png
+WARNING 2023-11-29 01:15:37,930  14892  Not Found: /assets/img/team/team-6.jpg
+WARNING 2023-11-29 01:15:37,936  14892  Not Found: /assets/img/shape-13.png
+WARNING 2023-11-29 01:15:37,942  14892  Not Found: /assets/img/about/skull.png
+WARNING 2023-11-29 01:15:37,944  14892  Not Found: /assets/img/about/leaves.png
+WARNING 2023-11-29 01:15:37,950  14892  Not Found: /assets/img/bg-shape-5.png
+WARNING 2023-11-29 01:15:50,402  14892  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 01:15:53,328  14892  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 01:15:53,328  14892  Not Found: /assets/img/about/about-shape-2.png
+WARNING 2023-11-29 01:15:53,391  14892  Not Found: /assets/img/shape-2.png
+WARNING 2023-11-29 01:15:53,398  14892  Not Found: /assets/img/about/deer.png
+WARNING 2023-11-29 01:15:53,404  14892  Not Found: /assets/img/section-shape.png
+WARNING 2023-11-29 01:15:53,417  14892  Not Found: /assets/img/team/team-shape-2.png
+WARNING 2023-11-29 01:15:53,427  14892  Not Found: /assets/img/team/team-1.jpg
+WARNING 2023-11-29 01:15:53,451  14892  Not Found: /assets/img/team/team-3.jpg
+WARNING 2023-11-29 01:15:53,459  14892  Not Found: /assets/img/team/team-2.jpg
+WARNING 2023-11-29 01:15:53,461  14892  Not Found: /assets/img/team/team-5.jpg
+WARNING 2023-11-29 01:15:53,461  14892  Not Found: /assets/img/team/team-4.jpg
+WARNING 2023-11-29 01:15:53,483  14892  Not Found: /assets/img/team/team-6.jpg
+WARNING 2023-11-29 01:15:53,483  14892  Not Found: /assets/img/shape-6.png
+WARNING 2023-11-29 01:15:53,502  14892  Not Found: /assets/img/shape-13.png
+WARNING 2023-11-29 01:15:53,509  14892  Not Found: /assets/img/about/leaves.png
+WARNING 2023-11-29 01:15:53,509  14892  Not Found: /assets/img/about/skull.png
+WARNING 2023-11-29 01:15:53,509  14892  Not Found: /assets/img/bg-shape-5.png
+WARNING 2023-11-29 01:18:24,159  14892  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 01:18:26,726  14892  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 01:18:26,731  14892  Not Found: /assets/img/about/about-shape-2.png
+WARNING 2023-11-29 01:18:26,786  14892  Not Found: /assets/img/section-shape.png
+WARNING 2023-11-29 01:18:26,788  14892  Not Found: /assets/img/about/deer.png
+WARNING 2023-11-29 01:18:26,791  14892  Not Found: /assets/img/shape-2.png
+WARNING 2023-11-29 01:18:26,797  14892  Not Found: /assets/img/team/team-1.jpg
+WARNING 2023-11-29 01:18:26,804  14892  Not Found: /assets/img/team/team-shape-2.png
+WARNING 2023-11-29 01:18:26,843  14892  Not Found: /assets/img/team/team-2.jpg
+WARNING 2023-11-29 01:18:26,848  14892  Not Found: /assets/img/team/team-4.jpg
+WARNING 2023-11-29 01:18:26,850  14892  Not Found: /assets/img/team/team-3.jpg
+WARNING 2023-11-29 01:18:26,855  14892  Not Found: /assets/img/team/team-6.jpg
+WARNING 2023-11-29 01:18:26,860  14892  Not Found: /assets/img/team/team-5.jpg
+WARNING 2023-11-29 01:18:26,868  14892  Not Found: /assets/img/shape-6.png
+WARNING 2023-11-29 01:18:26,890  14892  Not Found: /assets/img/about/leaves.png
+WARNING 2023-11-29 01:18:26,896  14892  Not Found: /assets/img/about/skull.png
+WARNING 2023-11-29 01:18:26,899  14892  Not Found: /assets/img/shape-13.png
+WARNING 2023-11-29 01:18:26,901  14892  Not Found: /assets/img/bg-shape-5.png
+WARNING 2023-11-29 01:18:32,129  14892  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 01:18:42,194  14892  Not Found: /assets/img/about/about-shape-2.png
+WARNING 2023-11-29 01:18:42,205  14892  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 01:18:42,253  14892  Not Found: /assets/img/shape-2.png
+WARNING 2023-11-29 01:18:42,258  14892  Not Found: /assets/img/about/deer.png
+WARNING 2023-11-29 01:18:42,258  14892  Not Found: /assets/img/section-shape.png
+WARNING 2023-11-29 01:18:42,266  14892  Not Found: /assets/img/team/team-shape-2.png
+WARNING 2023-11-29 01:18:42,266  14892  Not Found: /assets/img/team/team-1.jpg
+WARNING 2023-11-29 01:18:42,309  14892  Not Found: /assets/img/team/team-2.jpg
+WARNING 2023-11-29 01:18:42,314  14892  Not Found: /assets/img/team/team-4.jpg
+WARNING 2023-11-29 01:18:42,317  14892  Not Found: /assets/img/team/team-3.jpg
+WARNING 2023-11-29 01:18:42,321  14892  Not Found: /assets/img/team/team-5.jpg
+WARNING 2023-11-29 01:18:42,332  14892  Not Found: /assets/img/shape-6.png
+WARNING 2023-11-29 01:18:42,332  14892  Not Found: /assets/img/team/team-6.jpg
+WARNING 2023-11-29 01:18:42,363  14892  Not Found: /assets/img/shape-13.png
+WARNING 2023-11-29 01:18:42,366  14892  Not Found: /assets/img/about/skull.png
+WARNING 2023-11-29 01:18:42,371  14892  Not Found: /assets/img/about/leaves.png
+WARNING 2023-11-29 01:18:42,375  14892  Not Found: /assets/img/bg-shape-5.png
+WARNING 2023-11-29 01:18:42,375  14892  Not Found: /assets/img/team/team-shape-2.png
+WARNING 2023-11-29 01:19:13,820  14892  Not Found: /assets/img/team/team-1.jpg
+WARNING 2023-11-29 01:19:13,841  14892  Not Found: /assets/img/team/team-2.jpg
+WARNING 2023-11-29 01:19:13,841  14892  Not Found: /assets/img/team/team-shape-2.png
+WARNING 2023-11-29 01:19:13,854  14892  Not Found: /assets/img/team/team-3.jpg
+WARNING 2023-11-29 01:19:13,862  14892  Not Found: /assets/img/team/team-4.jpg
+WARNING 2023-11-29 01:19:13,865  14892  Not Found: /assets/img/team/team-5.jpg
+WARNING 2023-11-29 01:19:13,878  14892  Not Found: /assets/img/team/team-6.jpg
+INFO 2023-11-29 01:24:03,784  25540  Watching for file changes with StatReloader
+WARNING 2023-11-29 01:24:05,355  14892  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 01:24:07,655  14892  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 01:24:14,834  14892  Not Found: /team-details.html
+WARNING 2023-11-29 01:28:50,604  14892  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 01:28:52,590  14892  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+INFO 2023-11-29 01:28:59,752  540  Watching for file changes with StatReloader
+WARNING 2023-11-29 01:29:03,435  14892  Not Found: /assets/img/team/team-1.jpg
+WARNING 2023-11-29 01:29:03,439  14892  Not Found: /assets/img/team/team-shape-2.png
+WARNING 2023-11-29 01:29:03,439  14892  Not Found: /assets/img/team/team-3.jpg
+WARNING 2023-11-29 01:29:03,451  14892  Not Found: /assets/img/team/team-2.jpg
+WARNING 2023-11-29 01:29:03,455  14892  Not Found: /assets/img/team/team-5.jpg
+WARNING 2023-11-29 01:29:03,455  14892  Not Found: /assets/img/team/team-4.jpg
+WARNING 2023-11-29 01:29:03,469  14892  Not Found: /assets/img/team/team-6.jpg
+ERROR 2023-11-29 01:29:09,902  14892  Internal Server Error: /about
+Traceback (most recent call last):
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: "url'home'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\vkori\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Emobilis\ClimateActionFrontier_EmobilisProjectShowcasing\mainapp\views.py", line 100, in about
+    return render(request, "about.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 21: 'url'home'', expected 'endblock'. Did you forget to register or load this tag?
+INFO 2023-11-29 01:29:51,754  19500  Watching for file changes with StatReloader
+WARNING 2023-11-29 01:29:53,353  14892  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+ERROR 2023-11-29 01:29:54,519  14892  Internal Server Error: /about
+Traceback (most recent call last):
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: "url'team-details'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\vkori\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Emobilis\ClimateActionFrontier_EmobilisProjectShowcasing\mainapp\views.py", line 100, in about
+    return render(request, "about.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 87: 'url'team-details'', expected 'endblock'. Did you forget to register or load this tag?
+INFO 2023-11-29 01:30:41,536  14728  Watching for file changes with StatReloader
+WARNING 2023-11-29 01:30:43,143  14892  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 01:30:44,488  14892  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 01:30:48,423  14892  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 01:30:48,431  14892  Not Found: /assets/img/team/single-team-1.jpg
+WARNING 2023-11-29 01:30:50,801  14892  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 01:30:58,657  14892  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 01:31:03,660  14892  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 01:31:08,137  14892  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 01:31:10,812  14892  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 01:32:10,173  14892  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+ERROR 2023-11-29 01:32:13,171  14892  Internal Server Error: /about
+Traceback (most recent call last):
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: "url'donation'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\vkori\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Emobilis\ClimateActionFrontier_EmobilisProjectShowcasing\mainapp\views.py", line 100, in about
+    return render(request, "about.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 283: 'url'donation'', expected 'endblock'. Did you forget to register or load this tag?
+WARNING 2023-11-29 01:32:26,561  14892  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 01:32:30,063  14892  Not Found: /assets/img/project/single-donation-1.jpg
+WARNING 2023-11-29 01:32:30,070  14892  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 01:33:23,152  14892  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 01:33:24,721  14892  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+INFO 2023-11-29 01:34:39,347  26340  Watching for file changes with StatReloader
+WARNING 2023-11-29 01:34:52,913  14892  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 01:35:27,661  14892  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 01:35:27,667  14892  Not Found: /assets/img/project/project-1.jpg
+WARNING 2023-11-29 01:35:27,717  14892  Not Found: /assets/img/shape-1.png
+WARNING 2023-11-29 01:35:27,720  14892  Not Found: /assets/img/project/project-2.jpg
+WARNING 2023-11-29 01:35:27,727  14892  Not Found: /assets/img/project/project-3.jpg
+WARNING 2023-11-29 01:35:27,730  14892  Not Found: /assets/img/project/project-4.jpg
+WARNING 2023-11-29 01:35:27,733  14892  Not Found: /assets/img/project/project-6.jpg
+WARNING 2023-11-29 01:35:27,745  14892  Not Found: /assets/img/project/project-5.jpg
+WARNING 2023-11-29 01:35:34,242  14892  Not Found: /project-one.html
+INFO 2023-11-29 01:44:30,604  27536  Watching for file changes with StatReloader
+WARNING 2023-11-29 01:44:32,573  14892  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 01:44:34,505  14892  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 01:44:37,273  14892  Not Found: /assets/img/project/single-project-1.jpg
+WARNING 2023-11-29 01:44:37,273  14892  Not Found: /assets/img/project/project-1.jpg
+WARNING 2023-11-29 01:44:37,285  14892  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 01:44:37,324  14892  Not Found: /assets/img/project/project-2.jpg
+WARNING 2023-11-29 01:44:41,465  14892  Not Found: /assets/img/project/single-project-1.jpg
+WARNING 2023-11-29 01:44:41,465  14892  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 01:44:41,465  14892  Not Found: /assets/img/project/project-1.jpg
+WARNING 2023-11-29 01:44:41,501  14892  Not Found: /assets/img/project/project-2.jpg
+WARNING 2023-11-29 01:44:44,942  14892  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 01:44:44,948  14892  Not Found: /assets/img/project/single-project-1.jpg
+WARNING 2023-11-29 01:44:44,948  14892  Not Found: /assets/img/project/project-1.jpg
+WARNING 2023-11-29 01:44:44,982  14892  Not Found: /assets/img/project/project-2.jpg
+WARNING 2023-11-29 01:44:58,699  14892  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 01:45:01,946  14892  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 01:45:04,844  14892  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 01:50:58,154  14892  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 01:51:15,508  14892  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 01:51:18,611  14892  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 01:52:44,295  14892  Not Found: /assets/img/project/single-donation-1.jpg
+WARNING 2023-11-29 01:52:44,303  14892  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+INFO 2023-11-29 01:59:55,498  3292  Watching for file changes with StatReloader
+WARNING 2023-11-29 01:59:57,212  14892  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 02:00:03,542  14892  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+INFO 2023-11-29 02:11:19,655  13376  Watching for file changes with StatReloader
+WARNING 2023-11-29 02:12:15,721  14892  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+INFO 2023-11-29 02:13:44,892  20536  Watching for file changes with StatReloader
+WARNING 2023-11-29 02:13:46,386  14892  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 02:13:51,210  14892  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 02:13:53,821  14892  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 02:14:04,383  14892  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 02:15:12,266  14892  Not Found: /assets/img/project/single-donation-1.jpg
+WARNING 2023-11-29 02:15:12,270  14892  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+INFO 2023-11-29 02:18:25,921  16788  Watching for file changes with StatReloader
+WARNING 2023-11-29 02:18:27,550  14892  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 02:18:37,678  14892  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 02:18:37,680  14892  Not Found: /assets/img/project/single-donation-1.jpg
+INFO 2023-11-29 02:19:39,908  21820  Watching for file changes with StatReloader
+WARNING 2023-11-29 02:19:41,413  14892  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 02:19:43,435  14892  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 02:20:37,041  14892  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 02:20:37,041  14892  Not Found: /assets/img/blog/author-1.jpg
+WARNING 2023-11-29 02:20:37,164  14892  Not Found: /assets/img/blog/author-7.jpg
+WARNING 2023-11-29 02:20:37,174  14892  Not Found: /assets/img/blog/author-3.jpg
+WARNING 2023-11-29 02:20:37,182  14892  Not Found: /assets/img/blog/author-5.jpg
+WARNING 2023-11-29 02:20:37,188  14892  Not Found: /assets/img/blog/author-6.jpg
+WARNING 2023-11-29 02:20:37,188  14892  Not Found: /assets/img/blog/author-4.jpg
+WARNING 2023-11-29 02:20:37,208  14892  Not Found: /assets/img/blog/author-8.jpg
+WARNING 2023-11-29 02:20:37,212  14892  Not Found: /assets/img/blog/author-2.jpg
+INFO 2023-11-29 02:30:14,951  17092  Watching for file changes with StatReloader
+WARNING 2023-11-29 02:30:16,607  14892  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+ERROR 2023-11-29 02:30:19,809  14892  Internal Server Error: /event
+Traceback (most recent call last):
+  File "C:\Users\vkori\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Emobilis\ClimateActionFrontier_EmobilisProjectShowcasing\mainapp\views.py", line 188, in event
+    return render(request, "event.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'blog-details-no-sideba' not found. 'blog-details-no-sideba' is not a valid view function or pattern name.
+WARNING 2023-11-29 02:30:38,696  14892  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+ERROR 2023-11-29 02:30:41,930  14892  Internal Server Error: /event
+Traceback (most recent call last):
+  File "C:\Users\vkori\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Emobilis\ClimateActionFrontier_EmobilisProjectShowcasing\mainapp\views.py", line 188, in event
+    return render(request, "event.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'post-by-date' not found. 'post-by-date' is not a valid view function or pattern name.
+WARNING 2023-11-29 02:32:01,841  14892  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 02:32:03,519  14892  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+ERROR 2023-11-29 02:32:05,180  14892  Internal Server Error: /event
+Traceback (most recent call last):
+  File "C:\Users\vkori\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Emobilis\ClimateActionFrontier_EmobilisProjectShowcasing\mainapp\views.py", line 188, in event
+    return render(request, "event.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for '#' not found. '#' is not a valid view function or pattern name.
+INFO 2023-11-29 02:32:22,377  2360  Watching for file changes with StatReloader
+WARNING 2023-11-29 02:32:23,992  14892  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 02:32:25,703  14892  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 02:32:41,019  14892  Not Found: /assets/img/event/single-event-1.jpg
+WARNING 2023-11-29 02:32:41,021  14892  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 02:32:41,089  14892  Not Found: /assets/img/event/single-event-2.jpg
+WARNING 2023-11-29 02:32:41,095  14892  Not Found: /assets/img/event/single-event-3.jpg
+WARNING 2023-11-29 02:34:09,077  14892  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 02:34:11,768  14892  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 02:34:25,265  14892  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 02:34:27,318  14892  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 02:34:29,340  14892  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 02:34:52,118  14892  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 02:34:52,118  14892  Not Found: /assets/img/event/single-event-1.jpg
+WARNING 2023-11-29 02:34:52,171  14892  Not Found: /assets/img/event/single-event-2.jpg
+WARNING 2023-11-29 02:34:52,174  14892  Not Found: /assets/img/event/single-event-3.jpg
+WARNING 2023-11-29 02:36:41,366  14892  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 02:36:44,977  14892  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 02:36:47,640  14892  Not Found: /assets/img/event/single-event-1.jpg
+WARNING 2023-11-29 02:36:47,645  14892  Not Found: /assets/img/event/single-event-2.jpg
+WARNING 2023-11-29 02:36:47,645  14892  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 02:36:47,691  14892  Not Found: /assets/img/event/single-event-3.jpg
+INFO 2023-11-29 02:38:43,504  21728  Watching for file changes with StatReloader
+WARNING 2023-11-29 02:38:45,029  14892  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 02:38:48,326  14892  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 02:39:06,398  14892  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 02:43:24,619  14892  Not Found: /assets/img/blog/author-1.jpg
+WARNING 2023-11-29 02:43:24,624  14892  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 02:43:24,720  14892  Not Found: /assets/img/blog/author-7.jpg
+WARNING 2023-11-29 02:43:24,735  14892  Not Found: /assets/img/blog/author-4.jpg
+WARNING 2023-11-29 02:43:24,740  14892  Not Found: /assets/img/blog/author-5.jpg
+WARNING 2023-11-29 02:43:24,742  14892  Not Found: /assets/img/blog/author-6.jpg
+WARNING 2023-11-29 02:43:24,752  14892  Not Found: /assets/img/blog/author-3.jpg
+WARNING 2023-11-29 02:43:24,767  14892  Not Found: /assets/img/blog/author-2.jpg
+WARNING 2023-11-29 02:43:24,771  14892  Not Found: /assets/img/blog/author-8.jpg
+WARNING 2023-11-29 02:44:04,354  14892  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 02:44:08,502  14892  Not Found: /404
+INFO 2023-11-29 02:44:30,795  14892  D:\Emobilis\ClimateActionFrontier_EmobilisProjectShowcasing\ClimateActionFrontier_EmobilisProjectShowcasing\settings.py changed, reloading.
+INFO 2023-11-29 02:44:31,335  21876  Watching for file changes with StatReloader
+INFO 2023-11-29 02:44:31,564  3692  Watching for file changes with StatReloader
+WARNING 2023-11-29 02:44:34,942  21876  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 02:44:34,946  21876  Not Found: /static/app/assets/js/tweenmax.min.js a
+WARNING 2023-11-29 02:44:34,977  21876  Not Found: /static/app/ assets/img/team/team-shape-2.png
+WARNING 2023-11-29 02:44:35,293  21876  Not Found: /static/app/ assets/img/team/team-shape-2.png
+WARNING 2023-11-29 02:44:37,981  21876  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 02:44:37,986  21876  Not Found: /static/app/assets/js/tweenmax.min.js a
+WARNING 2023-11-29 02:44:42,350  21876  Not Found: /login,
+WARNING 2023-11-29 02:44:42,426  21876  Not Found: /static/app/assets/img/404.png 
+WARNING 2023-11-29 02:44:42,431  21876  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 02:44:42,474  21876  Not Found: /static/app/assets/js/tweenmax.min.js a
+WARNING 2023-11-29 02:45:48,087  21876  Not Found: /login,
+WARNING 2023-11-29 02:45:48,201  21876  Not Found: /static/app/assets/img/404.png 
+WARNING 2023-11-29 02:45:48,204  21876  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 02:45:48,230  21876  Not Found: /static/app/assets/js/tweenmax.min.js a
+WARNING 2023-11-29 02:45:48,604  21876  Not Found: /login,
+WARNING 2023-11-29 02:45:48,657  21876  Not Found: /static/app/assets/img/404.png 
+WARNING 2023-11-29 02:45:48,658  21876  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 02:45:48,705  21876  Not Found: /static/app/assets/js/tweenmax.min.js a
+WARNING 2023-11-29 02:45:48,790  21876  Not Found: /login,
+WARNING 2023-11-29 02:45:48,847  21876  Not Found: /static/app/assets/img/404.png 
+WARNING 2023-11-29 02:45:48,854  21876  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 02:45:48,899  21876  Not Found: /static/app/assets/js/tweenmax.min.js a
+WARNING 2023-11-29 02:45:49,387  21876  Not Found: /login,
+WARNING 2023-11-29 02:45:49,436  21876  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 02:45:49,436  21876  Not Found: /static/app/assets/img/404.png 
+WARNING 2023-11-29 02:45:49,477  21876  Not Found: /static/app/assets/js/tweenmax.min.js a
+WARNING 2023-11-29 02:45:49,583  21876  Not Found: /login,
+WARNING 2023-11-29 02:45:49,631  21876  Not Found: /static/app/assets/img/404.png 
+WARNING 2023-11-29 02:45:49,636  21876  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 02:45:49,678  21876  Not Found: /static/app/assets/js/tweenmax.min.js a
+INFO 2023-11-29 02:47:04,785  15716  Watching for file changes with StatReloader
+WARNING 2023-11-29 02:47:09,437  3692  Not Found: /login,
+WARNING 2023-11-29 02:47:09,492  3692  Not Found: /static/app/assets/img/404.png 
+WARNING 2023-11-29 02:47:09,495  3692  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 02:47:09,577  3692  Not Found: /static/app/assets/js/tweenmax.min.js a
+WARNING 2023-11-29 02:47:42,398  3692  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 02:47:42,417  3692  Not Found: /static/app/assets/js/tweenmax.min.js a
+WARNING 2023-11-29 02:47:42,455  3692  Not Found: /static/app/ assets/img/team/team-shape-2.png
+WARNING 2023-11-29 02:47:42,805  3692  Not Found: /static/app/ assets/img/team/team-shape-2.png
+WARNING 2023-11-29 02:47:46,866  3692  Not Found: /login,
+WARNING 2023-11-29 02:47:46,924  3692  Not Found: /static/app/assets/img/404.png 
+WARNING 2023-11-29 02:47:46,929  3692  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 02:47:46,959  3692  Not Found: /static/app/assets/js/tweenmax.min.js a
+INFO 2023-11-29 02:48:38,359  9716  Watching for file changes with StatReloader
+WARNING 2023-11-29 02:48:39,779  3692  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 02:48:39,796  3692  Not Found: /static/app/assets/js/tweenmax.min.js a
+WARNING 2023-11-29 02:48:39,824  3692  Not Found: /static/app/ assets/img/team/team-shape-2.png
+WARNING 2023-11-29 02:48:40,142  3692  Not Found: /static/app/ assets/img/team/team-shape-2.png
+WARNING 2023-11-29 02:48:43,218  3692  Not Found: /login,
+WARNING 2023-11-29 02:48:43,282  3692  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 02:48:43,314  3692  Not Found: /static/app/assets/js/tweenmax.min.js a
+WARNING 2023-11-29 02:48:43,317  3692  Not Found: /static/app/assets/img/404.png 
+WARNING 2023-11-29 02:49:12,532  3692  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 02:49:12,557  3692  Not Found: /static/app/assets/js/tweenmax.min.js a
+WARNING 2023-11-29 02:49:12,597  3692  Not Found: /static/app/ assets/img/team/team-shape-2.png
+WARNING 2023-11-29 02:49:12,866  3692  Not Found: /static/app/ assets/img/team/team-shape-2.png
+WARNING 2023-11-29 02:49:15,730  3692  Not Found: /login,
+WARNING 2023-11-29 02:49:15,794  3692  Not Found: /static/app/assets/img/404.png
+WARNING 2023-11-29 02:49:15,800  3692  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 02:49:15,826  3692  Not Found: /static/app/assets/js/tweenmax.min.js a
+WARNING 2023-11-29 02:49:17,903  3692  Not Found: /login,
+WARNING 2023-11-29 02:49:17,956  3692  Not Found: /static/app/assets/img/404.png
+WARNING 2023-11-29 02:49:17,961  3692  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 02:49:18,000  3692  Not Found: /static/app/assets/js/tweenmax.min.js a
+WARNING 2023-11-29 02:49:18,538  3692  Not Found: /login,
+WARNING 2023-11-29 02:49:18,590  3692  Not Found: /static/app/assets/img/404.png
+WARNING 2023-11-29 02:49:18,595  3692  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 02:49:18,633  3692  Not Found: /static/app/assets/js/tweenmax.min.js a
+INFO 2023-11-29 02:51:12,729  3156  Watching for file changes with StatReloader
+INFO 2023-11-29 02:51:40,473  24048  Watching for file changes with StatReloader
+WARNING 2023-11-29 02:51:42,281  3692  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 02:51:42,320  3692  Not Found: /static/app/assets/js/tweenmax.min.js a
+WARNING 2023-11-29 02:51:42,348  3692  Not Found: /static/app/ assets/img/team/team-shape-2.png
+WARNING 2023-11-29 02:51:42,648  3692  Not Found: /static/app/ assets/img/team/team-shape-2.png
+WARNING 2023-11-29 02:51:48,235  3692  Not Found: /login,
+WARNING 2023-11-29 02:51:48,285  3692  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 02:51:48,317  3692  Not Found: /static/app/assets/img/404.jpg
+WARNING 2023-11-29 02:51:48,333  3692  Not Found: /static/app/assets/js/tweenmax.min.js a
+INFO 2023-11-29 02:52:24,930  21464  Watching for file changes with StatReloader
+WARNING 2023-11-29 02:52:26,438  3692  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 02:52:26,464  3692  Not Found: /static/app/assets/js/tweenmax.min.js a
+WARNING 2023-11-29 02:52:26,501  3692  Not Found: /static/app/ assets/img/team/team-shape-2.png
+WARNING 2023-11-29 02:52:26,833  3692  Not Found: /static/app/ assets/img/team/team-shape-2.png
+WARNING 2023-11-29 02:52:29,720  3692  Not Found: /login,
+WARNING 2023-11-29 02:52:29,773  3692  Not Found: /static/app/assets/img/team/404.jpg
+WARNING 2023-11-29 02:52:29,777  3692  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 02:52:29,781  3692  Not Found: /static/app/assets/js/tweenmax.min.js a
+INFO 2023-11-29 02:57:02,562  24648  Watching for file changes with StatReloader
+WARNING 2023-11-29 02:57:04,307  3692  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 02:57:04,325  3692  Not Found: /static/app/assets/js/tweenmax.min.js a
+WARNING 2023-11-29 02:57:04,357  3692  Not Found: /static/app/ assets/img/team/team-shape-2.png
+WARNING 2023-11-29 02:57:04,686  3692  Not Found: /static/app/ assets/img/team/team-shape-2.png
+WARNING 2023-11-29 02:57:09,794  3692  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 02:57:09,795  3692  Not Found: /static/app/assets/js/tweenmax.min.js a
+WARNING 2023-11-29 02:57:14,972  3692  Not Found: /loginl
+WARNING 2023-11-29 02:57:15,027  3692  Not Found: /static/app/assets/img/404.png
+WARNING 2023-11-29 02:57:15,034  3692  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 02:57:15,069  3692  Not Found: /static/app/assets/js/tweenmax.min.js a
+INFO 2023-11-29 02:58:07,268  1428  Watching for file changes with StatReloader
+WARNING 2023-11-29 02:58:10,628  3692  Not Found: /loginl
+WARNING 2023-11-29 02:58:10,681  3692  Not Found: /static/app/assets/img/404.jpg
+WARNING 2023-11-29 02:58:10,684  3692  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 02:58:10,720  3692  Not Found: /static/app/assets/js/tweenmax.min.js a
+WARNING 2023-11-29 02:58:10,722  3692  Not Found: /static/app/assets/img/404.png
+WARNING 2023-11-29 03:01:22,515  3692  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 03:01:22,525  3692  Not Found: /static/app/assets/js/tweenmax.min.js a
+WARNING 2023-11-29 03:01:22,560  3692  Not Found: /static/app/ assets/img/team/team-shape-2.png
+WARNING 2023-11-29 03:01:22,821  3692  Not Found: /static/app/ assets/img/team/team-shape-2.png
+INFO 2023-11-29 03:02:03,744  16684  Watching for file changes with StatReloader
+WARNING 2023-11-29 03:02:05,375  1428  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 03:02:05,393  1428  Not Found: /static/app/assets/js/tweenmax.min.js a
+WARNING 2023-11-29 03:02:05,441  1428  Not Found: /static/app/ assets/img/team/team-shape-2.png
+WARNING 2023-11-29 03:02:05,936  1428  Not Found: /static/app/ assets/img/team/team-shape-2.png
+WARNING 2023-11-29 03:02:12,379  1428  Not Found: /loginl
+WARNING 2023-11-29 03:02:12,433  1428  Not Found: /static/app/assets/img/404.jpg
+WARNING 2023-11-29 03:02:12,442  1428  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 03:02:12,508  1428  Not Found: /static/app/assets/js/tweenmax.min.js a
+WARNING 2023-11-29 03:02:12,525  1428  Not Found: /static/app/assets/img/404.png
+WARNING 2023-11-29 03:02:13,632  1428  Not Found: /loginl
+WARNING 2023-11-29 03:02:13,684  1428  Not Found: /static/app/assets/img/404.jpg
+WARNING 2023-11-29 03:02:13,686  1428  Not Found: /static/app/assets/img/404.png
+WARNING 2023-11-29 03:02:13,695  1428  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 03:02:13,725  1428  Not Found: /static/app/assets/js/tweenmax.min.js a
+WARNING 2023-11-29 03:02:14,378  1428  Not Found: /loginl
+WARNING 2023-11-29 03:02:14,428  1428  Not Found: /static/app/assets/img/404.jpg
+WARNING 2023-11-29 03:02:14,431  1428  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 03:02:14,431  1428  Not Found: /static/app/assets/img/404.png
+WARNING 2023-11-29 03:02:14,459  1428  Not Found: /static/app/assets/js/tweenmax.min.js a
+WARNING 2023-11-29 03:02:14,644  1428  Not Found: /loginl
+WARNING 2023-11-29 03:02:14,697  1428  Not Found: /static/app/assets/img/404.jpg
+WARNING 2023-11-29 03:02:14,697  1428  Not Found: /static/app/assets/img/404.png
+WARNING 2023-11-29 03:02:14,697  1428  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 03:02:14,726  1428  Not Found: /static/app/assets/js/tweenmax.min.js a
+WARNING 2023-11-29 03:03:47,947  1428  Not Found: /loginl
+WARNING 2023-11-29 03:03:47,976  1428  Not Found: /static/app/assets/css/bootstrap.min.css
+WARNING 2023-11-29 03:03:47,989  1428  Not Found: /static/app/assets/css/flaticon.css 
+WARNING 2023-11-29 03:03:47,994  1428  Not Found: /static/app/assets/css/owl.carousel.min.css 
+WARNING 2023-11-29 03:03:47,997  1428  Not Found: /static/app/assets/css/remixicon.css 
+WARNING 2023-11-29 03:03:48,001  1428  Not Found: /static/app/assets/css/owl-theme-default-min.css 
+WARNING 2023-11-29 03:03:48,006  1428  Not Found: /static/app/assets/css/odometer.min.css 
+WARNING 2023-11-29 03:03:48,012  1428  Not Found: /static/app/assets/css/aos.css 
+WARNING 2023-11-29 03:03:48,018  1428  Not Found: /static/app/assets/css/fancybox.css 
+WARNING 2023-11-29 03:03:48,025  1428  Not Found: /static/app/assets/css/style.css 
+WARNING 2023-11-29 03:03:48,027  1428  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 03:03:48,032  1428  Not Found: /static/app/assets/css/dark-theme.css 
+WARNING 2023-11-29 03:03:48,037  1428  Not Found: /static/app/assets/css/responsive.css 
+WARNING 2023-11-29 03:03:48,045  1428  Not Found: /static/app/assets/img/uk.png 
+WARNING 2023-11-29 03:03:48,050  1428  Not Found: /static/app/assets/img/china.png 
+WARNING 2023-11-29 03:03:48,061  1428  Not Found: /static/app/assets/img/404.jpg
+WARNING 2023-11-29 03:03:48,061  1428  Not Found: /static/app/assets/img/uae.png 
+WARNING 2023-11-29 03:03:48,068  1428  Not Found: /static/app/assets/img/logo.png 
+WARNING 2023-11-29 03:03:48,076  1428  Not Found: /static/app/assets/js/jquery.min.js 
+WARNING 2023-11-29 03:03:48,080  1428  Not Found: /static/app/assets/js/form-validator.min.js 
+WARNING 2023-11-29 03:03:48,084  1428  Not Found: /static/app/assets/js/bootstrap.bundle.min.js
+WARNING 2023-11-29 03:03:48,090  1428  Not Found: /static/app/assets/js/contact-form-script.js 
+WARNING 2023-11-29 03:03:48,094  1428  Not Found: /static/app/assets/js/aos.js 
+WARNING 2023-11-29 03:03:48,099  1428  Not Found: /static/app/assets/js/owl.carousel.min.js 
+WARNING 2023-11-29 03:03:48,104  1428  Not Found: /static/app/assets/img/404.png
+WARNING 2023-11-29 03:03:48,110  1428  Not Found: /static/app/assets/js/odometer.js 
+WARNING 2023-11-29 03:03:48,115  1428  Not Found: /static/app/assets/js/owl-thumb.min.js 
+WARNING 2023-11-29 03:03:48,119  1428  Not Found: /static/app/assets/js/circle-progressbar.min.js 
+WARNING 2023-11-29 03:03:48,124  1428  Not Found: /static/app/assets/js/fancybox.js
+WARNING 2023-11-29 03:03:48,124  1428  Not Found: /static/app/assets/js/jquery.appear.js 
+WARNING 2023-11-29 03:03:48,138  1428  Not Found: /static/app/assets/js/tweenmax.min.js a
+WARNING 2023-11-29 03:03:48,144  1428  Not Found: /static/app/assets/js/main.js 
+WARNING 2023-11-29 03:03:48,149  1428  Not Found: /static/app/assets/img/bird.png 
+WARNING 2023-11-29 03:03:48,153  1428  Not Found: /static/app/assets/img/sun-2.png 
+WARNING 2023-11-29 03:03:48,157  1428  Not Found: /static/app/assets/img/footer-shape-1.png 
+WARNING 2023-11-29 03:03:48,162  1428  Not Found: /static/app/assets/img/favicon.png 
+WARNING 2023-11-29 03:03:51,631  1428  Not Found: /loginl
+WARNING 2023-11-29 03:03:51,644  1428  Not Found: /static/app/assets/css/remixicon.css 
+WARNING 2023-11-29 03:03:51,644  1428  Not Found: /static/app/assets/css/owl.carousel.min.css 
+WARNING 2023-11-29 03:03:51,644  1428  Not Found: /static/app/assets/css/fancybox.css 
+WARNING 2023-11-29 03:03:51,656  1428  Not Found: /static/app/assets/css/aos.css 
+WARNING 2023-11-29 03:03:51,656  1428  Not Found: /static/app/assets/css/flaticon.css 
+WARNING 2023-11-29 03:03:51,656  1428  Not Found: /static/app/assets/css/bootstrap.min.css
+WARNING 2023-11-29 03:03:51,675  1428  Not Found: /static/app/assets/css/responsive.css 
+WARNING 2023-11-29 03:03:51,675  1428  Not Found: /static/app/assets/css/style.css 
+WARNING 2023-11-29 03:03:51,675  1428  Not Found: /static/app/assets/css/owl-theme-default-min.css 
+WARNING 2023-11-29 03:03:51,690  1428  Not Found: /static/app/assets/css/odometer.min.css 
+WARNING 2023-11-29 03:03:51,690  1428  Not Found: /static/app/assets/img/uk.png 
+WARNING 2023-11-29 03:03:51,690  1428  Not Found: /static/app/assets/img/china.png 
+WARNING 2023-11-29 03:03:51,690  1428  Not Found: /static/app/assets/img/uae.png 
+WARNING 2023-11-29 03:03:51,706  1428  Not Found: /static/app/assets/css/dark-theme.css 
+WARNING 2023-11-29 03:03:51,706  1428  Not Found: /static/app/assets/img/404.jpg
+WARNING 2023-11-29 03:03:51,721  1428  Not Found: /static/app/assets/img/logo.png 
+WARNING 2023-11-29 03:03:51,723  1428  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 03:03:51,723  1428  Not Found: /static/app/assets/js/jquery.min.js 
+WARNING 2023-11-29 03:03:51,744  1428  Not Found: /static/app/assets/js/bootstrap.bundle.min.js
+WARNING 2023-11-29 03:03:51,744  1428  Not Found: /static/app/assets/js/form-validator.min.js 
+WARNING 2023-11-29 03:03:51,744  1428  Not Found: /static/app/assets/js/contact-form-script.js 
+WARNING 2023-11-29 03:03:51,757  1428  Not Found: /static/app/assets/js/aos.js 
+WARNING 2023-11-29 03:03:51,757  1428  Not Found: /static/app/assets/js/owl-thumb.min.js 
+WARNING 2023-11-29 03:03:51,757  1428  Not Found: /static/app/assets/js/owl.carousel.min.js 
+WARNING 2023-11-29 03:03:51,767  1428  Not Found: /static/app/assets/img/404.png
+WARNING 2023-11-29 03:03:51,775  1428  Not Found: /static/app/assets/js/fancybox.js
+WARNING 2023-11-29 03:03:51,779  1428  Not Found: /static/app/assets/js/odometer.js 
+WARNING 2023-11-29 03:03:51,783  1428  Not Found: /static/app/assets/js/circle-progressbar.min.js 
+WARNING 2023-11-29 03:03:51,786  1428  Not Found: /static/app/assets/js/jquery.appear.js 
+WARNING 2023-11-29 03:03:51,789  1428  Not Found: /static/app/assets/js/tweenmax.min.js a
+WARNING 2023-11-29 03:03:51,797  1428  Not Found: /static/app/assets/js/main.js 
+WARNING 2023-11-29 03:03:51,806  1428  Not Found: /static/app/assets/img/sun-2.png 
+WARNING 2023-11-29 03:03:51,811  1428  Not Found: /static/app/assets/img/bird.png 
+WARNING 2023-11-29 03:03:51,815  1428  Not Found: /static/app/assets/img/footer-shape-1.png 
+INFO 2023-11-29 09:54:40,683  26236  Watching for file changes with StatReloader
+WARNING 2023-11-29 09:54:46,898  26236  Not Found: /static/app/assets/img/logo.png 
+WARNING 2023-11-29 09:54:46,910  26236  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 09:54:46,944  26236  Not Found: /static/app/assets/js/tweenmax.min.js a
+WARNING 2023-11-29 09:54:46,984  26236  Not Found: /static/app/ assets/img/team/team-shape-2.png
+WARNING 2023-11-29 09:54:47,658  26236  Not Found: /static/app/ assets/img/team/team-shape-2.png
+WARNING 2023-11-29 09:54:49,097  26236  Not Found: /static/app/ assets/img/team/team-shape-2.png
+WARNING 2023-11-29 09:54:54,757  26236  Not Found: /static/admin/css/base.css
+WARNING 2023-11-29 09:54:54,764  26236  Not Found: /static/admin/css/dark_mode.css
+WARNING 2023-11-29 09:54:54,774  26236  Not Found: /static/admin/css/nav_sidebar.css
+WARNING 2023-11-29 09:54:54,794  26236  Not Found: /static/admin/css/login.css
+WARNING 2023-11-29 09:54:54,823  26236  Not Found: /static/admin/css/responsive.css
+WARNING 2023-11-29 09:54:54,832  26236  Not Found: /static/admin/js/theme.js
+WARNING 2023-11-29 09:54:54,843  26236  Not Found: /static/admin/js/nav_sidebar.js
+WARNING 2023-11-29 09:54:54,983  26236  Not Found: /favicon.ico
+WARNING 2023-11-29 09:55:08,806  26236  Not Found: /static/admin/css/nav_sidebar.css
+WARNING 2023-11-29 09:55:08,812  26236  Not Found: /static/admin/css/login.css
+WARNING 2023-11-29 09:55:08,812  26236  Not Found: /static/admin/css/responsive.css
+WARNING 2023-11-29 09:55:08,815  26236  Not Found: /static/admin/css/base.css
+WARNING 2023-11-29 09:55:08,825  26236  Not Found: /static/admin/css/dark_mode.css
+WARNING 2023-11-29 09:55:08,833  26236  Not Found: /static/admin/js/theme.js
+WARNING 2023-11-29 09:55:08,842  26236  Not Found: /static/admin/js/nav_sidebar.js
+WARNING 2023-11-29 09:55:18,720  26236  Not Found: /static/admin/css/base.css
+WARNING 2023-11-29 09:55:18,726  26236  Not Found: /static/admin/css/dark_mode.css
+WARNING 2023-11-29 09:55:18,733  26236  Not Found: /static/admin/css/nav_sidebar.css
+WARNING 2023-11-29 09:55:18,753  26236  Not Found: /static/admin/css/dashboard.css
+WARNING 2023-11-29 09:55:18,753  26236  Not Found: /static/admin/css/responsive.css
+WARNING 2023-11-29 09:55:18,765  26236  Not Found: /static/admin/js/theme.js
+WARNING 2023-11-29 09:55:18,782  26236  Not Found: /static/admin/js/nav_sidebar.js
+INFO 2023-11-29 09:56:05,509  21196  Watching for file changes with StatReloader
+WARNING 2023-11-29 09:56:07,626  21196  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+INFO 2023-11-29 10:14:02,744  16120  Watching for file changes with StatReloader
+INFO 2023-11-29 10:27:38,648  16120  D:\Emobilis\ClimateActionFrontier_EmobilisProjectShowcasing\mainapp\app_forms.py changed, reloading.
+INFO 2023-11-29 10:27:39,713  20092  Watching for file changes with StatReloader
+INFO 2023-11-29 10:28:01,218  20092  D:\Emobilis\ClimateActionFrontier_EmobilisProjectShowcasing\mainapp\app_forms.py changed, reloading.
+INFO 2023-11-29 10:28:02,195  15284  Watching for file changes with StatReloader
+INFO 2023-11-29 10:31:48,719  15284  D:\Emobilis\ClimateActionFrontier_EmobilisProjectShowcasing\mainapp\app_forms.py changed, reloading.
+INFO 2023-11-29 10:31:49,852  10232  Watching for file changes with StatReloader
+INFO 2023-11-29 10:36:12,718  10232  D:\Emobilis\ClimateActionFrontier_EmobilisProjectShowcasing\ClimateActionFrontier_EmobilisProjectShowcasing\urls.py changed, reloading.
+INFO 2023-11-29 10:36:14,046  24948  Watching for file changes with StatReloader
+INFO 2023-11-29 10:39:07,203  24948  D:\Emobilis\ClimateActionFrontier_EmobilisProjectShowcasing\mainapp\views.py changed, reloading.
+INFO 2023-11-29 10:39:08,206  15736  Watching for file changes with StatReloader
+INFO 2023-11-29 10:40:02,906  15736  D:\Emobilis\ClimateActionFrontier_EmobilisProjectShowcasing\mainapp\views.py changed, reloading.
+INFO 2023-11-29 10:40:03,891  19384  Watching for file changes with StatReloader
+INFO 2023-11-29 10:45:39,346  19384  D:\Emobilis\ClimateActionFrontier_EmobilisProjectShowcasing\mainapp\views.py changed, reloading.
+INFO 2023-11-29 10:45:40,333  3236  Watching for file changes with StatReloader
+INFO 2023-11-29 10:49:36,658  20644  Watching for file changes with StatReloader
+INFO 2023-11-29 10:50:48,436  1388  Watching for file changes with StatReloader
+WARNING 2023-11-29 10:50:59,599  1388  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+ERROR 2023-11-29 10:51:21,022  1388  Internal Server Error: /signin
+Traceback (most recent call last):
+  File "C:\Users\vkori\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Emobilis\ClimateActionFrontier_EmobilisProjectShowcasing\mainapp\views.py", line 431, in signin
+    login(request, user)
+TypeError: login() takes 1 positional argument but 2 were given
+INFO 2023-11-29 10:55:19,120  16176  Watching for file changes with StatReloader
+WARNING 2023-11-29 10:55:23,277  16176  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 10:55:30,524  16176  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 10:55:36,070  16176  Not Found: /login1.html
+ERROR 2023-11-29 10:56:10,055  16176  Internal Server Error: /signin
+Traceback (most recent call last):
+  File "C:\Users\vkori\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Emobilis\ClimateActionFrontier_EmobilisProjectShowcasing\mainapp\views.py", line 429, in signin
+    login(request, user)
+TypeError: login() takes 1 positional argument but 2 were given
+INFO 2023-11-29 11:00:33,587  21668  Watching for file changes with StatReloader
+WARNING 2023-11-29 11:00:35,253  21668  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+ERROR 2023-11-29 11:00:58,249  21668  Internal Server Error: /signin
+Traceback (most recent call last):
+  File "C:\Users\vkori\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Emobilis\ClimateActionFrontier_EmobilisProjectShowcasing\mainapp\views.py", line 429, in signin
+    login(request, user)
+TypeError: login() takes 1 positional argument but 2 were given
+INFO 2023-11-29 11:09:37,323  368  Watching for file changes with StatReloader
+WARNING 2023-11-29 11:09:39,045  368  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+ERROR 2023-11-29 11:09:59,473  368  Internal Server Error: /signin
+Traceback (most recent call last):
+  File "C:\Users\vkori\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Emobilis\ClimateActionFrontier_EmobilisProjectShowcasing\mainapp\views.py", line 429, in signin
+    login(request, user)
+TypeError: login() takes 1 positional argument but 2 were given
+INFO 2023-11-29 11:25:41,198  20272  Watching for file changes with StatReloader
+WARNING 2023-11-29 11:26:10,489  20272  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+ERROR 2023-11-29 11:26:27,548  20272  Internal Server Error: /signin
+Traceback (most recent call last):
+  File "C:\Users\vkori\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Emobilis\ClimateActionFrontier_EmobilisProjectShowcasing\mainapp\views.py", line 429, in signin
+    login(request, user)
+TypeError: login() takes 1 positional argument but 2 were given
+INFO 2023-11-29 11:28:33,316  21548  Watching for file changes with StatReloader
+WARNING 2023-11-29 11:28:35,266  21548  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+INFO 2023-11-29 11:29:50,173  26032  Watching for file changes with StatReloader
+WARNING 2023-11-29 11:29:52,348  26032  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+ERROR 2023-11-29 11:30:32,946  26032  Internal Server Error: /signin
+Traceback (most recent call last):
+  File "C:\Users\vkori\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Emobilis\ClimateActionFrontier_EmobilisProjectShowcasing\mainapp\views.py", line 429, in signin
+    login(request, user)
+TypeError: login() takes 1 positional argument but 2 were given
+INFO 2023-11-29 11:40:04,728  4064  Watching for file changes with StatReloader
+WARNING 2023-11-29 11:40:06,445  4064  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+ERROR 2023-11-29 11:40:26,280  4064  Internal Server Error: /signin
+Traceback (most recent call last):
+  File "C:\Users\vkori\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Emobilis\ClimateActionFrontier_EmobilisProjectShowcasing\mainapp\views.py", line 431, in signin
+    login(request, user)
+TypeError: login() takes 1 positional argument but 2 were given
+INFO 2023-11-29 13:15:04,911  4064  D:\Emobilis\ClimateActionFrontier_EmobilisProjectShowcasing\mainapp\views.py changed, reloading.
+INFO 2023-11-29 13:15:06,111  3184  Watching for file changes with StatReloader
+INFO 2023-11-29 13:22:51,501  2320  Watching for file changes with StatReloader
+WARNING 2023-11-29 13:22:54,819  2320  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+ERROR 2023-11-29 13:23:11,519  2320  Internal Server Error: /signin
+Traceback (most recent call last):
+  File "C:\Users\vkori\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Emobilis\ClimateActionFrontier_EmobilisProjectShowcasing\mainapp\views.py", line 432, in signin
+    login(request, user)
+TypeError: login() takes 1 positional argument but 2 were given
+INFO 2023-11-29 13:26:07,908  18280  Watching for file changes with StatReloader
+WARNING 2023-11-29 13:26:09,910  18280  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 13:26:25,453  18280  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+INFO 2023-11-29 13:28:25,400  18280  D:\Emobilis\ClimateActionFrontier_EmobilisProjectShowcasing\mainapp\views.py changed, reloading.
+INFO 2023-11-29 13:28:26,214  17368  Watching for file changes with StatReloader
+INFO 2023-11-29 13:29:03,962  21612  Watching for file changes with StatReloader
+WARNING 2023-11-29 13:29:05,832  21612  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 13:29:13,543  21612  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+INFO 2023-11-29 13:30:08,557  25856  Watching for file changes with StatReloader
+WARNING 2023-11-29 13:30:10,984  25856  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 13:30:20,804  25856  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 13:30:31,310  25856  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 13:30:33,437  25856  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 13:30:36,457  25856  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+INFO 2023-11-29 13:46:35,621  25856  D:\Emobilis\ClimateActionFrontier_EmobilisProjectShowcasing\mainapp\views.py changed, reloading.
+INFO 2023-11-29 13:46:36,383  15952  Watching for file changes with StatReloader
+WARNING 2023-11-29 13:57:57,646  15952  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 13:58:52,040  15952  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+INFO 2023-11-29 14:10:58,042  15952  D:\Emobilis\ClimateActionFrontier_EmobilisProjectShowcasing\ClimateActionFrontier_EmobilisProjectShowcasing\settings.py changed, reloading.
+INFO 2023-11-29 14:10:58,925  21776  Watching for file changes with StatReloader
+INFO 2023-11-29 14:16:25,712  21776  D:\Emobilis\ClimateActionFrontier_EmobilisProjectShowcasing\mainapp\views.py changed, reloading.
+INFO 2023-11-29 14:16:26,519  2788  Watching for file changes with StatReloader
+INFO 2023-11-29 14:18:05,784  2788  D:\Emobilis\ClimateActionFrontier_EmobilisProjectShowcasing\mainapp\views.py changed, reloading.
+INFO 2023-11-29 14:18:06,523  12540  Watching for file changes with StatReloader
+INFO 2023-11-29 14:18:48,562  15644  Watching for file changes with StatReloader
+WARNING 2023-11-29 14:18:50,733  15644  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 14:18:56,969  15644  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 14:19:00,044  15644  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 14:19:24,188  15644  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 14:20:51,559  15644  Not Found: /home
+WARNING 2023-11-29 14:20:55,332  15644  Not Found: /home
+INFO 2023-11-29 14:21:10,847  21480  Watching for file changes with StatReloader
+WARNING 2023-11-29 14:21:12,489  21480  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 14:21:18,040  21480  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 14:22:21,834  21480  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 14:22:27,314  21480  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 14:22:31,045  21480  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+INFO 2023-11-29 14:33:38,403  14744  Watching for file changes with StatReloader
+WARNING 2023-11-29 14:34:44,235  14744  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 14:35:23,967  14744  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 14:35:34,018  14744  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+INFO 2023-11-29 14:41:25,798  14744  D:\Emobilis\ClimateActionFrontier_EmobilisProjectShowcasing\mainapp\views.py changed, reloading.
+INFO 2023-11-29 14:41:26,665  24208  Watching for file changes with StatReloader
+INFO 2023-11-29 14:43:52,334  24208  D:\Emobilis\ClimateActionFrontier_EmobilisProjectShowcasing\mainapp\views.py changed, reloading.
+INFO 2023-11-29 14:43:53,254  10172  Watching for file changes with StatReloader
+WARNING 2023-11-29 14:49:26,493  10172  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 14:49:32,957  10172  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 14:49:54,646  10172  Forbidden (Permission denied): /employees
+Traceback (most recent call last):
+  File "C:\Users\vkori\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\contrib\auth\decorators.py", line 22, in _wrapper_view
+    if test_func(request.user):
+       ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\contrib\auth\decorators.py", line 78, in check_perms
+    raise PermissionDenied
+django.core.exceptions.PermissionDenied
+INFO 2023-11-29 14:51:06,465  10032  Watching for file changes with StatReloader
+WARNING 2023-11-29 14:51:08,461  10032  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 14:51:13,222  10032  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 14:51:19,223  10032  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 14:51:25,853  10032  Not Found: /assets/img/project/single-project-1.jpg
+WARNING 2023-11-29 14:51:25,863  10032  Not Found: /assets/img/project/project-1.jpg
+WARNING 2023-11-29 14:51:25,865  10032  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 14:51:25,901  10032  Not Found: /assets/img/project/project-2.jpg
+WARNING 2023-11-29 14:51:34,333  10032  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 14:55:36,671  10032  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 14:55:40,963  10032  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 14:55:49,492  10032  Not Found: /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+WARNING 2023-11-29 14:55:54,238  10032  Forbidden (Permission denied): /employees
+Traceback (most recent call last):
+  File "C:\Users\vkori\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\contrib\auth\decorators.py", line 22, in _wrapper_view
+    if test_func(request.user):
+       ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\contrib\auth\decorators.py", line 78, in check_perms
+    raise PermissionDenied
+django.core.exceptions.PermissionDenied
+WARNING 2023-11-29 14:55:57,090  10032  Forbidden (Permission denied): /employees
+Traceback (most recent call last):
+  File "C:\Users\vkori\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\contrib\auth\decorators.py", line 22, in _wrapper_view
+    if test_func(request.user):
+       ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vkori\venv\Lib\site-packages\django\contrib\auth\decorators.py", line 78, in check_perms
+    raise PermissionDenied
+django.core.exceptions.PermissionDenied
