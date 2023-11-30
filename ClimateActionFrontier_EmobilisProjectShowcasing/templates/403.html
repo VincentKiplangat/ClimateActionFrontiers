@@ -1,15 +1,36 @@
-{% extends "base_template.html" %}
+{% extends 'layouts/master.html' %}
+{% load static %}
 
 {% block title %}
-	Forbidden!!
+	403
 {% endblock %}
 
+
 {% block content %}
-	<div class="container d-flex vh-100 justify-content-center align-items-center">
-         <div class="content text-center">
-             <h1 class="text-black-50" style="font-size: 300px">403</h1>
-             <p class="text-danger">You are forbidden from accessing this page</p>
-             <a href="#" class="btn btn-dark rounded-0">Go Home</a>
-         </div>
-    </div>
+
+
+            <!-- Content Wrapper Start -->
+            <div class="content-wrapper">
+
+                <!-- Error  Section start -->
+                <div class="error-wrap ptb-100">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8 offset-lg-2">
+                                <div class="error-content">
+
+                                    <img src="{% static 'app/assets/img/403.jpg'%}" alt="Image">
+{#                                    <h1 class="text-black-50" style="font-size: 300px">403</h1>#}
+                                    <h2>Oops! ({{ request.path }}) Page Forbidden</h2>
+                                    <p>The page ({{ request.path }}) is forbidden</p>
+                                    <a class="btn style1" href={% url 'home' %} >Back To Home</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Error  Section end -->
+
+            </div>
+            <!-- Content wrapper end -->
 {% endblock %}

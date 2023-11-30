@@ -1,11 +1,11 @@
 from django import forms
 
-from mainapp.models import Employee
+from mainapp.models import Donor
 
 
-class EmployeeForm(forms.ModelForm):
+class DonorForm(forms.ModelForm):
     class Meta:
-        model = Employee
+        model = Donor
         fields = "__all__"
         widgets = {
             "dob": forms.DateInput(attrs={"type": "date", "min": "1990-01-01", "max": "2005-12-31"}),
@@ -15,6 +15,7 @@ class EmployeeForm(forms.ModelForm):
             "dob": "Date Of Birth",
             "email": "Email Address",
             "salary": 'Donation',
+            "donor":"member"
         }
 
 

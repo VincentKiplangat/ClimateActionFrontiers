@@ -17,8 +17,8 @@ event
                         <div class="breadcrumb-title">
                             <h2>Event</h2>
                             <ul class="breadcrumb-menu list-style">
-                                <li><a href="home.html">Home </a></li>
-                                <li><a href="event.html">Event</a></li>
+                                <li><a href="{% url 'home' %}">Home </a></li>
+                                <li><a href="{% url 'event' %}">Event</a></li>
                                 <li>Event</li>
                             </ul>
                         </div>
@@ -32,44 +32,46 @@ event
                         <div class="row gx-5">
                             <div class="col-xl-8">
                                 <div class="event-desc">
-                                    <a class="single-event-img mt-0" data-fancybox="gallery" href="assets/img/event/single-event-1.jpg">
-                                        <img src="assets/img/event/single-event-1.jpg" alt="Image">
+                                    <a class="single-event-img mt-0" data-fancybox="gallery" href="{% static 'app/assets/img/event/single-event-1.jpg' %}">
+                                        <img src="{% static 'app/assets/img/event/single-event-1.jpg' %}" alt="Image">
                                     </a>
                                     <h2>Protect Our Planet From Climate Change</h2>
-                                    <p>Ultrices conubia vehicula malesuada. Eros commodo a duis accumsan vestibulum adipiscing hendrerit risus felis eros non justo semper semper rutrum ad risus felis eros. Cursus libero viverra tempus net diam vestibulum Semper est cursus viverra lectus nibh Eros commodo a duis accumsan vestibulum adipiscing hendrerit adipis Cursus libero viverra temp semper semper rutrum.</p>
-                                    <p>Ultrices conubia vehicula malesuada. Eros commodo a duis accumsan vestibulum adipiscing hendrerit risus felis eros lob ortis viverra non justo semper semper rutrum ad risus felis eros. Cursus libero viverra tempus net diam vestibulum Semper est cursus viverra lectus nibh Eros commod.</p>
-                                   
+<p>Climate change is a pressing global issue that requires urgent attention. It is essential for individuals, communities, and governments to come together and take meaningful actions to mitigate its impact.</p>
+<p>Investing in renewable energy sources, such as solar and wind power, is crucial to reducing our carbon footprint. Additionally, adopting sustainable practices in industries, promoting afforestation, and supporting wildlife conservation efforts are essential steps in safeguarding our environment for future generations.</p>
+
                                     <h3>Event Goal</h3>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum.</p>
-                                    <ol>
-                                        <li>Lorem ipsum dolor sit consectetur adipiscing elitdiam nonumy eirmod tempor.</li>
-                                        <li>Advisory membership elitr, sed diam nonumy eirmod tempor.</li>
-                                        <li>If you do not have enough time, you will always be able.</li>
-                                        <li>Irmad temporarily involved labor and doll magna alicum erat.</li>
-                                        <li>Labor and love magna aliquam irat valupatua.</li>
-                                    </ol>
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <a class="single-event-img" data-fancybox="gallery" href="assets/img/event/single-event-2.jpg">
-                                                <img src="assets/img/event/single-event-2.jpg" alt="Image">
-                                            </a>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <a class="single-event-img" data-fancybox="gallery" href="assets/img/event/single-event-3.jpg">
-                                                <img src="assets/img/event/single-event-3.jpg" alt="Image">
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <h3>Our Plan &amp; Strategies</h3>
-                                    <p>Amet consectetur adipisicing elit. Mollitia excepturi eaque, corporis nulla maxime inventore magni repreh enderit lorem ipsum dolor sit consequatur deserunt, eligendi totam voluptas natus. Quaerat neque nisi voluptatum ex esse architecto.</p>
-                                    <ul class="content-feature-list style1 list-style mb-0">
-                                        <li><span><i class="ri-check-line"></i></span> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam nonumy eirmod tempor.</li>
-                                        <li><span><i class="ri-check-line"></i></span> Advisory membership elitr, sed diam nonumy eirmod tempor invidunt ut labor et dolore magna.</li>
-                                        <li><span><i class="ri-check-line"></i></span> If you do not have enough time, you will always be able to work and do what you want.</li>
-                                        <li><span><i class="ri-check-line"></i></span> Irmad temporarily involved labor and doll magna alicum erat, sed diam voluptua. Vero Eos and accused and fair.</li>
-                                        <li><span><i class="ri-check-line"></i></span> Labor and Love Magna Aliquam Irat, Sed Diam Valupatua. Vero eos et accusam et justo dolores et ea ribam.</li>
-                                    </ul>
-                                </div>
+<p>Addressing the urgent need for environmental action, our event aims to raise awareness and inspire change to combat climate change. We believe in the power of collective efforts to make a significant impact on the planet.</p>
+<ol>
+    <li>Implement sustainable practices to reduce carbon emissions.</li>
+    <li>Promote advisory membership for environmental conservation.</li>
+    <li>Encourage time management for efficient participation in eco-friendly initiatives.</li>
+    <li>Support temporary projects focused on labor and ecological well-being.</li>
+    <li>Advocate for the love of nature and its preservation.</li>
+</ol>
+
+<div class="row">
+    <div class="col-md-6">
+        <a class="single-event-img" data-fancybox="gallery" href="{% static 'app/assets/img/event/single-event-2.jpg' %}">
+            <img src="{% static 'app/assets/img/event/single-event-2.jpg' %}" alt="Event Image 1">
+        </a>
+    </div>
+    <div class="col-md-6">
+        <a class="single-event-img" data-fancybox="gallery" href="{% static 'app/assets/img/event/single-event-3.jpg' %}">
+            <img src="{% static 'app/assets/img/event/single-event-3.jpg' %}" alt="Event Image 2">
+        </a>
+    </div>
+</div>
+
+<h3>Our Plan & Strategies</h3>
+<p>We have devised a comprehensive plan and strategies to combat climate change and create a sustainable future. Our key focus areas include:</p>
+<ul class="content-feature-list style1 list-style mb-0">
+    <li><span><i class="ri-check-line"></i></span> Implementing eco-friendly practices to reduce environmental impact.</li>
+    <li><span><i class="ri-check-line"></i></span> Advocating for advisory membership to support environmental causes.</li>
+    <li><span><i class="ri-check-line"></i></span> Promoting time management for effective participation in environmental initiatives.</li>
+    <li><span><i class="ri-check-line"></i></span> Supporting temporary projects for labor and ecological well-being.</li>
+    <li><span><i class="ri-check-line"></i></span> Advocating for the love of nature and its preservation.</li>
+</ul>
+</div>
                                 <div class="post-meta-option mt-30 mb-0">
                                     <div class="row gx-0 align-items-center">
                                         <div class="col-md-5 col-12">
@@ -103,8 +105,8 @@ event
                                             <div class="post-tag">
                                                 <span>Tags:</span>
                                                 <ul class="tag-list list-style">
-                                                    <li><a href="posts-by-tag.html">Pollution</a></li>
-                                                    <li><a href="posts-by-tag.html">Climate</a></li>
+                                                    <li><a href="{% url 'event-details' %}">Pollution</a></li>
+                                                    <li><a href="{% url 'event-details' %}">Climate</a></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -159,7 +161,7 @@ event
                                             </div>
                                             <div class="event-info-item">
                                                 <p>Website:</p>
-                                               <span><a href="home.html">https://www.clim.com</a></span>
+                                               <span><a href="{% url 'home' %}">https://www.clim.com</a></span>
                                             </div>
                                         </div>
                                     </div>

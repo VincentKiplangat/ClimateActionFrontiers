@@ -1,21 +1,54 @@
-{% extends 'base_template.html' %}
+{% extends 'layouts/master.html' %}
 {% load crispy_forms_filters %}
+{% load static %}
 
 {% block title %}
-    Sign In
+	signin
 {% endblock %}
 
+
 {% block content %}
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-sm-4">
-                <form action="{% url 'signin' %}" method="post" enctype="multipart/form-data" class="shadow py-4 px-3 mt-3">
+
+            <!-- Content Wrapper Start -->
+            <div class="content-wrapper">
+
+                <!-- Breadcrumb Start -->
+                <div class="breadcrumb-wrap bg-f br-1">
+                    <div class="container">
+                        <div class="breadcrumb-title">
+                            <h2>Login</h2>
+                            <ul class="breadcrumb-menu list-style">
+                                <li><a href="home.html">Home </a></li>
+                                <li>Login</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- Breadcrumb End -->
+
+                <!-- Account Section start -->
+                <section class="Login-wrap pt-100 pb-75">
+                    <div class="container">
+                        <div class="row gx-5">
+                            <div class="col-xl-6 offset-xl-3 col-lg-8 offset-lg-2">
+                                <div class="login-form-wrap">
+                                    <div class="login-header">
+                                        <h3>Login</h3>
+                                    </div>
+                                      <form action="{% url 'signin' %}" method="post" enctype="multipart/form-data" class="shadow py-4 px-3 mt-3">
                     {% csrf_token %}
                     {{ form | crispy }}
                     <button class="btn btn-dark rounded-0 w-100">Sign In</button>
                 </form>
-            </div>
-        </div>
-    </div>
-{% endblock %}
 
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+                <!-- Account Section end -->
+
+            </div>
+            <!-- Content wrapper end -->
+{% endblock %}

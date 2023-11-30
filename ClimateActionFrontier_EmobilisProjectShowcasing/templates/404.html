@@ -18,8 +18,10 @@
                         <div class="row">
                             <div class="col-lg-8 offset-lg-2">
                                 <div class="error-content">
+
+
+                                    <h1 class="text-black-50" style="font-size: 300px">404</h1>
                                     <img src="{% static 'app/assets/img/404.jpg' %}" alt="Image">
-                                    <img src="{% static 'app/assets/img/404.png' %}" alt="Image">
                                     <h2>Oops! ({{ request.path }}) Page Not Found</h2>
                                     <p>The page ({{ request.path }}) you are looking for might have been removed had its name changed or is temporarily unavailable.</p>
                                     <a href={% url 'home' %} class="btn style1">Back To Home</a>

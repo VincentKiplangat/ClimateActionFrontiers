@@ -1,0 +1,56 @@
+{% extends 'layouts/master.html' %}
+{% include "base_template.html" %}
+{% load crispy_forms_filters %}
+{% load humanize %}
+{% block title %}
+    Community
+{% endblock %}
+
+{% block content  %}
+    <div class="content-wrapper">
+    {% include "navbar.html" %}
+    <div class="breadcrumb-wrap bg-f br-1">
+                    <div class="container">
+                        <div class="breadcrumb-title">
+                           <h2>Member details</h2>
+                            <ul class="breadcrumb-menu list-style">
+                                <li><a href="home.html">Home </a></li>
+                                <li>Members</li>
+                        </div>
+                    </div>
+                </div>
+                <!-- Breadcrumb End -->
+    <div class="container justify-content-center align-content-center">
+        <div class="row">
+            <div class="col-sm-5">
+                <div class="card">
+                    {% if donor.profile %}
+                        <img src="{{ donor.profile.url }}" width="100" height="200" alt="" class="card-img-top">
+                    {% endif %}
+
+                    <div class="card-body justify-content-center align-content-center">
+                        <h2 class="card-title">Name: {{ donor.name }}</h2>
+                        <p class="card-text"><strong>Email:</strong>  {{ donor.email }}</p>
+                        <p class="card-text"><strong>Donation:</strong>  {{ donor.salary | intcomma }}</p>
+                        <p class="card-text"><strong>DOB:</strong>  {{ donor.dob | date:"d-m-Y"}}</p>
+                        <p class="card-text">updated {{ donor.created_at | naturaltime }}</p>
+                        <p class="card-text">created on {{ donor.updated_at }}</p>
+
+
+                    {% if perms.mainapp.delete_donor %}
+                            <a href="{% url 'delete' donor.id %}" class="btn btn-danger w-100">Delete</a>
+                        {% endif %}
+
+                        {% if perms.mainapp.change_donor %}
+                            <a href="{% url 'update' donor.id %}" class="btn btn-info w-100 mt-3">Update</a>
+                        {% endif %}
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+{% endblock %}
+
+

@@ -1,6 +1,6 @@
 from django.contrib import admin
 
-from mainapp.models import Employee
+from mainapp.models import Donor
 
 # Register your models here.
 admin.site.site_header = "ClimateActionFrontier"
@@ -8,13 +8,13 @@ admin.site.index_title = ("CAF server"
                           "")
 
 
-class EmployeeAdmin(admin.ModelAdmin):
+class DonorAdmin(admin.ModelAdmin):
     list_display = ['name', 'email', "dob", "disabled"]
     search_fields = ['name', 'email']
     list_filter = ["disabled"]
 
 
-admin.site.register(Employee, EmployeeAdmin)
+admin.site.register(Donor, DonorAdmin)
 
 
 # # *****************************************************************

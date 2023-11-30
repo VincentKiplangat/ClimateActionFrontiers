@@ -11,7 +11,7 @@ from django.db import models
 #     print(name)
 #     full_name = f"{name}.{ext}"
 #     # full_name = "%s.%s" % (name,ext)
-#     return os.path.join("employees".full_name)
+#     return os.path.join("donors".full_name)
 
 def unique_img_name(instance, filename):
     # Generate a unique name using UUID
@@ -21,18 +21,18 @@ def unique_img_name(instance, filename):
 
     # Create the full unique image name with the same extension
     full_name = f"{name}.{ext}"
-    return os.path.join("employees", full_name)
+    return os.path.join("donors", full_name)
 
 
 # Create your models here.
-class Employee(models.Model):
+class Donor(models.Model):
     # name, email, dob , salary, disabled
     name = models.CharField(max_length=40)
     email = models.EmailField(unique=True)
     dob = models.DateField(null=True)
-    salary = models.DecimalField(max_digits=12, decimal_places=2, default=0)  # 67000.58
+    donation = models.DecimalField(max_digits=12, decimal_places=2, default=0)  # 67000.58
     disabled = models.BooleanField(default=False)
-    profile = models.ImageField(upload_to=unique_img_name, null=True, default="employees/employeeee.png")
+    profile = models.ImageField(upload_to=unique_img_name, null=True, default="donors/donoree.png")
     created_at = models.DateTimeField(auto_now_add=True, null=True)  # Once during creation
     updated_at = models.DateTimeField(auto_now=True, null=True)  # Every time an update happens
 

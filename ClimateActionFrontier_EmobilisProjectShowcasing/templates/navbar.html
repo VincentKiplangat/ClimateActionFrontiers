@@ -10,28 +10,37 @@
 
 
         <li class="nav-item ">
-          <a class="nav-link {% if "/" == request.path  %} active {% endif %}" aria-current="page" href="{% url "member" %}">Add Member</a>
+          <a class="nav-link {% if "/" == request.path  %} active {% endif %}" aria-current="page" href="{% url "member" %}">Register</a>
         </li>
         <li class="nav-item">
           <a class="nav-link {% if "/" == request.path  %} active {% endif %}" href="{% url "all" %}">Members</a>
         </li>
 
       </ul>
-      <form class="d-flex"  role="search" method="get" action="{% url "search" %}">
+      <form class="d-flex m-0 "  role="search" method="get" action="{% url "search" %}">
         <input class="form-control me-2" name="search_word" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
+        <button class="btn style1" type="submit">Search</button>
       </form>
 
 
-            <ul class="navbar-nav ms-3 mb-2 mb-lg-0">
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle text-danger" href="#" role="button" data-bs-toggle="dropdown">{{ user.first_name }}</a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="{% url 'signout' %}">Sign Out</a></li>
-                    </ul>
-                </li>
-            </ul>
-
+             <div class="option-item">
+        {% if user.is_authenticated %}
+            <div class="dropdown">
+                <button class="btn style5 dropdown-toggle m-3 " type="button" id="userDropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    {% if user.first_name %}
+                        {{ user.first_name }}
+                    {% else %}
+                        Frontier
+                    {% endif %}
+                </button>
+                <div class="dropdown-menu" aria-labelledby="userDropdown">
+                    <a class="dropdown-item bg-danger style5 justify-content-between text-center w-100" href="{% url 'signout' %}">Sign Out</a>
+                </div>
+            </div>
+        {% else %}
+            <a href="{% url 'signin' %}" class="btn style5 m-3">Sign In</a>
+        {% endif %}
+    </div>
 
         </div>
     </div>

@@ -28,11 +28,11 @@ from ClimateActionFrontier_EmobilisProjectShowcasing import settings
 urlpatterns = [
                   path('', views.home, name="home"),
                   path('member', views.member, name="member"),
-                  path('employees', views.all_employees, name="all"),
-                  path('search', views.search_employees, name="search"),
-                  path('employees/<int:emp_id>', views.employee_details, name="details"),
-                  path('employees/delete/<int:emp_id>', views.employee_delete, name="delete"),
-                  path('employees/update/<int:emp_id>', views.employee_update, name="update"),
+                  path('donors', views.all_donors, name="all"),
+                  path('search', views.search_donors, name="search"),
+                  path('donors/<int:emp_id>', views.donor_details, name="details"),
+                  path('donors/delete/<int:emp_id>', views.donor_delete, name="delete"),
+                  path('donors/update/<int:emp_id>', views.donor_update, name="update"),
 # # **********************************************************************
 # path('subscribe', views.subscribe, name='subscribe'),
 # # *********************************************************************************

@@ -9,15 +9,15 @@ from django.core.paginator import Paginator
 from django.db.models import Q
 from django.shortcuts import render, redirect, get_object_or_404
 
-from mainapp.app_forms import EmployeeForm, LoginForm
-from mainapp.models import Employee
+from mainapp.app_forms import DonorForm, LoginForm
+from mainapp.models import Donor
 from django.contrib import messages
 from django.core.paginator import Paginator
 from django.db.models import Q
 from django.shortcuts import render, redirect, get_object_or_404
 
-from mainapp.app_forms import EmployeeForm
-from mainapp.models import Employee
+from mainapp.app_forms import DonorForm
+from mainapp.models import Donor
 
 
 # info, success, error, debug, warning
@@ -27,86 +27,85 @@ def home(request):
     return render(request, "home.html")
 
 
-
 def member(request):
     if request.method == "POST":
-        form = EmployeeForm(request.POST, request.FILES)
+        form = DonorForm(request.POST, request.FILES)
         if form.is_valid():
             form.save()
-            messages.info(request, "Employee was saved")
+            messages.info(request, "Member was saved")
             return redirect("member")
 
     else:
-        form = EmployeeForm()
-    return render(request, "employees.html", {"form": form})
+        form = DonorForm()
+    return render(request, "donors.html", {"form": form})
 
 
 # Model View Template
 @login_required()
-# All employees
-# One employee
-@permission_required('main_app.view_employee', raise_exception=True)
-def all_employees(request):
-    employees = Employee.objects.all()  # SELECT * FROM employees
-    # employees = Employee.objects.all().order_by("-salary")
-    # employees = Employee.objects.filter(name__istartswith="La").order_by("dob")
-    # employees = Employee.objects.filter(name__istartswith="La", salary__gt=45000).order_by("dob")
-    # employees = Employee.objects.filter(Q(name__contains="la") | Q(salary__gt=70000))
-    # employees = Employee.objects.filter(Q(name__contains="la") & Q(salary__gt=70000))
-    # employees = Employee.objects.filter(Q(name__contains="la") & ~Q(salary__gt=70000)) # tilde
+# All donors
+# One donor
+@permission_required('main_app.view_donor', raise_exception=True)
+def all_donors(request):
+    donors = Donor.objects.all()  # SELECT * FROM donors
+    # donors = Donor.objects.all().order_by("-salary")
+    # donors = Donor.objects.filter(name__istartswith="La").order_by("dob")
+    # donors = Donor.objects.filter(name__istartswith="La", salary__gt=45000).order_by("dob")
+    # donors = Donor.objects.filter(Q(name__contains="la") | Q(salary__gt=70000))
+    # donors = Donor.objects.filter(Q(name__contains="la") & Q(salary__gt=70000))
+    # donors = Donor.objects.filter(Q(name__contains="la") & ~Q(salary__gt=70000)) # tilde
     # today = datetime.today()
     # day = today.day
     # month = today.month
-    # employees = Employee.objects.filter(dob__day=day, dob__month=month)  # tilde
-    paginator = Paginator(employees, 20)
+    # donors = Donor.objects.filter(dob__day=day, dob__month=month)  # tilde
+    paginator = Paginator(donors, 20)
     page_number = request.GET.get("page")
     data = paginator.get_page(page_number)
-    return render(request, "all_employees.html", {"employees": data})
+    return render(request, "all_donors.html", {"donors": data})
 
 
 @login_required()
-@permission_required('main_app.view_employee', raise_exception=True)
-def employee_details(request, emp_id):
-    employee = Employee.objects.get(pk=emp_id)  # SELECT * FROM employees WHERE id=1
-    return render(request, "employee_details.html", {"employee": employee})
+@permission_required('main_app.view_donor', raise_exception=True)
+def donor_details(request, emp_id):
+    donor = Donor.objects.get(pk=emp_id)  # SELECT * FROM donors WHERE id=1
+    return render(request, "donor_details.html", {"donor": donor})
 
 
 @login_required()
-@permission_required('main_app.delete_employee', raise_exception=True)
-# employees/delete/12000
-def employee_delete(request, emp_id):
-    employee = get_object_or_404(Employee, pk=emp_id)
-    employee.delete()
-    messages.warning(request, "This employee was deleted permanently")
+@permission_required('main_app.delete_donor', raise_exception=True)
+# donors/delete/12000
+def donor_delete(request, emp_id):
+    donor = get_object_or_404(Donor, pk=emp_id)
+    donor.delete()
+    messages.warning(request, "This member was deleted permanently")
     return redirect("all")
 
 
 @login_required()
-@permission_required('main_app.view_employee', raise_exception=True)
-def search_employees(request):
+@permission_required('main_app.view_donor', raise_exception=True)
+def search_donors(request):
     search_word = request.GET["search_word"]
-    employees = Employee.objects.filter(
+    donors = Donor.objects.filter(
         Q(name__icontains=search_word) | Q(email__icontains=search_word)
     )
-    paginator = Paginator(employees, 20)
+    paginator = Paginator(donors, 20)
     page_number = request.GET.get("page")
     data = paginator.get_page(page_number)
     # Elastic search
-    return render(request, "all_employees.html", {"employees": data})
+    return render(request, "all_donors.html", {"donors": data})
 
 
 @login_required()
-@permission_required('main_app.change_employee', raise_exception=True)
-def employee_update(request, emp_id):
-    employee = get_object_or_404(Employee, pk=emp_id)  # SELECT * FROM employees WHERE id=1
+@permission_required('main_app.change_donor', raise_exception=True)
+def donor_update(request, emp_id):
+    donor = get_object_or_404(Donor, pk=emp_id)  # SELECT * FROM donors WHERE id=1
     if request.method == "POST":
-        form = EmployeeForm(request.POST, request.FILES, instance=employee)
+        form = donorForm(request.POST, request.FILES, instance=donor)
         if form.is_valid():
             form.save()
-            messages.success(request, "Employee updated successfully")
+            messages.success(request, "Member updated successfully")
             return redirect('details', emp_id)
     else:
-        form = EmployeeForm(instance=employee)
+        form = DonorForm(instance=donor)
     return render(request, "update.html", {"form": form})
 
 

@@ -34,41 +34,12 @@
                                     <div class="login-header">
                                         <h3>Login</h3>
                                     </div>
-                                    <form class="login-form" action="login1.html#">
-                                        <div class="row">
-                                            <div class="col-lg-12">
-                                                <div class="form-group">
-                                                    <input id="text" name="name" type="text" placeholder="Username Or Email Address" required>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-12">
-                                                <div class="form-group">
-                                                    <input id="pwd" name="pwd" placeholder="Password" type="password" >
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-6 col-md-6 col-sm-6 col-6">
-                                                <div class="checkbox style3">
-                                                    <input type="checkbox" id="test_1">
-                                                    <label for="test_1">
-                                                        Remember Me</a>
-                                                    </label>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-6 col-md-6 col-sm-6 col-6 text-end mb-20">
-                                                <a href="{% url 'recover-password' %}" class="link style1">Forgot Password?</a>
-                                            </div>
-                                            <div class="col-lg-12">
-                                                <div class="form-group">
-                                                    <button class="btn style1 w-100 d-block">
-                                                        Login Now
-                                                    </button>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-12">
-                                                <p class="mb-0">Don't have an Account? <a class="link style1" href="{% url 'register' %}">Create One</a></p>
-                                            </div>
-                                        </div>
-                                    </form>
+                                      <form action="{% url 'signin' %}" method="post" enctype="multipart/form-data" class="shadow py-4 px-3 mt-3">
+                    {% csrf_token %}
+                    {{ form | crispy }}
+                    <button class="btn btn-dark rounded-0 w-100">Sign In</button>
+                </form>
+
                                 </div>
                             </div>
 
