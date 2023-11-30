@@ -1,0 +1,63 @@
+{% extends 'layouts/master.html' %}
+{% load static %}
+{% include "base_template.html" %}
+{% load crispy_forms_filters %}
+{% load humanize %}
+
+{% block title %}
+    Member Details
+{% endblock %}
+
+{% block content %}
+<div class="content-wrapper"
+     style="background-image: url('{% static 'app/assets/img/background_main.jpg' %}');
+            background-size: cover;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            position: relative;">
+
+    {% include "navbar.html" %}
+    <div class="breadcrumb-wrap bg-f br-1">
+        <div class="container">
+            <div class="breadcrumb-title">
+                <h2>Member details</h2>
+                <ul class="breadcrumb-menu list-style">
+                    <li><a href="home.html">Home </a></li>
+                    <li>Members</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- Breadcrumb End -->
+
+    <div class="container justify-content-center align-content-center mt-5">
+        <div class="row">
+            <div class="col-sm-6 offset-sm-3">
+                <div class="card">
+                    {% if donor.profile %}
+                        <img src="{{ donor.profile.url }}" width="100" height="200" alt="" class="card-img-top">
+                    {% endif %}
+
+                    <div class="card-body">
+                        <h2 class="card-title">Name: {{ donor.name }}</h2>
+                        <p class="card-text"><strong>Email:</strong>  {{ donor.email }}</p>
+                        <p class="card-text"><strong>Donation:</strong>  {{ donor.donation | intcomma }}</p>
+                        <p class="card-text"><strong>DOB:</strong>  {{ donor.dob | date:"d-m-Y"}}</p>
+                        <p class="card-text">Updated {{ donor.created_at | naturaltime }}</p>
+                        <p class="card-text">Created on {{ donor.updated_at }}</p>
+
+                        {% if perms.mainapp.delete_donor %}
+                            <a href="{% url 'delete' donor.id %}" class="btn btn-danger mt-3">Delete</a>
+                        {% endif %}
+
+                        {% if perms.mainapp.change_donor %}
+                            <a href="{% url 'update' donor.id %}" class="btn btn-info mt-3">Update</a>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

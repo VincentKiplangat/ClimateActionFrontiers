@@ -1,0 +1,265 @@
+{% extends 'layouts/master.html' %}
+{% load static %}
+
+{% load static %}
+
+
+{% block title %}
+    blog
+{% endblock %}
+
+
+{% block content %}
+    <!-- Content Wrapper Start -->
+    <div class="content-wrapper">
+
+        <!-- Breadcrumb Start -->
+        <div class="breadcrumb-wrap bg-f br-1">
+            <div class="container">
+                <div class="breadcrumb-title">
+                    <h2>Blog Details No Sidebar</h2>
+                    <ul class="breadcrumb-menu list-style">
+                        <li><a href="{% url 'home' %}">Home</a></li>
+                        <li><a href="{% url 'blog-no-sidebar' %}">Blog</a></li>
+                        <li>Blog Details No Sidebar</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- Breadcrumb End -->
+
+        <!-- Blog Details Section Start -->
+        <div class="blog-details-wrap ptb-100">
+            <div class="container">
+                <div class="row gx-5">
+                    <div class="col-xl-10 offset-xl-1 col-lg-12">
+                        <article>
+                            <a class="post-img" data-fancybox="gallery"
+                               href="{% static 'app/assets/img/blog/single-blog-1.jpg' %}">
+                                <img src="{% static 'app/assets/img/blog/single-blog-1.jpg' %}" alt="Image">
+                            </a>
+                            <h1>Massive Changes In Landscape &amp; Wildlife</h1>
+                            <ul class="post-metainfo  list-style">
+                                <li><i class="ri-calendar-todo-line"></i>Jul 25, 2022</li>
+                            </ul>
+                            <div class="post-para">
+                                <p>The Earth is undergoing unprecedented transformations in its landscapes, a
+                                    consequence of the escalating impacts of climate change. As we bear witness to
+                                    massive alterations in our environment, the imperative for climate action becomes
+                                    more critical than ever. </p>
+                                <p>Massive changes in landscape, marked by shifts in temperature, sea levels, and
+                                    ecosystems, are indicative of the profound effects of climate change. The need for
+                                    <a
+                                            href="{% url 'home' %}">Climate-Action Frontier</a> is driving the required
+                                    change.
+                                    he global community's commitment to climate action is exemplified by international
+                                    agreements such as the Paris Agreement. This accord unites nations in their
+                                    commitment to limit global warming and adapt to the impacts of climate change.</p>
+                                <blockquote class="wp-block-quote">
+                                    <p>“The imperative for climate action becomes heightened amidst massive changes in
+                                        landscape. The intertwined nature of environmental challenges necessitates a
+                                        holistic and collaborative approach”</p>
+                                </blockquote>
+                                <p>Mitigation and adaptation efforts must be pursued simultaneously, with a recognition
+                                    of the interconnectedness between human activities and the health of our planet. As
+                                    landscapes continue to evolve, <strong>climate action emerges</strong> as the
+                                    compass guiding
+                                    humanity towards a sustainable and resilient future. </p>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <a class="post-img" data-fancybox="gallery"
+                                           href="{% static 'app/assets/img/blog/single-blog-2.jpg' %}">
+                                            <img src="{% static 'app/assets/img/blog/single-blog-2.jpg' %}" alt="Image">
+                                        </a>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <a class="post-img" data-fancybox="gallery"
+                                           href="{% static 'app/assets/img/blog/single-blog-3.jpg' %}">
+                                            <img src="{% static 'app/assets/img/blog/single-blog-3.jpg' %}" alt="Image">
+                                        </a>
+                                    </div>
+                                </div>
+                                <h3>What Health Issues Arise For Climate Change</h3>
+                                <p>Delve into the intricate web of health issues arising from climate change. The health
+                                    issues arising from climate change paint a stark reality that demands immediate and
+                                    sustained attention. Addressing these challenges requires a comprehensive approach
+                                    that combines public health initiatives, climate adaptation strategies, and a global
+                                    commitment to sustainable practices. As we navigate this complex terrain, the health
+                                    of our planet and the well-being of its inhabitants hang in a delicate balance,
+                                    underscoring the interconnectedness of environmental and human health.</p>
+                                <ul class="content-feature-list style1 list-style mt-15">
+                                    <li><i class="ri-checkbox-circle-line"></i>
+                                        Uncover the profound impacts of climate change on human health and well-being.
+                                    </li>
+                                    <li><i class="ri-checkbox-circle-line"></i>
+                                        Examine the challenges posed by climate change and explore sustainable solutions
+                                        for a healthier future.
+                                    </li>
+                                    <li><i class="ri-checkbox-circle-line"></i>
+                                        Delve into the consequences and complexities of climate change, seeking
+                                        solutions for a resilient planet.
+                                    </li>
+                                    <li><i class="ri-checkbox-circle-line"></i>
+                                        Discover effective ways to mitigate the adverse effects of climate change,
+                                        fostering a planet that thrives.
+                                    </li>
+                                    <li><i class="ri-checkbox-circle-line"></i>
+                                        Explore the intersections of climate change and health, understanding the
+                                        imperative for action in our evolving world.
+                                    </li>
+                                </ul>
+                                <p>Explore the implications of climate change on our well-being, as we navigate the
+                                    <strong>adipisicing</strong> challenges. <a href="{% url 'home' %}">Climate-Action
+                                        Frontiers</a>
+                                    pioneer innovative solutions, advocate for sustainable policies, and mobilize
+                                    communities to address and mitigate the health issues arising from climate change.
+                                </p>
+                            </div>
+                        </article>
+
+                        <div class="post-meta-option">
+                            <div class="row gx-0 align-items-center">
+                                <div class="col-md-5 col-12">
+                                    <div class="post-share w-100">
+                                        <span>Share:</span>
+                                        <ul class="social-profile list-style style3">
+                                            <li>
+                                                <a href="https://facebook.com">
+                                                    <i class="ri-facebook-fill"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="https://twitter.com">
+                                                    <i class="ri-twitter-fill"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="https://linkedin.com">
+                                                    <i class="ri-linkedin-fill"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="https://pinterest.com">
+                                                    <i class="ri-pinterest-line"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-md-7 col-12 text-md-end">
+                                    <div class="post-tag">
+                                        <span>Tags:</span>
+                                        <ul class="tag-list list-style">
+                                            <li><a href="{% url 'blog-details-no-sidebar' %}">Pollution</a></li>
+                                            <li><a href="{% url 'blog-details-no-sidebar' %}">Climate</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="post-author">
+                            <div class="post-author-img">
+                                <img src="{% static 'app/assets/img/blog/author-1.jpg' %}" alt="Image">
+                            </div>
+                            <div class="post-author-info">
+                                <h4>Posted by<a href="{% url 'blog-details-no-sidebar' %}"> Kevin Thompson</a></h4>
+                                <p>It is crucial for climate action frontiers to collaborate with health professionals
+                                    and researchers to develop evidence-based strategies for addressing the diverse
+                                    health challenges posed by climate change..</p>
+                                <ul class="social-profile list-style style3">
+                                    <li>
+                                        <a href="https://facebook.com">
+                                            <i class="ri-facebook-fill"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://twitter.com">
+                                            <i class="ri-twitter-fill"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://linkedin.com">
+                                            <i class="ri-linkedin-fill"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://pinterest.com">
+                                            <i class="ri-pinterest-line"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="comment-box-title">
+                            <h4><span>3</span> Comments</h4>
+                        </div>
+                        <div class="comment-item-wrap">
+                            <div class="comment-item">
+                                <div class="comment-author-img">
+                                    <img src="{% static 'app/assets/img/blog/author-5.jpg' %}" alt="mage">
+                                </div>
+                                <div class="comment-author-wrap">
+                                    <div class="comment-author-info">
+                                        <div class="comment-author-name">
+                                            <h5>Richard Archis<span class="comment-date">Jul 22, 2022</span></h5>
+                                        </div>
+                                        <p class="comment-text">Awareness and education from climate action
+                                            frontiers has empowered communities to save the world
+                                        </p>
+                                        <a href="{% url 'blog-details-no-sidebar' %}#cmt-form"
+                                           class="reply-btn">REPLY</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="comment-item reply">
+                                <div class="comment-author-img">
+                                    <img src="{% static 'app/assets/img/blog/author-6.jpg' %}" alt="mage">
+                                </div>
+                                <div class="comment-author-wrap">
+                                    <div class="comment-author-info">
+                                        <div class="comment-author-name">
+                                            <h5>Everly Leah<span class="comment-date">Jul 18, 2022</span></h5>
+                                        </div>
+                                        <p class="comment-text">Engaging policymakers and advocating for policies that
+                                            prioritize both climate action and public health will be instrumental in
+                                            creating systemic change and building a resilient and healthier future.
+                                        </p>
+                                        <a href="{% url 'blog-details-no-sidebar' %}#cmt-form"
+                                           class="reply-btn">REPLY</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="comment-item">
+                                <div class="comment-author-img">
+                                    <img src="{% static 'app/assets/img/blog/author-2.jpg' %}" alt="mage">
+                                </div>
+                                <div class="comment-author-wrap">
+                                    <div class="comment-author-info">
+                                        <div class="comment-author-name">
+                                            <h5>Sophia Isabel<span class="comment-date">Jul 15, 2022</span></h5>
+                                        </div>
+                                        <p class="comment-text">"Thanks to climate action frontiers, our communities now
+                                            thrive with cleaner air, healthier environments, and a sustainable future
+                                            for generations to come."
+
+
+                                        </p>
+                                        <a href="{% url 'blog-details-no-sidebar' %}#cmt-form"
+                                           class="reply-btn">REPLY</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Blog Details Section End -->
+
+    </div>
+    <!-- Content wrapper end -->
+
+    <!-- Page Wrapper End -->
+{% endblock %}

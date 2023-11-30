@@ -1,0 +1,1204 @@
+{% extends 'layouts/master.html' %}
+{% load static %}
+
+
+{% block title %}
+	Home
+{% endblock %}
+
+{% block content %}
+
+
+
+
+
+
+
+
+    <!--Preloader starts-->
+
+      <!-- Hero Section Start -->
+      <section class="hero-wrap style1">
+        <img
+          src="{% static 'app/assets/img/hero/hero-shape-1.png '%}"
+          alt="Image"
+          class="hero-shape-one"
+        />
+        <img
+          src="{% static 'app/assets/img/hero/hero-shape-2.png '%}"
+          alt="Image"
+          class="hero-shape-two"
+        />
+        <img
+          src="{% static 'app/assets/img/hero/bird.png '%}"
+          alt="Image"
+          class="hero-shape-three flyRight"
+        />
+        <img
+          src="{% static 'app/assets/img/hero/sun.png '%}"
+          alt="Image"
+          class="hero-shape-four rotate"
+        />
+        <img
+          src="{% static 'app/assets/img/hero/cloud.png '%}"
+          alt="Image"
+          class="hero-shape-five moveLeft"
+        />
+        <img
+          src="{% static 'app/assets/img/hero/hero-shape-6.png '%}"
+          alt="Image"
+          class="hero-shape-six waving_left"
+        />
+        <img
+          src="{% static 'app/assets/img/hero/skull.png'%}"
+          alt="Image"
+          class="hero-skull-shape moveHorizontal"
+        />
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-6">
+              <div class="hero-content" data-speed="0.10" data-revert="true">
+                <span
+                  data-aos="fade-up"
+                  data-aos-duration="1200"
+                  data-aos-delay="200"
+                  >We'll Save Our Planet</span
+                >
+                <h1
+                  data-aos="fade-up"
+                  data-aos-duration="1200"
+                  data-aos-delay="300"
+                >
+                  Lets Make Our Earth Green and Clean
+                </h1>
+                <p
+                  data-aos="fade-up"
+                  data-aos-duration="1200"
+                  data-aos-delay="400"
+                >
+                Protect and save the Earth by making our world green and creating solutions against Global Warming, Deforestation and Environment Pollution
+                </p>
+                <a
+                  href="{% url 'member' %}"
+                  class="btn style2"
+                  data-aos="fade-up"
+                  data-aos-duration="1200"
+                  data-aos-delay="500"
+                  >Join With us</a
+                >
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="hero-img-wrap">
+                <img src="{% static 'app/assets/img/hero/hero-img-1.png '%}" alt="Image" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Hero Section End -->
+
+      <!-- Project Section Start -->
+      <section class="project-wrap ptb-100">
+        <div class="container">
+          <div class="section-title style1 text-center mb-40">
+            <span
+              >Our Priority<img src="{% static 'app/assets/img/section-shape.png '%}" alt="Image"
+            /></span>
+            <h2>Together We Can Restore</h2>
+          </div>
+          <div class="project-slider-one owl-carousel">
+            <div
+              class="project-card style1"
+              data-aos="fade-right"
+              data-aos-duration="1200"
+              data-aos-delay="200"
+            >
+              <div class="project-img">
+                <img src="{% static 'app/assets/img/project/project-1.jpg '%}" alt="Image" />
+              </div>
+              <div class="project-info">
+                <img
+                  src="{% static 'app/assets/img/shape-1.png '%}"
+                  alt="Image"
+                  class="project-shape"
+                />
+                <h3>
+                  <a href="{% url 'project-details' %}">Stop Cutting Down Trees</a>
+                </h3>
+                <p>
+                 Cutting down of trees has great impact on climate change and global warming.It the has increased upto 78% according to recent research  ....
+                </p>
+                <a href="{% url 'project-details' %}" class="link style1"
+                  >Read More <i class="flaticon-right-arrow"></i
+                ></a>
+              </div>
+            </div>
+            <div
+              class="project-card style1"
+              data-aos="fade-right"
+              data-aos-duration="1200"
+              data-aos-delay="300"
+            >
+              <div class="project-img">
+                <img src="{% static 'app/assets/img/project/project-2.jpg '%}" alt="Image" />
+              </div>
+              <div class="project-info">
+                <img
+                  src="{% static 'app/assets/img/shape-1.png'%}"
+                  alt="Image"
+                  class="project-shape"
+                />
+                <h3>
+                  <a href="{% url 'project-details' %}">Recycling Daily Waste</a>
+                </h3>
+                <p>
+                  Recycling helps reduce greenhouse gas emissions by reducing energy consumption. Using recycled materials to make new products reduces the need for virgin materials.
+                   This avoids greenhouse gas emissions that would result from extracting or mining virgin materials.
+                </p>
+                <a href="{% url 'project-details' %}" class="link style1"
+                  >Read More <i class="flaticon-right-arrow"></i
+                ></a>
+              </div>
+            </div>
+            <div
+              class="project-card style1"
+              data-aos="fade-right"
+              data-aos-duration="1200"
+              data-aos-delay="400"
+            >
+              <div class="project-img">
+                <img src="{% static 'app/assets/img/project/project-3.jpg '%}" alt="Image" />
+              </div>
+              <div class="project-info">
+                <img
+                  src="{% static 'app/assets/img/shape-1.png '%}"
+                  alt="Image"
+                  class="project-shape"
+                />
+                <h3>
+                  <a href="{% url 'project-details' %}">Reduce Greenhouse Gas</a>
+                </h3>
+                <p>
+                  Most greenhouse gases come from human activities, like burning fossil fuels for transportation or energy.
+                  You can help reduce the risks we face from climate change
+                  by taking steps to reduce the greenhouse gases coming from your home, vehicle, and activities.
+
+
+                </p>
+                <a href="{% url 'project-details' %}" class="link style1"
+                  >Read More <i class="flaticon-right-arrow"></i
+                ></a>
+              </div>
+            </div>
+            <div
+              class="project-card style1"
+              data-aos="fade-right"
+              data-aos-duration="1200"
+              data-aos-delay="500"
+            >
+              <div class="project-img">
+                <img src="{% static 'app/assets/img/project/project-4.jpg '%}" alt="Image" />
+              </div>
+              <div class="project-info">
+                <img
+                  src="{% static 'app/assets/img/shape-1.png '%}"
+                  alt="Image"
+                  class="project-shape"
+                />
+                <h3>
+                  <a href="{% url 'project-details' %}">Stop Cutting Down Trees</a>
+                </h3>
+                <p>
+                  Deforestation is the removal of trees and other vegetation from forested areas for human purposes such as agriculture, mining, and urbanization. This practice is a major contributor to climate change,
+                  which is the most urgent issue requiring global climate action
+                </p>
+                <a href="{% url 'project-details' %}" class="link style1"
+                  >Read More <i class="flaticon-right-arrow"></i
+                ></a>
+              </div>
+            </div>
+            <div
+              class="project-card style1"
+              data-aos="fade-right"
+              data-aos-duration="1200"
+              data-aos-delay="600"
+            >
+              <div class="project-img">
+                <img src="{% static 'app/assets/img/project/project-6.jpg '%}" alt="Image" />
+              </div>
+              <div class="project-info">
+                <img
+                  src="{% static 'app/assets/img/shape-1.png '%}"
+                  alt="Image"
+                  class="project-shape"
+                />
+                <h3><a href="{% url 'project-details' %}">Save The Wildlife</a></h3>
+                <p>
+                  Forests are home to more than 80% of the world's terrestrial biodiversity,
+                  including a vast array of plant and animal species.
+                  Deforestation destroys these habitats, leaving many species without food,
+                   shelter, and breeding grounds.
+                </p>
+                <a href="{% url 'project-details' %}" class="link style1"
+                  >Read More <i class="flaticon-right-arrow"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Project Section End -->
+
+      <!-- About Section Start -->
+      <section class="about-wrap style1 ptb-100 bg-sand">
+        <img
+          src="{% static 'app/assets/img/about/about-shape-2.png '%}"
+          alt="Image"
+          class="about-shape-one"
+        />
+        <img
+          src="{% static 'app/assets/img/shape-2.png '%}"
+          alt="Image"
+          class="about-shape-two flyUp"
+        />
+        <img
+          src="{% static 'app/assets/img/about/deer.png '%}"
+          alt="Image"
+          class="about-shape-three moveHorizontal"
+        />
+        <div class="container">
+          <div class="row align-items-center gx-5">
+            <div
+              class="col-lg-6"
+              data-aos="fade-right"
+              data-aos-duration="1200"
+              data-aos-delay="200"
+            >
+              <div class="about-img-wrap bg-f">
+                <div class="about-quote">
+                  <i class="flaticon-right-quote"></i>
+                  <p>
+                    Climate change is happening, humans are causing it, and I think this is perhaps the most serious environmental issue facing us. ...
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-lg-6"
+              data-aos="fade-left"
+              data-aos-duration="1200"
+              data-aos-delay="200"
+            >
+              <div class="about-content">
+                <div class="content-title style1">
+                  <span
+                    >A Little Introduction<img
+                      src="{% static 'app/assets/img/section-shape.png '%}"
+                      alt="Image"
+                  /></span>
+                  <h2>Protect Our Earth Against Climate Change</h2>
+                  <p>
+                    How can we protect our planet from extreme climate change?
+                    In the most recent years,climate change has gained more attention as a global concern.
+                    It has been warned about by scientists,
+                     and it's challenging to dispute that this has become a very real phenomenon at this point.
+                      Moreover, there's a possibility that humans are accelerating it.
+                     <br> Our campaign focus on making our world  <b>Green</b> and<b>Clean</b> :
+                  </p>
+                </div>
+                <ul class="content-feature-list list-style">
+                  <li><i class="ri-checkbox-circle-line"></i> Plant trees
+                  </li>
+                  <li><i class="ri-checkbox-circle-line"></i>Switch to renewable energy sources
+                  </li>
+                  <li><i class="ri-checkbox-circle-line"></i>Adopt sustainable living practices
+                  </li>
+                  <li><i class="ri-checkbox-circle-line"></i>Reduce your carbon footprint </li>
+                  <li><i class="ri-checkbox-circle-line"></i> Demand climate action, <b>Donate</b> and <b>volunteer</b>
+                  </li>
+                </ul>
+                <a href="{% url 'about' %}" class="btn style2">Find Out More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- About Section End -->
+
+      <!-- Cause Section Start -->
+      <section class="project-wrap ptb-100">
+        <div class="container">
+          <div class="section-title style1 text-center mb-40">
+            <span
+              >Donate Now<img src="{% static 'app/assets/img/section-shape.png '%}" alt="Image"
+            /></span>
+            <h2>Our Latest Cause</h2>
+          </div>
+        </div>
+        <div class="project-slider-two owl-carousel">
+          <div
+            class="project-card style2"
+            data-aos="fade-up"
+            data-aos-duration="1200"
+            data-aos-delay="500"
+          >
+            <img src="{% static 'app/assets/img/project/project-15.jpg '%}" alt="Image" />
+            <button class="like-btn" type="button">
+              <i class="ri-heart-fill"></i>
+            </button>
+            <div class="project-info">
+              <h3><a href="{% url 'project-details' %}">Reduce Air Pollution</a></h3>
+              <ul class="fund-collection list-style">
+                <li class="fund-raised">$4800 Raised Of $19000</li>
+                <li class="fund-goal">32.00%</li>
+              </ul>
+              <div class="skills style1">
+                <div class="skillbar clearfix" data-percent="32%">
+                  <div class="skillbar-bar"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="project-card style2"
+            data-aos="fade-up"
+            data-aos-duration="1200"
+            data-aos-delay="200"
+          >
+            <img src="{% static 'app/assets/img/project/project-11.jpg '%}" alt="Image" />
+            <button class="like-btn" type="button">
+              <i class="ri-heart-fill"></i>
+            </button>
+            <div class="project-info">
+              <h3>
+                <a href="{% url 'project-details' %}">Be Efficient In Energy Use</a>
+              </h3>
+              <ul class="fund-collection list-style">
+                <li class="fund-raised">$5200 Raised Of $15000</li>
+                <li class="fund-goal">45.00%</li>
+              </ul>
+              <div class="skills style1">
+                <div class="skillbar clearfix" data-percent="45%">
+                  <div class="skillbar-bar"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="project-card style2"
+            data-aos="fade-up"
+            data-aos-duration="1200"
+            data-aos-delay="300"
+          >
+            <img src="{% static 'app/assets/img/project/project-12.jpg '%}" alt="Image" />
+            <button class="like-btn" type="button">
+              <i class="ri-heart-fill"></i>
+            </button>
+            <div class="project-info">
+              <h3><a href="{% url 'project-details' %}">Being Water Wise</a></h3>
+              <ul class="fund-collection list-style">
+                <li class="fund-raised">$2400 Raised Of $5000</li>
+                <li class="fund-goal">25.00%</li>
+              </ul>
+              <div class="skills style1">
+                <div class="skillbar clearfix" data-percent="25%">
+                  <div class="skillbar-bar"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="project-card style2"
+            data-aos="fade-up"
+            data-aos-duration="1200"
+            data-aos-delay="400"
+          >
+            <img src="{% static 'app/assets/img/project/project-13.jpg '%}" alt="Image" />
+            <button class="like-btn" type="button">
+              <i class="ri-heart-fill"></i>
+            </button>
+            <div class="project-info">
+              <h3><a href="{% url 'project-details' %}">Stop Making Pollution</a></h3>
+              <ul class="fund-collection list-style">
+                <li class="fund-raised">$4300 Raised Of $12000</li>
+                <li class="fund-goal">50.00%</li>
+              </ul>
+              <div class="skills style1">
+                <div class="skillbar clearfix" data-percent="50%">
+                  <div class="skillbar-bar"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="project-card style2"
+            data-aos="fade-up"
+            data-aos-duration="1200"
+            data-aos-delay="500"
+          >
+            <img src="{% static 'app/assets/img/project/project-14.jpg '%}" alt="Image" />
+            <button class="like-btn" type="button">
+              <i class="ri-heart-fill"></i>
+            </button>
+            <div class="project-info">
+              <h3>
+                <a href="{% url 'project-details' %}">Save Sealife Communities</a>
+              </h3>
+              <ul class="fund-collection list-style">
+                <li class="fund-raised">$5600 Raised Of $13000</li>
+                <li class="fund-goal">45.00%</li>
+              </ul>
+              <div class="skills style1">
+                <div class="skillbar clearfix" data-percent="45%">
+                  <div class="skillbar-bar"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="project-card style2"
+            data-aos="fade-up"
+            data-aos-duration="1200"
+            data-aos-delay="600"
+          >
+            <img src="{% static 'app/assets/img/project/project-16.jpg '%}" alt="Image" />
+            <button class="like-btn" type="button">
+              <i class="ri-heart-fill"></i>
+            </button>
+            <div class="project-info">
+              <h3><a href="{% url 'project-details' %}">Stop Deforestation</a></h3>
+              <ul class="fund-collection list-style">
+                <li class="fund-raised">$3200 Raised Of $10000</li>
+                <li class="fund-goal">32.00%</li>
+              </ul>
+              <div class="skills style1">
+                <div class="skillbar clearfix" data-percent="32%">
+                  <div class="skillbar-bar"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Cause Section End -->
+
+      <div class="container">
+        <div
+          class="donate-box ptb-100"
+          data-aos="fade-up"
+          data-aos-duration="1200"
+          data-aos-delay="200"
+        >
+          <img
+            src="{% static 'app/assets/img/shape-6.png '%}"
+            alt="Image"
+            class="donate-shape-one"
+          />
+          <div class="content-title style2 text-center mb-40">
+            <span
+              >You Can Donate<img
+                src="{% static 'app/assets/img/section-shape.png '%}"
+                alt="Image"
+            /></span>
+            <h2>Your Donation Matters</h2>
+          </div>
+          <ul class="donate-amt list-style">
+            <li><button type="button">$20</button></li>
+            <li><button type="button">$50</button></li>
+            <li><button type="button">$100</button></li>
+            <li><button type="button">$500</button></li>
+            <li><button type="button">$1000</button></li>
+            <li><button type="button">Other</button></li>
+          </ul>
+            <a href="{% url 'donation' %}"><button type="submit" class="btn style2">Donate</button></a>
+
+        </div>
+      </div>
+
+      <!-- Counter Section Start -->
+      <div class="counter-wrap style1">
+        <img
+          src="{% static 'app/assets/img/shape-13.png '%}"
+          alt="Image"
+          class="counter-shape-one"
+        />
+        <img
+          src="{% static 'app/assets/img/about/skull.png '%}"
+          alt="Image"
+          class="counter-shape-two moveHorizontal"
+        />
+        <img
+          src="{% static 'app/assets/img/about/leaves.png '%}"
+          alt="Image"
+          class="counter-shape-three waving_left"
+        />
+        <div class="container-fluid">
+          <div class="row gx-5">
+            <div class="col-xl-7 col-lg-6">
+              <div class="promo-video style1 bg-f">
+                <a
+                  class="play-now"
+                  data-fancybox=""
+                  href="https://www.youtube.com/watch?v=UNSSuTSQI9I"
+                >
+                  <i class="ri-play-fill"></i>
+                  <span class="ripple"></span>
+                </a>
+              </div>
+            </div>
+            <div class="col-xl-5 col-lg-6">
+              <div
+                class="counter-card-wrap style1"
+                data-aos="fade-left"
+                data-aos-duration="1200"
+                data-aos-delay="200"
+              >
+                <div class="counter-card style1">
+                  <div class="counter-text">
+                    <h2 class="counter-num">
+                      <span class="odometer" data-count="8705"></span>
+                    </h2>
+                    <p>Donations</p>
+                  </div>
+                </div>
+                <div class="counter-card style2">
+                  <div class="counter-text">
+                    <h2 class="counter-num">
+                      <span class="odometer" data-count="380"></span>
+                    </h2>
+                    <p>Campaigns</p>
+                  </div>
+                </div>
+                <div class="counter-card style3">
+                  <div class="counter-text">
+                    <h2 class="counter-num">
+                      <span class="odometer" data-count="9450"></span>
+                    </h2>
+                    <p>Fun Raised</p>
+                  </div>
+                </div>
+                <div class="counter-card style4">
+                  <div class="counter-text">
+                    <h2 class="counter-num">
+                      <span class="odometer" data-count="707"></span>
+                    </h2>
+                    <p>Volunteers</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Counter Section End -->
+
+      <!-- Event Section Start -->
+      <section class="event-wrap pt-100 pb-75">
+        <img
+          src="{% static 'app/assets/img/shape-5.png '%}"
+          alt="Image"
+          class="event-sape-one moveHorizontal"
+        />
+        <div class="container">
+          <div class="section-title style1 text-center mb-40">
+            <span
+              >Upcoming Events<img
+                src="{% static 'app/assets/img/section-shape.png '%}"
+                alt="Image"
+            /></span>
+            <h2>Our Upcoming Events</h2>
+          </div>
+          <div class="row">
+            <div class="col-xl-8">
+              <div
+                class="event-card style1"
+                data-aos="fade-up"
+                data-aos-duration="1200"
+                data-aos-delay="200"
+              >
+                <div class="event-img">
+                  <img src="{% static 'app/assets/img/event/event-1.jpg '%}" alt="Image" />
+                  <span class="event-date">22 Jul, 2022</span>
+                </div>
+                <div class="event-info">
+                  <h3>
+                    <a href="{% url 'event-details' %}">Developing Low Carbon</a>
+                  </h3>
+                  <ul class="event-metainfo list-style">
+                    <li>
+                      <a href="{% url 'event' %}"
+                        ><i class="ri-map-pin-line"></i>352 Waldeck Street,
+                        Abbott</a
+                      >
+                    </li>
+                    <li>
+                      <a href="{% url 'event' %}"
+                        ><i class="ri-time-line"></i>8:00 am - 5:00 pm</a
+                      >
+                    </li>
+                  </ul>
+                  <p>
+                    Campaign against use of non-biodegradable products and encourage recycling of plastics. Discouraging improper disposal of non-biodegradable waste by provision of bins.
+                  </p>
+                </div>
+              </div>
+              <div
+                class="event-card style1"
+                data-aos="fade-up"
+                data-aos-duration="1200"
+                data-aos-delay="300"
+              >
+                <div class="event-img">
+                  <img src="{% static 'app/assets/img/event/event-2.jpg '%}" alt="Image" />
+                  <span class="event-date">15 Jan, 2024</span>
+                </div>
+                <div class="event-info">
+                  <h3>
+                    <a href="{% url 'event-details' %}">Encourage For Green City</a>
+                  </h3>
+                  <ul class="event-metainfo list-style">
+                    <li>
+                      <a href="{% url 'event' %}"
+                        ><i class="ri-map-pin-line"></i>16 Devils Hill Road,
+                        Jackson</a
+                      >
+                    </li>
+                    <li>
+                      <a href="{% url 'event' %}"
+                        ><i class="ri-time-line"></i>10:00 am - 3:00 pm</a
+                      >
+                    </li>
+                  </ul>
+                  <p>
+                    Campaign to plant 50,000 trees in the major cities and towns and sensitization against Deforestation.
+                    Distributing tree seedlings to youths and volunteers.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4">
+              <form
+                action="{% url 'member' %}"
+                class="newsletter-form style1"
+                data-aos="fade-left"
+                data-aos-duration="1200"
+                data-aos-delay="200"
+              >
+                <h4>Newsletter</h4>
+                <p>Lorem ipsum dolor sit amet consectetur</p>
+                <div class="form-group">
+                  <input type="text" placeholder="Name" />
+                </div>
+                <div class="form-group">
+                  <input type="email" placeholder="Email" />
+                </div>
+                <button type="button" class="btn style2">Subscribe Now</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Event Section End -->
+
+      <!-- Team Section Start -->
+      <section class="team-wrap ptb-100 bg-sand">
+        <div class="container">
+          <div class="section-title style1 text-center mb-40">
+            <span
+              >Our Volunteer
+              <img src="{% static 'app/assets/img/section-shape.png '%}" alt="Image"
+            /></span>
+            <h2>Our Experts Volunteer</h2>
+          </div>
+          <div class="team-slider-one owl-carousel">
+            <div
+              class="team-card style1"
+              data-aos="fade-right"
+              data-aos-duration="1200"
+              data-aos-delay="200"
+            >
+              <img src="{% static 'app/assets/img/team/team-1.jpg '%}" alt="Image" />
+              <div class="team-info">
+                <img
+                  src="{% static 'app/assets/img/team/team-shape-2.png '%}"
+                  alt="IMage"
+                  class="team-shape"
+                />
+                <h3><a href="{% url 'team-details' %}">Kevin Thompson</a></h3>
+                <span>Founder &amp; CEO</span>
+                <ul class="social-profile style1 list-style">
+                  <li>
+                    <a href="https://facebook.com">
+                      <i class="ri-facebook-fill"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://twitter.com">
+                      <i class="ri-twitter-fill"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://instagram.com">
+                      <i class="ri-instagram-line"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://linkedin.com">
+                      <i class="ri-linkedin-fill"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div
+              class="team-card style1"
+              data-aos="fade-right"
+              data-aos-duration="1200"
+              data-aos-delay="200"
+            >
+              <img src="{% static 'app/assets/img/team/team-2.jpg '%}" alt="Image" />
+              <div class="team-info">
+                <img
+                  src="{% static 'app/assets/img/team/team-shape-2.png '%}"
+                  alt="IMage"
+                  class="team-shape"
+                />
+                <h3><a href="{% url 'team-details' %}">Isabella Woods</a></h3>
+                <span>Cheif Marketing Officer</span>
+                <ul class="social-profile style1 list-style">
+                  <li>
+                    <a href="https://facebook.com">
+                      <i class="ri-facebook-fill"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://twitter.com">
+                      <i class="ri-twitter-fill"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://instagram.com">
+                      <i class="ri-instagram-line"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://linkedin.com">
+                      <i class="ri-linkedin-fill"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div
+              class="team-card style1"
+              data-aos="fade-right"
+              data-aos-duration="1200"
+              data-aos-delay="300"
+            >
+              <img src="{% static 'app/assets/img/team/team-3.jpg '%}" alt="Image" />
+              <div class="team-info">
+                <img
+                  src="{% static 'app/assets/img/team/team-shape-2.png'%}"
+                  alt="IMage"
+                  class="team-shape"
+                />
+                <h3><a href="{% url 'team-details' %}">Liam Stokes</a></h3>
+                <span>Senior Executive</span>
+                <ul class="social-profile style1 list-style">
+                  <li>
+                    <a href="https://facebook.com">
+                      <i class="ri-facebook-fill"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://twitter.com">
+                      <i class="ri-twitter-fill"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://instagram.com">
+                      <i class="ri-instagram-line"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://linkedin.com">
+                      <i class="ri-linkedin-fill"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div
+              class="team-card style1"
+              data-aos="fade-right"
+              data-aos-duration="1200"
+              data-aos-delay="400"
+            >
+              <img src="{% static 'app/assets/img/team/team-4.jpg '%}" alt="Image" />
+              <div class="team-info">
+                <img
+                  src="{% static 'app/assets/img/team/team-shape-2.png '%}"
+                  alt="IMage"
+                  class="team-shape"
+                />
+                <h3><a href="{% url 'team-details' %}">Lucy Floyd</a></h3>
+                <span>Accounts Manager</span>
+                <ul class="social-profile style1 list-style">
+                  <li>
+                    <a href="https://facebook.com">
+                      <i class="ri-facebook-fill"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://twitter.com">
+                      <i class="ri-twitter-fill"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://instagram.com">
+                      <i class="ri-instagram-line"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://linkedin.com">
+                      <i class="ri-linkedin-fill"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div
+              class="team-card style1"
+              data-aos="fade-right"
+              data-aos-duration="1200"
+              data-aos-delay="500"
+            >
+              <img src="{% static 'app/assets/img/team/team-5.jpg '%}" alt="Image" />
+              <div class="team-info">
+                <img
+                  src="{% static 'app/assets/img/team/team-shape-2.png '%}"
+                  alt="IMage"
+                  class="team-shape"
+                />
+                <h3><a href="{% url 'team-details' %}">Hannah Adison</a></h3>
+                <span>Marketing Manager</span>
+                <ul class="social-profile style1 list-style">
+                  <li>
+                    <a href="https://facebook.com">
+                      <i class="ri-facebook-fill"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://twitter.com">
+                      <i class="ri-twitter-fill"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://instagram.com">
+                      <i class="ri-instagram-line"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://linkedin.com">
+                      <i class="ri-linkedin-fill"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div
+              class="team-card style1"
+              data-aos="fade-right"
+              data-aos-duration="1200"
+              data-aos-delay="600"
+            >
+              <img src="{% static 'app/assets/img/team/team-6.jpg '%}" alt="Image" />
+              <div class="team-info">
+                <img
+                  src="{% static 'app/assets/img/team/team-shape-2.png '%}"
+                  alt="IMage"
+                  class="team-shape"
+                />
+                <h3><a href="{% url 'team-details' %}">Jaylen Mills </a></h3>
+                <span>Senior Executive</span>
+                <ul class="social-profile style1 list-style">
+                  <li>
+                    <a href="https://facebook.com">
+                      <i class="ri-facebook-fill"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://twitter.com">
+                      <i class="ri-twitter-fill"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://instagram.com">
+                      <i class="ri-instagram-line"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://linkedin.com">
+                      <i class="ri-linkedin-fill"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Team Section End -->
+
+      <!-- CTA Section Start -->
+      <section class="cta-wrap style1 bg-f ptb-100">
+        <img
+          src="{% static 'app/assets/img/bg-shape-5.png '%}"
+          alt="Image"
+          class="cta-shape-two"
+        />
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-8 offset-xl-2 col-lg-8 offset-lg-2">
+              <div
+                class="content-title style1 text-center mb-40"
+                data-aos="fade-up"
+                data-aos-duration="1200"
+                data-aos-delay="200"
+              >
+                <span
+                  >Crowd-Funding
+                  <img src="{% static 'app/assets/img/section-shape.png '%}" alt="Image"
+                /></span>
+                <h2>Best Way To Make A Difference In The Lives Of Others</h2>
+              </div>
+              <div
+                class="cta-btn"
+                data-aos="fade-up"
+                data-aos-duration="1200"
+                data-aos-delay="300"
+              >
+                <a href="{% url 'login' %}" class="btn style1">Get Started now</a>
+                <a href="{% url 'member' %}" class="btn style2"
+                  >Join Our Community</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- CTA Section End -->
+
+      <!-- Blog Section Start -->
+      <section class="blog-wrap ptb-100">
+        <div class="container">
+          <div class="section-title style1 text-center mb-40">
+            <span
+              >Our Latest News
+              <img src="{% static 'app/assets/img/section-shape.png '%}" alt="Image"
+            /></span>
+            <h2>Our Latest News &amp; Articles</h2>
+          </div>
+          <div class="blog-slider-one owl-carousel">
+            <div
+              class="blog-card style1"
+              data-aos="fade-right"
+              data-aos-duration="1200"
+              data-aos-delay="200"
+            >
+              <div class="blog-info">
+                <div class="blog-author">
+                  <div class="blog-author-img">
+                    <img src="{% static 'app/assets/img/blog/author-1.jpg '%}" alt="Image" />
+                  </div>
+                  <div class="blog-author-info">
+                    <span>Posted By</span>
+                    <h6><a href="{% url 'posts-by-author' %}">David Warner</a></h6>
+                  </div>
+                </div>
+                <h3>
+                  <a href="{% url 'blog-details-no-sidebar' %}"
+                    >Changes In Landscapes And Wildlife Community</a
+                  >
+                </h3>
+                <p>
+                  Forests are home to more than 80% of the world's terrestrial biodiversity,
+                   including a vast array of plant and animal species.
+                   Deforestation destroys these habitats, leaving many species without food,
+                    shelter, and breeding grounds. As a result, many species are driven to extinction,
+                    and others are pushed to the brink of extinction
+                </p>
+                <ul class="blog-metainfo list-style">
+                  <li>
+                    <a href="{% url 'posts-by-date' %}"
+                      ><i class="ri-calendar-todo-line"></i>Jul 22, 2022</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <a href="{% url 'blog-details-no-sidebar' %}" class="link style1"
+                >Read More <i class="flaticon-right-arrow"></i
+              ></a>
+            </div>
+            <div
+              class="blog-card style1"
+              data-aos="fade-right"
+              data-aos-duration="1200"
+              data-aos-delay="300"
+            >
+              <div class="blog-info">
+                <div class="blog-author">
+                  <div class="blog-author-img">
+                    <img src="{% static 'app/assets/img/blog/author-7.jpg '%}" alt="Image" />
+                  </div>
+                  <div class="blog-author-info">
+                    <span>Posted By</span>
+                    <h6><a href="{% url 'posts-by-author' %}">Morgan Stanly</a></h6>
+                  </div>
+                </div>
+                <h3>
+                  <a href="{% url 'blog-details-no-sidebar' %"
+                    >Let’s Take Care of Nature for The Sake of The Earth</a
+                  >
+                </h3>
+                <p>
+                  Deforestation is a major contributor to greenhouse gas emissions,
+                   which are responsible for climate change. Trees absorb carbon dioxide,
+                    a greenhouse gas, from the atmosphere during photosynthesis and store it in their biomass.
+                    When trees are cut down or burned, this carbon is released back into the atmosphere,
+                    contributing to global warming.
+                  Deforestation is estimated to be responsible for around 10% of global greenhouse gas emissions.
+                </p>
+                <ul class="blog-metainfo list-style" >
+                  <li>
+                    <a href="{% url 'posts-by-date' %}"
+                      ><i class="ri-calendar-todo-line"></i>Jul 17, 2022</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <a href="{% url 'blog-details-no-sidebar' %}" class="link style1"
+                >Read More <i class="flaticon-right-arrow"></i
+              ></a>
+            </div>
+            <div
+              class="blog-card style1"
+              data-aos="fade-right"
+              data-aos-duration="1200"
+              data-aos-delay="400"
+            >
+              <div class="blog-info">
+                <div class="blog-author">
+                  <div class="blog-author-img">
+                    <img src="{% static 'app/assets/img/blog/author-3.jpg '%}" alt="Image" />
+                  </div>
+                  <div class="blog-author-info">
+                    <span>Posted By</span>
+                    <h6><a href="{% url 'posts-by-author' %">Michel Hudson</a></h6>
+                  </div>
+                </div>
+                <h3>
+                  <a href="{% url 'blog-details-no-sidebar' %}"
+                    >Increasing Risk Of Storms, Droughts and Floods</a
+                  >
+                </h3>
+                <p>
+                  Droughts and floods are already intensifying as the world warms, putting solid observational data behind a trend scientists have long predicted and one that’s becoming increasingly visible to ordinary people.
+                The increase in extreme flooding and drought could hold “dire consequences” for human health, crops, and regional unrest, according to research</p>
+                <ul class="blog-metainfo list-style">
+                  <li>
+                    <a href="{% url 'posts-by-date' %"
+                      ><i class="ri-calendar-todo-line"></i>Jul 13, 2022</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <a href="{% url 'blog-details-no-sidebar' %}" class="link style1"
+                >Read More <i class="flaticon-right-arrow"></i
+              ></a>
+            </div>
+            <div
+              class="blog-card style1"
+              data-aos="fade-right"
+              data-aos-duration="1200"
+              data-aos-delay="500"
+            >
+              <div class="blog-info">
+                <div class="blog-author">
+                  <div class="blog-author-img">
+                    <img src="{% static 'app/assets/img/blog/author-4.jpg '%}" alt="Image" />
+                  </div>
+                  <div class="blog-author-info">
+                    <span>Posted By</span>
+                    <h6><a href="{% url 'posts-by-author' %}">Lisa Margaret</a></h6>
+                  </div>
+                </div>
+                <h3>
+                  <a href="{% url 'blog-details-no-sidebar' %}"
+                    >Seven Things Nobody Told You About Water Pollution</a
+                  >
+                </h3>
+                <p>
+                  Lorem ipsum dolor sit amet cons ectadic elite soli tudin
+                  consec tetur netusdu ame ultrices lectus dolor sit amet
+                  egestas.
+                </p>
+                <ul class="blog-metainfo list-style">
+                  <li>
+                    <a href="{% url 'posts-by-date' %}"
+                      ><i class="ri-calendar-todo-line"></i>Jun 12, 2022</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <a href="{% url 'blog-details-no-sidebar' %}" class="link style1"
+                >Read More <i class="flaticon-right-arrow"></i
+              ></a>
+            </div>
+            <div
+              class="blog-card style1"
+              data-aos="fade-right"
+              data-aos-duration="1200"
+              data-aos-delay="600"
+            >
+              <div class="blog-info">
+                <div class="blog-author">
+                  <div class="blog-author-img">
+                    <img src="{% static 'app/assets/img/blog/author-5.jpg'%}" alt="Image" />
+                  </div>
+                  <div class="blog-author-info">
+                    <span>Posted By</span>
+                    <h6><a href="{% url 'posts-by-author' %}">Steave Austin</a></h6>
+                  </div>
+                </div>
+                <h3>
+                  <a href="{% url 'blog-details-no-sidebar' %}"
+                    >Solar Panels Will Be Great Source Of Green Energy</a
+                  >
+                </h3>
+                <p>
+                  Lorem ipsum dolor sit amet cons ectadic elite soli tudin
+                  consec tetur netusdu ame ultrices lectus dolor sit amet
+                  egestas.o
+                </p>
+                <ul class="blog-metainfo list-style">
+                  <li>
+                    <a href="{% url 'posts-by-date' %}"
+                      ><i class="ri-calendar-todo-line"></i>Jun 10, 2022</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <a href="{% url 'blog-details-no-sidebar' %}" class="link style1"
+                >Read More <i class="flaticon-right-arrow"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+    </div>
+    <!-- Page Wrapper End -->
+{% endblock %}

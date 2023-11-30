@@ -1,0 +1,50 @@
+{% extends 'layouts/master.html' %}
+{% load static %}
+{% include "base_template.html" %}
+{% load crispy_forms_filters %}
+{% load humanize %}
+{% block title %}
+    Update Member
+{% endblock %}
+
+{% block content %}
+<div class="content-wrapper"
+     style="background-image: url('{% static 'app/assets/img/background_main.jpg' %}');
+            background-size: cover;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            position: relative;">
+
+    {% include "navbar.html" %}
+    <div class="breadcrumb-wrap bg-f br-1">
+        <div class="container ">
+            <div class="breadcrumb-title">
+                <h2>Update Members</h2>
+                <ul class="breadcrumb-menu list-style">
+                    <li><a href="home.html">Home </a></li>
+                    <li>Members</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- Breadcrumb End -->
+
+    <div class="container justify-content-center align-content-center">
+        <div class="row justify-content-center align-content-center">
+            <div class="col-sm-4">
+                <form action="{{ request.path }}" method="post" enctype="multipart/form-data"
+                      class="shadow py-3 px-2 mt-3"
+                      style="background-color: rgba(255, 255, 255, 0.8); border-radius: 10px;">
+
+                    {% csrf_token %}
+                    {{ form | crispy }}
+
+                    <button class="rounded-0 w-100 btn btn-dark">Update Member</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Content wrapper end -->
+{% endblock %}

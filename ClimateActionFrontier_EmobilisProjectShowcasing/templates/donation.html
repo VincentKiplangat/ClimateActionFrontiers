@@ -1,0 +1,152 @@
+{% extends 'layouts/master.html' %}
+{% load static %}
+
+{% block title %}
+    donation
+{% endblock %}
+
+
+{% block content %}
+    <!-- Content Wrapper Start -->
+    <div class="content-wrapper">
+        <!-- Breadcrumb Start -->
+        <div class="breadcrumb-wrap bg-f br-1">
+            <div class="container">
+                <div class="breadcrumb-title">
+                    <h2>Make Donation</h2>
+                    <ul class="breadcrumb-menu list-style">
+                        <li><a href="home.html">Home </a></li>
+                        <li>Donation</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- Breadcrumb End -->
+
+        <!-- Donation section Start -->
+        <section class="project-details-wrap ptb-100">
+            <div class="container">
+                <div class="row gx-5">
+                    <div class="col-xl-8">
+                        <div class="project-desc">
+                            <a class="single-project-img mt-0" data-fancybox="gallery"
+                               href="{% static 'app/assets/img/project/single-donation-1.jpg' %}">
+                                <img src="{% static 'app/assets/img/project/single-donation-1.jpg' %}" alt="Image">
+                            </a>
+                            <h2>Save Wildlife From Global Warming</h2>
+                            <div class="progressbar-wrap ">
+                                <div class="progress-bar" data-percentage="70%">
+                                    <h4 class="progress-title-holder">
+                                                <span class="progress-number-wrapper">
+                                                    <span class="progress-number-mark">
+                                                        <span class="percent"></span>
+                                                    </span>
+                                                </span>
+                                    </h4>
+                                    <div class="progress-content-outter">
+                                        <div class="progress-content">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <ul class="fund-collection list-style">
+                                <li class="fund-raised">
+                                    <span>$4800</span> Raised Of $19000
+                                </li>
+                            </ul>
+                            <p>In the face of accelerating global warming, a pressing call emerges to safeguard wildlife
+                                and biodiversity. The intricate tapestry of ecosystems is unraveling as climate change
+                                intensifies, posing an imminent threat to countless species. Urgent action is imperative
+                                to counteract these impacts and protect the delicate balance of our planet's flora and
+                                fauna.</p>
+                            <p>Preserving biodiversity is not merely a conservation effort; it is a critical strategy
+                                for mitigating the effects of climate change. As ecosystems face disruption, wildlife
+                                faces unprecedented challenges. Through comprehensive measures, we can not only halt the
+                                decline of various species but also contribute to the broader fight against climate
+                                change.</p>
+
+                            <br><br>
+                            <div class="text-bg-light w-100 justify-content-center align-content-center">
+                                <div class="text-center align-content-center">
+                                    <h2 class="text-success">Kindly donate through the form below.</h2> <br>
+                                    <h4 class="text-success-emphasis">Your donation will go a long way in building a
+                                        greener world</h4>
+                                </div>
+                                {#                            <form action="donation.html#" class="donation-form">#}
+                                <form action="{% url 'donation' %}" method="post"
+                                      class="donation-form mt-5 shadow px-3 py-4 ">
+                                    {% csrf_token %}
+                                    <div class="mb-2">
+                                        <label for="phone" class="form-label">Mpesa Phone Number</label>
+                                        <input type="tel" class="form-control" name="phone" required
+                                               placeholder="254720.......">
+                                    </div>
+
+                                    <div class="mb-2">
+                                        <label for="amount" class="form-label">amount</label>
+                                        <input type="number" class="form-control" name="amount" required
+                                               placeholder="kenya shilling (ksh)">
+                                    </div>
+
+                                    <button class="btn style1  w-100 ">Donate Now</button>
+
+
+                                </form>
+
+
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="col-xl-4">
+                        <div class="sidebar">
+                            <form role="search" method="get" action="{% url "search" %}">
+                                <div class="sidebar-widget">
+                                    <h4>Search Donors/Members </h4>
+                                    <div class="search-box">
+                                        <div class="form-group">
+                                            <input type="search" placeholder="Search" name="search_word">
+                                            <button type="submit">
+                                                <i class="flaticon-search"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+
+                            <div class="sidebar-widget">
+                                <h4>Give Us A Message</h4>
+                                <form action="{% url 'contact' %}" class="register-widget">
+                                    <div class="form-group">
+                                        <input type="text" placeholder="Name" name="name">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="email" name="email" placeholder="Email">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="number" name="phone" placeholder="Phone">
+                                    </div>
+                                    <div class="form-group">
+                                        <textarea name="message" id="msg" cols="30" rows="10"
+                                                  placeholder="Your Message"></textarea>
+                                    </div>
+                                    <div>
+                                        <a href="{% url 'contact' %}">
+                                            <button class="btn style1 w-100 d-block">Send Message</button>
+                                        </a>
+                                    </div>
+
+                                </form>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Event Details section End -->
+
+    </div>
+    <!-- Content wrapper end -->
+{% endblock %}

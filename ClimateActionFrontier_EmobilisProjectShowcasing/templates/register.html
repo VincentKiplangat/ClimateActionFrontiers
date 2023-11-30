@@ -1,0 +1,65 @@
+{% extends 'layouts/master.html' %}
+{% load crispy_forms_filters %}
+{% load static %}
+
+{% block title %}
+    Signup
+{% endblock %}
+
+{% block content %}
+<!-- Content Wrapper Start -->
+<div class="content-wrapper"
+     style="background-image: url('{% static 'app/assets/img/background_main.jpg' %}');
+            background-size: cover;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            position: relative;">
+
+    <!-- Breadcrumb Start -->
+    <div class="breadcrumb-wrap bg-f br-1">
+        <div class="container">
+            <div class="breadcrumb-title">
+                <h2>Register</h2>
+                <ul class="breadcrumb-menu list-style">
+                    <li><a href="home.html">Home </a></li>
+                    <li>Register</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- Breadcrumb End -->
+
+    <!-- Account Section start -->
+    <section class="Login-wrap pt-100 pb-75">
+        <div class="container">
+            <div class="row gx-5">
+                <div class="col-xl-6 offset-xl-3 col-lg-8 offset-lg-2">
+                    <div class="login-form-wrap" style="background-color: rgba(255, 255, 255, 0.8); border-radius: 10px;">
+                        <div class="login-header">
+                            <h1>Register</h1>
+                        </div>
+                        <div class="container py-5">
+
+                            <form method="POST">
+                                {% csrf_token %}
+                                {{ register_form|crispy }}
+                                <button class="btn style1" type="submit">Register</button>
+                            </form>
+                            <br><br>
+                            <div class="justify-content-center text-center align-content-center">
+                                <p class="text-center">If you already have an account, <a href="{% url 'signin' %}"
+                                                                                          class="btn style2">signin</a>
+                                    instead.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Account Section end -->
+
+</div>
+<!-- Content wrapper end -->
+{% endblock %}
