@@ -1,0 +1,179 @@
+{% extends 'layouts/master.html' %}
+{% load static %}
+
+{% block title %}
+event
+{% endblock %}
+
+
+{% block content %}
+
+            <!-- Content Wrapper Start -->
+            <div class="content-wrapper">
+
+                <!-- Breadcrumb Start -->
+                <div class="breadcrumb-wrap bg-f br-1">
+                    <div class="container">
+                        <div class="breadcrumb-title">
+                            <h2>Event</h2>
+                            <ul class="breadcrumb-menu list-style">
+                                <li><a href="{% url 'home' %}">Home </a></li>
+                                <li><a href="{% url 'event' %}">Event</a></li>
+                                <li>Event</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- Breadcrumb End -->
+
+                <!-- Event Details section Start -->
+                <section class="event-details-wrap ptb-100">
+                    <div class="container">
+                        <div class="row gx-5">
+                            <div class="col-xl-8">
+                                <div class="event-desc">
+                                    <a class="single-event-img mt-0" data-fancybox="gallery" href="{% static 'app/assets/img/event/single-event-1.jpg' %}">
+                                        <img src="{% static 'app/assets/img/event/single-event-1.jpg' %}" alt="Image">
+                                    </a>
+                                    <h2>Protect Our Planet From Climate Change</h2>
+<p>Climate change is a pressing global issue that requires urgent attention. It is essential for individuals, communities, and governments to come together and take meaningful actions to mitigate its impact.</p>
+<p>Investing in renewable energy sources, such as solar and wind power, is crucial to reducing our carbon footprint. Additionally, adopting sustainable practices in industries, promoting afforestation, and supporting wildlife conservation efforts are essential steps in safeguarding our environment for future generations.</p>
+
+                                    <h3>Event Goal</h3>
+<p>Addressing the urgent need for environmental action, our event aims to raise awareness and inspire change to combat climate change. We believe in the power of collective efforts to make a significant impact on the planet.</p>
+<ol>
+    <li>Implement sustainable practices to reduce carbon emissions.</li>
+    <li>Promote advisory membership for environmental conservation.</li>
+    <li>Encourage time management for efficient participation in eco-friendly initiatives.</li>
+    <li>Support temporary projects focused on labor and ecological well-being.</li>
+    <li>Advocate for the love of nature and its preservation.</li>
+</ol>
+
+<div class="row">
+    <div class="col-md-6">
+        <a class="single-event-img" data-fancybox="gallery" href="{% static 'app/assets/img/event/single-event-2.jpg' %}">
+            <img src="{% static 'app/assets/img/event/single-event-2.jpg' %}" alt="Event Image 1">
+        </a>
+    </div>
+    <div class="col-md-6">
+        <a class="single-event-img" data-fancybox="gallery" href="{% static 'app/assets/img/event/single-event-3.jpg' %}">
+            <img src="{% static 'app/assets/img/event/single-event-3.jpg' %}" alt="Event Image 2">
+        </a>
+    </div>
+</div>
+
+<h3>Our Plan & Strategies</h3>
+<p>We have devised a comprehensive plan and strategies to combat climate change and create a sustainable future. Our key focus areas include:</p>
+<ul class="content-feature-list style1 list-style mb-0">
+    <li><span><i class="ri-check-line"></i></span> Implementing eco-friendly practices to reduce environmental impact.</li>
+    <li><span><i class="ri-check-line"></i></span> Advocating for advisory membership to support environmental causes.</li>
+    <li><span><i class="ri-check-line"></i></span> Promoting time management for effective participation in environmental initiatives.</li>
+    <li><span><i class="ri-check-line"></i></span> Supporting temporary projects for labor and ecological well-being.</li>
+    <li><span><i class="ri-check-line"></i></span> Advocating for the love of nature and its preservation.</li>
+</ul>
+</div>
+                                <div class="post-meta-option mt-30 mb-0">
+                                    <div class="row gx-0 align-items-center">
+                                        <div class="col-md-5 col-12">
+                                            <div class="post-share w-100">
+                                                <span>Share:</span>
+                                                <ul class="social-profile list-style style3">
+                                                    <li>
+                                                        <a href="https://facebook.com">
+                                                            <i class="ri-facebook-fill"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://twitter.com">
+                                                            <i class="ri-twitter-fill"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://linkedin.com">
+                                                            <i class="ri-linkedin-fill"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://pinterest.com">
+                                                            <i class="ri-pinterest-line"></i>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-7 col-12 text-md-end">
+                                            <div class="post-tag">
+                                                <span>Tags:</span>
+                                                <ul class="tag-list list-style">
+                                                    <li><a href="{% url 'event-details' %}">Pollution</a></li>
+                                                    <li><a href="{% url 'event-details' %}">Climate</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-4">
+                                <div class="sidebar">
+                                    <div class="sidebar-widget">
+                                        <h4>Event Details</h4>
+                                        <div class="event-info-item-wrap">
+                                            <div class="event-info-item">
+                                                <p>Organizer:</p>
+                                               <span>Go Green Inc</span>
+                                            </div>
+                                            <div class="event-info-item">
+                                                <p>Start Date:</p>
+                                               <span>28 Jul, 2022</span>
+                                            </div>
+                                            <div class="event-info-item">
+                                                <p>End Date:</p>
+                                               <span>30 Jul, 2022</span>
+                                            </div>
+                                            <div class="event-info-item">
+                                                <p>Time:</p>
+                                               <span>8:00 AM - 5:00 PM</span>
+                                            </div>
+                                            <div class="event-info-item">
+                                                <p>Ticket Price:</p>
+                                               <span>$35/Person</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="sidebar-widget">
+                                        <h4>Venue Details</h4>
+                                        <div class="event-info-item-wrap">
+                                            <div class="event-info-item">
+                                                <p>Venue:</p>
+                                               <span>St Josef Hall</span>
+                                            </div>
+                                            <div class="event-info-item">
+                                                <p>Address:</p>
+                                               <span>12/13 Victoria Street, Florida</span>
+                                            </div>
+                                            <div class="event-info-item">
+                                                <p>Email:</p>
+                                               <span>30 Jul, 2022</span>
+                                            </div>
+                                            <div class="event-info-item">
+                                                <p>Phone:</p>
+                                               <span>8:00 AM - 5:00 PM</span>
+                                            </div>
+                                            <div class="event-info-item">
+                                                <p>Website:</p>
+                                               <span><a href="{% url 'home' %}">https://www.clim.com</a></span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- Event Details section End -->
+
+            </div>
+            <!-- Content wrapper end -->
+{% endblock %}
+

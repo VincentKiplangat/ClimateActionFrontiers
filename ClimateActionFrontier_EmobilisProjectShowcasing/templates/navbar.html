@@ -1,0 +1,47 @@
+
+<nav class="navbar  navbar-expand-lg bg-light">
+  <div class="justify-content-center align-content-center container">
+    <a class="navbar-brand" href="{% url "home" %}">Climate Action Frontiers</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+
+        <li class="nav-item ">
+          <a class="nav-link {% if "/" == request.path  %} active {% endif %}" aria-current="page" href="{% url "member" %}">Register</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link {% if "/" == request.path  %} active {% endif %}" href="{% url "all" %}">Members</a>
+        </li>
+
+      </ul>
+      <form class="d-flex m-0 "  role="search" method="get" action="{% url "search" %}">
+        <input class="form-control me-2" name="search_word" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn style1" type="submit">Search</button>
+      </form>
+
+
+             <div class="option-item">
+        {% if user.is_authenticated %}
+            <div class="dropdown">
+                <button class="btn style5 dropdown-toggle m-3 " type="button" id="userDropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    {% if user.first_name %}
+                        {{ user.first_name }}
+                    {% else %}
+                        Frontier
+                    {% endif %}
+                </button>
+                <div class="dropdown-menu" aria-labelledby="userDropdown">
+                    <a class="dropdown-item bg-danger style5 justify-content-between text-center w-100" href="{% url 'signout' %}">Sign Out</a>
+                </div>
+            </div>
+        {% else %}
+            <a href="{% url 'signin' %}" class="btn style5 m-3">Sign In</a>
+        {% endif %}
+    </div>
+
+        </div>
+    </div>
+</nav>
